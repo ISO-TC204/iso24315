@@ -1,0 +1,3265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>24315 METR-RSR: Regulation System Requirements</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link href="jq/jquery-ui.css" rel="stylesheet">
+	<script src="external/jquery/jquery.js"></script>
+	<script src="jq/jquery-ui.js"></script>
+	<script src="glossary.js"></script>
+	<script>
+			$( document ).tooltip({
+				content: function() {
+					return $(this).attr('title');
+				}
+			});
+	</script>
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" style="position: static;">
+						<h2><a href="index.html">METR</a><img src="images/car_wifi.png" style="width: 2em;" /></h2>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="metr_overview.html">Overview</a></li>
+								<li><a href="development.html">Development Approach</a></li>
+								<li><a href="Vocab.html">Vocabulary</a></li>
+								<li><a href="ConOps.html">Operational Concept (ConOps)</a></li>
+								<li><a href="SoSR.html">System of Systems Requirements (SoSR)</a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Wrapper -->
+					<div class="inner">
+						<table>
+							<tr>
+								<td><h1>24315 METR<br />RSR: Regulation System Requirements</h1><br />    <em>Last modified on 2023-06-09 17:36</em></td>
+								<td><!-- DDG search widget,@author Juri Wornowitski,@version 3.0,@link https://www.plainlight.com/ddg --><div id="widdget" style="width:230px;margin:10px 0;"><style type="text/css">#widdget input {display:block;height:30px;padding:4px;outline:none;border:1px solid #8d8d8d;border-right:0;box-sizing:border-box;border-radius:3px 0 0 3px;width:calc(100% - 41px);font-size:15px;} #widdget button {float:left;cursor:pointer;width:43px;height:30px;color:#fff;background-image:linear-gradient(#cacaca,#929292);border:0;border-radius:0 3px 3px 0;padding:0;} #widdget button:active {background-image:linear-gradient(#909090,#585858);} #widdget button:focus {outline:none;}</style><form style="position:relative" method="get" action="https://duckduckgo.com/" target="_top"><div style="float:right;position:absolute;top:0;right:-2px;z-index:3"><button type="submit">&#128269;</button></div><input type="text" name="q" placeholder="Search METR Website" /><input type="hidden" name="sites" value="https://iso-tc204.github.io/iso24315p1/" /></form></div></td>
+								<td width="390px"><span class="actions" style="position: relative; left: 70px;"><a href="https://github.com/ISO-TC204/iso24315p1/discussions" class="button primary">Submit Comment</a><br /></span>Traceability Tables: <div class="tab">
+									<button onclick="location.href='SP.html'" title="Workshop Summary Points">Wkshp</button>
+									<button onclick="location.href='Vocab.html'" title="Vocabulary">Vocab</button>
+									<button onclick="location.href='ConOps.html'" title="Operational Concept">ConOps</button>
+									<button onclick="location.href='SoSR.html'" title="System of Systems Requirements">SoSR</button>
+									<button onclick="location.href='RSR.html'" title="Regulation System Requirements">RSR</button>
+									<button onclick="location.href='DSR.html'" title="Distribution System Requirements">DSR</button>
+									<button onclick="location.href='CSR.html'" title="Consumer System Requirements">CSR</button>
+									<button onclick="location.href='DHSR.html'" title="Discrepancy Handling System Requirements">DHSR</button>
+									<button onclick="location.href='MDR.html'" title="METR Data Requirements">MDR</button>
+									<button onclick="location.href='ITS-SUR.html'" title="ITS-SU Requirements">ITS-SUR</button>
+								</div>NOTE: The RSR, DSR, CSR, DHSR, MDR, and ITS-SUR are still in very preliminary draft form</td>
+							</tr>
+						</table>
+							
+  <div class="reqviewTable table-responsive-md">
+    <table class="table table-sm">
+      <!-- Heading of the requirements table -->
+      <thead>
+        <tr>
+          <th class="id-col"><i class="fas fa-asterisk"></i> ID</th>
+          <th class="description-col"><i class="fas fa-align-left"></i> Description</th>
+          <th class="discussion-col"><i class="fas fa-comments"></i> Discussion</th>
+          <th class="links-col"><i class="fas fa-link"></i> Links</th>
+        </tr>
+      </thead>
+
+      <!-- Requirements table with list of requirements -->
+      <tbody>
+        <tr> 
+			<td class="id-col"><a id="RSR-5"></a>RSR-5</td>
+            
+							<td class="description-col" style="padding-left:10px">
+					<h1>1&nbsp;Scope</h1>
+					<div class="htmlContent"><p>The management of electronic transport regulations (METR) provides trustworthy, authoritative, machine-interpretable, transport-related rules for using surface transport facilities.</p><p>The scope of METR includes both rules that are relatively static (e.g., static speed limits) as well as those that are dynamic (e.g., variable speed limits, lane closures at incident scenes). However, where appropriate, METR is expected to incorporate existing standards (e.g., ISO/TS 19091 for signalized intersections).</p><p>This document defines the requirements for a METR component system that is responsible for creating, maintaining, and signing electronic versions of transport-related rules, which will be provided to other components of the METR network for distribution to METR users. This document is presented in a format that is consistent with the guidance provided by ISO 29148 [2] for a system requirements document.&nbsp;</p><p>For an understanding of how the METR translation system fits into the larger METR system of systems, see ISO 24315-3. The operational concept for METR is provided in ISO 24315-2.</p><p>** Editor's Note: This draft document is generated from a requirements management tool. Headings within the draft document include a reference within square brackets (e.g., "[SoSR-35]") that indicate the source location of the text to assist in maintaining the text. These references will be removed in the final text. Text demarked with double asterisks ("**") are editorial notes that will be removed from the final draft. **</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-4"></a>RSR-4</td>
+            
+							<td class="description-col" style="padding-left:10px">
+					<h1>2&nbsp;Normative references</h1>
+					<div class="htmlContent"><p>The following documents are referred to in the text in such a way that some, or all, of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-335"></a>RSR-335</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					
+					<div class="htmlContent"><p>ISO/TS 14812,<em>&nbsp;Intelligent transport systems — Vocabulary</em></p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-336"></a>RSR-336</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					
+					<div class="htmlContent"><p>ISO/TS 24315-1,&nbsp;<em>Intelligent transport systems — Management of electronic traffic regulations (METR) — Part 1: Vocabulary</em></p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-337"></a>RSR-337</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					
+					<div class="htmlContent"><p>ISO/IEC/IEEE 24765,&nbsp;<em>Systems and software engineering — Vocabulary</em></p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-2"></a>RSR-2</td>
+            
+							<td class="description-col" style="padding-left:10px">
+					<h1>3&nbsp;Terms and definitions</h1>
+					<div class="htmlContent"><p style="text-decoration: none; text-align: left; color: rgb(0, 0, 0);">For the purposes of this document, the terms and definitions given in ISO/IEC/IEEE 24765, ISO/TS 14812, ISO 24315-1 and the following apply.</p><p style="text-decoration: none; text-align: left; color: rgb(0, 0, 0);">ISO&nbsp;and IEC maintain terminology databases for use in standardization at the following addresses:</p><p style="text-decoration: none; text-align: left; color: rgb(0, 0, 0);">• &nbsp; ISO Online browsing platform: available at <a href="https://www.iso.org/obp"><span style="text-decoration: underline; color: rgb(5, 60, 245);">https://www.iso.org/obp</span></a></p><p style="text-decoration: none; text-align: left; color: rgb(0, 0, 0);">• &nbsp; IEC Electropedia: available at <a href="https://www.electropedia.org/"><span style="text-decoration: underline; color: rgb(5, 60, 245);">https://www.electropedia.org</span></a></p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-193"></a>RSR-193</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>3.1&nbsp;collected information</h2>
+					<div class="htmlContent"><p>information collected from RSE and Vehicle OBE distribution systems</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-194"></a>RSR-194</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>3.2&nbsp;entered information</h2>
+					<div class="htmlContent"><p>information entered by the operator</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-195"></a>RSR-195</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>3.3&nbsp;obtained information</h2>
+					<div class="htmlContent"><p>information obtained from other center-based translation systems</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-208"></a>RSR-208</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>3.4&nbsp;discrepancy fingerprint</h2>
+					<div class="htmlContent"><p>set of characteristics of a discrepancy that can be used to uniquely identify the discrepancy from all others</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-3"></a>RSR-3</td>
+            
+							<td class="description-col" style="padding-left:10px">
+					<h1>4&nbsp;Symbols and abbreviated terms</h1>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-6"></a>RSR-6</td>
+            
+							<td class="description-col" style="padding-left:10px">
+					<h1>5&nbsp;Introduction</h1>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-182"></a>RSR-182</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>5.1&nbsp;Overview</h2>
+					<div class="htmlContent"><p>For the purpose of this document, translation systems are categorized into three types based on the reference architecture:</p><p>— &nbsp; &nbsp;centre-based translation systems for pre-announced rules</p><p>— &nbsp; &nbsp;centre-based translation systems for ad-hoc rules</p><p>— &nbsp; &nbsp;localized translation systems</p><p>While any of the three translation systems can theoretically be used to enter any type of rule, the deployment scenarios and minimum conformance requirements vary. Annex A **TBD** specifies the conformance for each type of system.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-263"></a>RSR-263</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>5.1.1&nbsp;Centre-based translation system for pre-announced rules</h3>
+					<div class="htmlContent"><p>Centre-based translation systems for pre-announced rules are designed to support the definition of rules that can be provided to the user well in advance of their intended use. This includes persistent rules as well as many temporary rules (e.g., those for planned events). The timelines involved with the entry and approval of these rules is not time-constrained; as a result, all rules entered in these systems undergo extensive verification procedures to prevent conflicts among rules.</p><p>** Add Graphic **</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-264"></a>RSR-264</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>5.1.2&nbsp;Centre-based translation system for ad-hoc rules</h3>
+					<div class="htmlContent"><p>Centre-based translation systems for ad-hoc rules are designed to support the definition and implementation of rules that are established by authorized personnel responding to real-time conditions from a centralized location. While the timeline to deploy these rules can be constrained, the centralized nature of the system should allow the system to be aware of all rules for its coverage area and standard verification procedures are used to prevent conflicts among rules.</p><p>** Add Graphic **</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-265"></a>RSR-265</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>5.1.3&nbsp;Localized translation system</h3>
+					<div class="htmlContent"><p>Localized translation systems are primarily designed to allow field personnel to quickly activate rules that are required to respond to real-time , localized conditions (e.g., a lane closure due to localized flooding). This can include scenarios where the localized device has limited processing and memory and is currently unable to connect to management systems. As a result, localized translation systems are not required to verify rules in real-time; instead, it localized translation systems should restrict activation of rules based on local policies.</p><p>** Add Graphic **</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-274"></a>RSR-274</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:40px">EXAMPLE: <p>Jurisdiction A only allows activation of rules that have been pre-verified for the specific location</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-275"></a>RSR-275</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:40px">EXAMPLE: <p>Jurisdiction B only allows certain types of rules (e.g., lane closures) to be implemented without verification</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-267"></a>RSR-267</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>5.2&nbsp;Internal interfaces</h2>
+					<div class="htmlContent"><p>This document does not place requirements on the internal interfaces of the physical object that houses the translation system, but Clause 8 does define the internal interfaces that are expected to exist per the ConOps. In these cases, it uses a "should" statement rather than a "shall" statement.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-7"></a>RSR-7</td>
+            
+							<td class="description-col" style="padding-left:10px">
+					<h1>6&nbsp;Translation requirements</h1>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-105"></a>RSR-105</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>6.1&nbsp;Incoming flow requirements</h2>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-123"></a>RSR-123</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.1.1&nbsp;METR catalogue</h3>
+					<div class="htmlContent"><p>Within the catalogueUpdateInterval, the METR translation system shall contact other relevant translation systems to update its catalogues for each relevant defined area for the:</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> derives:</div>
+                <div class="link"> <span><a href="#RSR-121">RSR-121</a></span>  METR catalogue</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> tailored by:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-396">SoSR-396</a></span>  catalogueUpdateInterval</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-124"></a>RSR-124</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:40px">
+					<ul style="list-style: square;">
+						<li><p>availability of electronic rules for each rule category;</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link"> <span><a href="MDR.html#MDR-198">MDR-198</a></span>  METR catalogue — Supported pre-announced…</div>
+                <div class="link"> <span><a href="MDR.html#MDR-201">MDR-201</a></span>  METR catalogue — Supported ad-hoc rule c…</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-65">SoSR-65</a></span>  Rule catalogue</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-125"></a>RSR-125</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:40px">
+					<ul style="list-style: square;">
+						<li><p>availability of each supplemental data category.</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link"> <span><a href="MDR.html#MDR-47">MDR-47</a></span>  Supplemental data category</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-75">SoSR-75</a></span>  availability of each data provider for e…</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-92">SoSR-92</a></span>  cyber location of the supporting data pr…</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-94">SoSR-94</a></span>  the supporting data to be provided; and</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-420">SoSR-420</a></span>  each supporting data provider authorized…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-226"></a>RSR-226</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-114"></a>RSR-114</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.1.2&nbsp;METR input</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link"> <span><a href="MDR.html#MDR-15">MDR-15</a></span>  Jurisdictional term</div>
+                <div class="link"> <span><a href="MDR.html#MDR-19">MDR-19</a></span>  Transport rule</div>
+                <div class="link"> <span><a href="MDR.html#MDR-44">MDR-44</a></span>  Defined area</div>
+                <div class="link"> <span><a href="MDR.html#MDR-145">MDR-145</a></span>  Facility</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-487">SoSR-487</a></span>  METR input</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-472">SoSR-472</a></span>  proximity from a point location;</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-473">SoSR-473</a></span>  proximity along a route; and</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-474">SoSR-474</a></span>  used-defined area.</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-74">SoSR-74</a></span>  METR information availability</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-339">SoSR-339</a></span>  Emerging rule availability</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-162">SoSR-162</a></span>  Remote emergent rules</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-60">SoSR-60</a></span>  Jurisdictional vocabulary</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-221">SoSR-221</a></span>  the geographical boundaries of the defin…</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-337">SoSR-337</a></span>  the jurisdictional entity with authority…</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-65">SoSR-65</a></span>  Rule catalogue</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-320"></a>RSR-320</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.1.2.1&nbsp;Information content</h4>
+					<div class="htmlContent"><p>The “METR info input” flow shall include:</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-465">SoSR-465</a></span>  Content</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-321"></a>RSR-321</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>relevant rules and meta-data;</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-322"></a>RSR-322</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>the boundaries of each relevant sub-area;</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-323"></a>RSR-323</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>jurisdictional vocabulary</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-319"></a>RSR-319</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.1.2.2&nbsp;Source identification</h4>
+					<div class="htmlContent"><p>The METR translation system shall obtain the “METR input” flow from one or more rule translator agents.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-330">SoSR-330</a></span>  Physical and METR rule synchronicity</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-324"></a>RSR-324</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.1.2.3&nbsp;Causality</h4>
+					<div class="htmlContent"><p>The METR translation system shall wait for a rule translator agent to initiate the “METR input” flow.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-330">SoSR-330</a></span>  Physical and METR rule synchronicity</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-325"></a>RSR-325</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.1.2.4&nbsp;Location constraint</h4>
+					<div class="htmlContent"><p>The METR translation system shall require each rule to identify its applicable location.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-471">SoSR-471</a></span>  Location constraint</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-326"></a>RSR-326</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.1.2.5&nbsp;Constraints based on characteristics</h4>
+					<div class="htmlContent"><p>The METR translation system shall require each rule to clearly indicate its applicable scope by specifying:</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-475">SoSR-475</a></span>  Content constraint</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-327"></a>RSR-327</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>manually implemented vehicle characteristics (e.g. addition of a trailer)</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-328"></a>RSR-328</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>applicable static vehicle characteristics;</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-329"></a>RSR-329</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>applicable user characteristics;&nbsp;</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-330"></a>RSR-330</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					
+					<div class="htmlContent"><p>(others as deemed appropriate in req’ts phase)</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-331"></a>RSR-331</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.1.2.6&nbsp;Meta-data</h4>
+					<div class="htmlContent"><p>The METR translation system shall record the translator agent that approved each rule.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-332"></a>RSR-332</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.1.2.7&nbsp;Verify information</h4>
+					<div class="htmlContent"><p>The METR translation system shall perform verification checks on information received from the “METR input” flow.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> supported by:</div>
+                <div class="link"> <span><a href="#RSR-333">RSR-333</a></span>  Information verification</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-150"></a>RSR-150</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.1.2.8&nbsp;General</h4>
+					<div class="htmlContent"><p>Within its coverage area, the METR translation system shall provide a human-machine interface to enable translation agents to enter:</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-159"></a>RSR-159</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>the relevant rules as defined by rule-makers;</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-298"></a>RSR-298</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>details about each relevant sub-area contained within boundaries of the jurisdiction for which rules are being entered, including:</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-160"></a>RSR-160</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:120px">
+					<ul style="list-style: circle;">
+						<li><p>boundaries of the sub-area;&nbsp;</p></li>
+					</ul>
+				</td>
+
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link"> <span><a href="MDR.html#MDR-44">MDR-44</a></span>  Defined area</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-221">SoSR-221</a></span>  the geographical boundaries of the defin…</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-169">SoSR-169</a></span>  the jurisdictional entity with authority…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-221"></a>RSR-221</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:120px">
+					<ul style="list-style: circle;">
+						<li><p>jurisdictional entity with authority over the sub-area</p></li>
+					</ul>
+				</td>
+
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-337">SoSR-337</a></span>  the jurisdictional entity with authority…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-222"></a>RSR-222</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:120px">
+					<ul style="list-style: circle;">
+						<li><p>rule-makers for the jurisdictional entity and the domain of their authority;</p></li>
+					</ul>
+				</td>
+
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-159">SoSR-159</a></span>  Maintain awareness of rule-makers</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-219"></a>RSR-219</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:60px">
+					<ul style="list-style: square;">
+						<li><p>relevant facilities contained within the sub-area;</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link"> <span><a href="MDR.html#MDR-145">MDR-145</a></span>  Facility</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-169">SoSR-169</a></span>  the jurisdictional entity with authority…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-161"></a>RSR-161</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>jurisdiction-specific meanings of relevant jurisdictional vocabulary terms, including:</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link"> <span><a href="MDR.html#MDR-15">MDR-15</a></span>  Jurisdictional term</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-300"></a>RSR-300</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:120px">
+					<ul style="list-style: circle;">
+						<li><p>vehicle terms;</p></li>
+					</ul>
+				</td>
+
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link"> <span><a href="MDR.html#MDR-155">MDR-155</a></span>  Vehicle category</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-129">SoSR-129</a></span>  vehicle terms (e.g., what vehicles quali…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-301"></a>RSR-301</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:120px">
+					<ul style="list-style: circle;">
+						<li><p>facility terms;</p></li>
+					</ul>
+				</td>
+
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link"> <span><a href="MDR.html#MDR-156">MDR-156</a></span>  Facility category</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-128">SoSR-128</a></span>  facility terms (e.g., if there is a defa…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-302"></a>RSR-302</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:120px">
+					<ul style="list-style: circle;">
+						<li><p>environmental state terms;</p></li>
+					</ul>
+				</td>
+
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link"> <span><a href="MDR.html#MDR-219">MDR-219</a></span>  Environmental state</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-168">SoSR-168</a></span>  weather terms (e.g., if a different spee…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-303"></a>RSR-303</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:120px">
+					<ul style="list-style: circle;">
+						<li><p>restriction terms;</p></li>
+					</ul>
+				</td>
+
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link deleted"> <span class='deleted'><a href="MDR.html#MDR-220">MDR-220</a></span>  Restriction</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-147">SoSR-147</a></span>  restriction terms (e.g., what qualifies …</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-304"></a>RSR-304</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:120px">
+					<ul style="list-style: circle;">
+						<li><p>user terms; and</p></li>
+					</ul>
+				</td>
+
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-404">SoSR-404</a></span>  user terms (e.g., class of driver licens…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-305"></a>RSR-305</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:120px">
+					<ul style="list-style: circle;">
+						<li><p>usage terms.</p></li>
+					</ul>
+				</td>
+
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-405">SoSR-405</a></span>  usage terms (e.g., delivery for hire).</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-299"></a>RSR-299</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>catalogues of available information, including details about:</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-60"></a>RSR-60</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:120px">
+					<ul style="list-style: circle;">
+						<li><p>rule categories that are fully electronically available within each defined area under the jurisdiction's authority; and</p></li>
+					</ul>
+				</td>
+
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link"> <span><a href="MDR.html#MDR-198">MDR-198</a></span>  METR catalogue — Supported pre-announced…</div>
+                <div class="link"> <span><a href="MDR.html#MDR-201">MDR-201</a></span>  METR catalogue — Supported ad-hoc rule c…</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-65">SoSR-65</a></span>  Rule catalogue</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-61"></a>RSR-61</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:120px">
+					<ul style="list-style: circle;">
+						<li><p>supplemental data supported within each defined area under the jurisdiction's authority.</p></li>
+					</ul>
+				</td>
+
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link"> <span><a href="MDR.html#MDR-47">MDR-47</a></span>  Supplemental data category</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-75">SoSR-75</a></span>  availability of each data provider for e…</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-92">SoSR-92</a></span>  cyber location of the supporting data pr…</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-94">SoSR-94</a></span>  the supporting data to be provided; and</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-420">SoSR-420</a></span>  each supporting data provider authorized…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-163"></a>RSR-163</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">NOTE: <p>It is the responsibility of translator agents to enter all relevant METR information.</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-276"></a>RSR-276</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">NOTE: <p>Boundaries for defined are defined by the translation agent for the parent jurisdiction to avoid conflicts in boundary definitions submitted from adjacent peer jurisdictions.</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-277"></a>RSR-277</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">NOTE: <p>A translation agent can also define second-tier defined areas (i.e., defined areas fully contained within a defined area that is fully contained within its jurisdictional boundaries). However, it is expected that most jurisdictions will delegate this effort to the lower-level jurisdiction.</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-278"></a>RSR-278</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">NOTE: <p>Types of terms include vehicle classification schemes, user classification schemes, facility classification schemes, etc.</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-279"></a>RSR-279</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">NOTE: <p>In order to claim that all rules are supported for a category within Area A, all rules in that category from higher-level (i.e., encompassing) areas that apply to Area A must also be available, at least within the scope of Area A. If the higher-level areas have not translated any of these rules, the translator for Area A can create a proxy rule that represents the higher-level rule, although the scope of the proxy rule can only cover the area for which the translator has authorities to create rules.</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-280"></a>RSR-280</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">EXAMPLE: <p>A translation agent for a nation can establish boundaries for each of its territories, provinces, states, prefectures, etc.</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-54"></a>RSR-54</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.1.2.9&nbsp;Record agent for rule</h4>
+					<div class="htmlContent"><p>The METR translation system shall record the translator agent that approved each rule.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-161">SoSR-161</a></span>  Transport rule translation agent</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-257"></a>RSR-257</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.1.2.10&nbsp;Electronic signature</h4>
+					<div class="htmlContent"><p>The METR translation system shall electronically sign each rule as it is approved.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-50"></a>RSR-50</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.1.2.11&nbsp;Verify information (operator input)</h4>
+					<div class="htmlContent"><p>The METR translation system shall perform consistency checks of each entered rule per Clause 6.3.2.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link"> <span><a href="MDR.html#MDR-19">MDR-19</a></span>  Transport rule</div>
+                <div class="link"> <span><a href="MDR.html#MDR-20">MDR-20</a></span>  Rule negotiation</div>
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> supported by:</div>
+                <div class="link"> <span><a href="#RSR-167">RSR-167</a></span>  Verification process</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-227"></a>RSR-227</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.1.2.12&nbsp;Traceability</h4>
+					<div class="htmlContent"><p>** For discussion: How do we want traceability presented? For example,&nbsp;</p><p>a) Per clause like this</p><p>b) In a summary annex</p><p>c) Online as an Excel spreadsheet attachment</p><p>d) A combination</p><p>What sort order should we use? **</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-56"></a>RSR-56</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.1.3&nbsp;TCD installation status</h3>
+					<div class="htmlContent"><p>Upon notice of the installation of a traffic control device, the METR translation system shall:</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-57"></a>RSR-57</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:40px">
+					<ul style="list-style: square;">
+						<li><p>associate the traffic control device with the appropriate electronic rule and</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-205">SoSR-205</a></span>  Transport rule status</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-58"></a>RSR-58</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:40px">
+					<ul style="list-style: square;">
+						<li><p>update the status of the associated electronic rule to reflect the installed traffic control device.</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-205">SoSR-205</a></span>  Transport rule status</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-59"></a>RSR-59</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:40px">NOTE: <p>The appropriate rule can be an existing electronic rule or one that the &nbsp;METR translation functional object creates if an appropriate match is not found.</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-228"></a>RSR-228</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-118"></a>RSR-118</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.1.4&nbsp;METR information</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> derives:</div>
+                <div class="link"> <span><a href="#RSR-110">RSR-110</a></span>  METR information</div>
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link"> <span><a href="MDR.html#MDR-15">MDR-15</a></span>  Jurisdictional term</div>
+                <div class="link"> <span><a href="MDR.html#MDR-19">MDR-19</a></span>  Transport rule</div>
+                <div class="link"> <span><a href="MDR.html#MDR-44">MDR-44</a></span>  Defined area</div>
+                <div class="link"> <span><a href="MDR.html#MDR-145">MDR-145</a></span>  Facility</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-74">SoSR-74</a></span>  METR information availability</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> tailored by:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-394">SoSR-394</a></span>  translationUpdateInterval</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-153"></a>RSR-153</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.1.4.1&nbsp;General</h4>
+					<div class="htmlContent"><p>For each relevant translation system (e.g., those representing higher-level jurisdictions), the METR translation system shall obtain relevant METR information within the ruleTranslationUpdateInterval, including:</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link"> <span><a href="MDR.html#MDR-197">MDR-197</a></span>  Class: METR catalogue</div>
+                <div class="link"> <span><a href="MDR.html#MDR-147">MDR-147</a></span>  METR information item</div>
+                <div class="link"> <span><a href="MDR.html#MDR-155">MDR-155</a></span>  Vehicle category</div>
+                <div class="link"> <span><a href="MDR.html#MDR-156">MDR-156</a></span>  Facility category</div>
+                <div class="link"> <span><a href="MDR.html#MDR-157">MDR-157</a></span>  User category</div>
+                <div class="link"> <span><a href="MDR.html#MDR-158">MDR-158</a></span>  Usage category</div>
+                <div class="link"> <span><a href="MDR.html#MDR-219">MDR-219</a></span>  Environmental state</div>
+                <div class="link deleted"> <span class='deleted'><a href="MDR.html#MDR-220">MDR-220</a></span>  Restriction</div>
+                <div class="link"> <span><a href="MDR.html#MDR-15">MDR-15</a></span>  Jurisdictional term</div>
+                <div class="link"> <span><a href="MDR.html#MDR-19">MDR-19</a></span>  Transport rule</div>
+                <div class="link"> <span><a href="MDR.html#MDR-45">MDR-45</a></span>  Transport rule — Category</div>
+                <div class="link"> <span><a href="MDR.html#MDR-44">MDR-44</a></span>  Defined area</div>
+                <div class="link"> <span><a href="MDR.html#MDR-38">MDR-38</a></span>  Jurisdiction</div>
+                <div class="link"> <span><a href="MDR.html#MDR-145">MDR-145</a></span>  Facility</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-221">SoSR-221</a></span>  the geographical boundaries of the defin…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-297"></a>RSR-297</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>the relevant rules;</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-289"></a>RSR-289</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>the boundaries of each relevant sub-area; and</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link"> <span><a href="MDR.html#MDR-44">MDR-44</a></span>  Defined area</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-221">SoSR-221</a></span>  the geographical boundaries of the defin…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-290"></a>RSR-290</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>jurisdiction-specific meanings of relevant jurisdictional vocabulary terms, including:</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-291"></a>RSR-291</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:120px">
+					<ul style="list-style: circle;">
+						<li><p>vehicle terms;</p></li>
+					</ul>
+				</td>
+
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link"> <span><a href="MDR.html#MDR-155">MDR-155</a></span>  Vehicle category</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-129">SoSR-129</a></span>  vehicle terms (e.g., what vehicles quali…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-292"></a>RSR-292</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:120px">
+					<ul style="list-style: circle;">
+						<li><p>facility terms;</p></li>
+					</ul>
+				</td>
+
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link"> <span><a href="MDR.html#MDR-156">MDR-156</a></span>  Facility category</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-128">SoSR-128</a></span>  facility terms (e.g., if there is a defa…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-293"></a>RSR-293</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:120px">
+					<ul style="list-style: circle;">
+						<li><p>environmental state terms;</p></li>
+					</ul>
+				</td>
+
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link"> <span><a href="MDR.html#MDR-219">MDR-219</a></span>  Environmental state</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-168">SoSR-168</a></span>  weather terms (e.g., if a different spee…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-294"></a>RSR-294</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:120px">
+					<ul style="list-style: circle;">
+						<li><p>restriction terms;</p></li>
+					</ul>
+				</td>
+
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link deleted"> <span class='deleted'><a href="MDR.html#MDR-220">MDR-220</a></span>  Restriction</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-147">SoSR-147</a></span>  restriction terms (e.g., what qualifies …</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-295"></a>RSR-295</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:120px">
+					<ul style="list-style: circle;">
+						<li><p>user terms; and</p></li>
+					</ul>
+				</td>
+
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-404">SoSR-404</a></span>  user terms (e.g., class of driver licens…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-296"></a>RSR-296</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:120px">
+					<ul style="list-style: circle;">
+						<li><p>usage terms.</p></li>
+					</ul>
+				</td>
+
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-405">SoSR-405</a></span>  usage terms (e.g., delivery for hire).</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-281"></a>RSR-281</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">NOTE: <p>The transport rule management info flow relates to centre-based distribution systems, which is the primary distribution source for pre-announced rules and can also distribute ad-hoc rules.</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-157"></a>RSR-157</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">EXAMPLE: <p>A translation system for a city should be aware of national and other regional rules to avoid the entry of duplicate or conflicting rules.</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-177"></a>RSR-177</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.1.4.2&nbsp;Scope</h4>
+					<div class="htmlContent"><p>When making a request for transport rule management information, the translation system shall indicate whether it is requesting only the information entered into the local translation system or information from all sources.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-282"></a>RSR-282</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">EXAMPLE: <p>A city translation system can request all known rules from a county translation system rather than having &nbsp;to contact multiple levels of regional hierarchy.&nbsp;</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-174"></a>RSR-174</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.1.4.3&nbsp;Verify information (from external system)</h4>
+					<div class="htmlContent"><p>The METR distribution system shall perform verification checks on the received rules.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link"> <span><a href="MDR.html#MDR-19">MDR-19</a></span>  Transport rule</div>
+                <div class="link"> <span><a href="MDR.html#MDR-20">MDR-20</a></span>  Rule negotiation</div>
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> supported by:</div>
+                <div class="link"> <span><a href="#RSR-167">RSR-167</a></span>  Verification process</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-229"></a>RSR-229</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.1.4.4&nbsp;Traceability</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-55"></a>RSR-55</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.1.5&nbsp;Verified METR information</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link"> <span><a href="MDR.html#MDR-19">MDR-19</a></span>  Transport rule</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-206">SoSR-206</a></span>  Source</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-197"></a>RSR-197</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.1.5.1&nbsp;Submit verification request</h4>
+					<div class="htmlContent"><p>Upon direction from the translator agent, the METR translation system shall submit (draft) METR information for verification by an independent process.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-199"></a>RSR-199</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.1.5.2&nbsp;Negotiate accuracy</h4>
+					<div class="htmlContent"><p>The METR translation system shall allow coordination between the independent process and the translator agent regarding the contents of the METR information.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> supported by:</div>
+                <div class="link"> <span><a href="#RSR-167">RSR-167</a></span>  Verification process</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-198"></a>RSR-198</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.1.5.3&nbsp;Receive verified information</h4>
+					<div class="htmlContent"><p>Once the independent process has verified the METR information, it will return the information with an additional electronic signature. The METR translation system shall maintain a record of the signed METR information verification until the METR information is rescinded or revoked.</p><p>NOTE: Local regulations can require the maintenance of the verification for some period after a rule is rescinded.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-200"></a>RSR-200</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.1.5.4&nbsp;Secure core data of METR information</h4>
+					<div class="htmlContent"><p>If the METR translation system revises the core data within a METR information record, it shall invalidate any previous independent verification record.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-283"></a>RSR-283</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">EXAMPLE: <p>Revisions might be necessary to address any discrepancy report or to reflect changes in the legal rule.</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-201"></a>RSR-201</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.1.5.5&nbsp;Indicate verification status</h4>
+					<div class="htmlContent"><p>The METR translation system shall update the meta-data for the METR information to reflect its verification status and date of verification.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-230"></a>RSR-230</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.1.5.6&nbsp;Traceability</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-196"></a>RSR-196</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.1.6&nbsp;Consolidated discrepancy report</h3>
+					<div class="htmlContent"><p>The METR translation system shall attempt to resolve each consolidated discrepancy report received.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> supported by:</div>
+                <div class="link"> <span><a href="#RSR-213">RSR-213</a></span>  Resolve discrepancy</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="DHSR.html#DHSR-83">DHSR-83</a></span>  Consolidated discrepancy report</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-231"></a>RSR-231</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-211"></a>RSR-211</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.1.7&nbsp;System-generated discrepancy report</h3>
+					<div class="htmlContent"><p>The METR translation system shall attempt to resolve each system-generated discrepancy report received.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> supported by:</div>
+                <div class="link"> <span><a href="#RSR-213">RSR-213</a></span>  Resolve discrepancy</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="DHSR.html#DHSR-88">DHSR-88</a></span>  System-generated discrepancy report</div>
+                <div class="link"> <span><a href="DSR.html#DSR-137">DSR-137</a></span>  System-generated discrepancy report</div>
+                <div class="link"> <span><a href="#RSR-210">RSR-210</a></span>  System-generated discrepancy report</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-232"></a>RSR-232</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-212"></a>RSR-212</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.1.8&nbsp;Discrepancy report details</h3>
+					<div class="htmlContent"><p>As needed to investigate and resolve discrepancies, the METR translation system shall obtain discrepancy report details from the reporting discrepancy handler system.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="DHSR.html#DHSR-100">DHSR-100</a></span>  Discrepancy report details</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> generated by:</div>
+                <div class="link"> <span><a href="#RSR-205">RSR-205</a></span>  Coordinate with discrepancy reporter</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-233"></a>RSR-233</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-214"></a>RSR-214</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.1.9&nbsp;METR coordination</h3>
+					<div class="htmlContent"><p>As needed to investigate and resolve discrepancies, the METR translation system shall coordinate notes with other authorized systems.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="#RSR-128">RSR-128</a></span>  METR coordination</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-234"></a>RSR-234</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-48"></a>RSR-48</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.1.10&nbsp;rule discovery information</h3>
+					<div class="htmlContent"><p>The METR translation system shall allow a translator agent to review and approve rules discovered via authorized sources.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="CSR.html#CSR-141">CSR-141</a></span>  rule discovery information</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-235"></a>RSR-235</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-106"></a>RSR-106</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>6.2&nbsp;Outgoing flow requirements</h2>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-24"></a>RSR-24</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.2.1&nbsp;Component status</h3>
+					<div class="htmlContent"><p>The METR translation system shall make its operational status and the operational status of all of its source components available to authorized external systems.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link"> <span><a href="MDR.html#MDR-48">MDR-48</a></span>  System status</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="DSR.html#DSR-168">DSR-168</a></span>  Component status</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-284"></a>RSR-284</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:40px">EXAMPLE: <p>A distribution system can include a service monitor that monitors the status of its source translation systems so that it becomes aware of any translation systems (or source components) that are currently offline. See SU10: Center Maintenance service package in ARC-IT for more information.</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-236"></a>RSR-236</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-121"></a>RSR-121</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.2.2&nbsp;METR catalogue</h3>
+					<div class="htmlContent"><p>The METR translation system shall make all information available for each rule category to authorized external systems.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link"> <span><a href="MDR.html#MDR-45">MDR-45</a></span>  Transport rule — Category</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="DHSR.html#DHSR-59">DHSR-59</a></span>  METR catalogue</div>
+                <div class="link"> <span><a href="DSR.html#DSR-162">DSR-162</a></span>  METR catalogue</div>
+                <div class="link"> <span><a href="#RSR-123">RSR-123</a></span>  METR catalogue</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-237"></a>RSR-237</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-128"></a>RSR-128</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.2.3&nbsp;METR coordination</h3>
+					<div class="htmlContent"><p>As needed to investigate and resolve discrepancies, the METR translation system shall coordinate notes with other authorized systems.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> derives:</div>
+                <div class="link"> <span><a href="#RSR-214">RSR-214</a></span>  METR coordination</div>
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link"> <span><a href="MDR.html#MDR-19">MDR-19</a></span>  Transport rule</div>
+                <div class="link"> <span><a href="MDR.html#MDR-20">MDR-20</a></span>  Rule negotiation</div>
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> supported by:</div>
+                <div class="link"> <span><a href="#RSR-167">RSR-167</a></span>  Verification process</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> generated by:</div>
+                <div class="link"> <span><a href="#RSR-167">RSR-167</a></span>  Verification process</div>
+                <div class="link"> <span><a href="#RSR-205">RSR-205</a></span>  Coordinate with discrepancy reporter</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-129"></a>RSR-129</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.3.1&nbsp;Submit rules</h4>
+					<div class="htmlContent"><p>Upon direction from the translator agent, the METR translation system shall submit rules to external authorized systems for review by an independent process.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-130"></a>RSR-130</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.3.2&nbsp;Identify issues</h4>
+					<div class="htmlContent"><p>The METR translation system shall accept reports from external authorized systems that identify potential issues with rules submitted for review.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-131"></a>RSR-131</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.3.3&nbsp;Revise rules</h4>
+					<div class="htmlContent"><p>The METR translation system shall submit rule revisions to external authorized systems, as needed to correct issues.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-132"></a>RSR-132</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.3.4&nbsp;Explain issues</h4>
+					<div class="htmlContent"><p>The METR translation system shall provide explanations to external authorized systems, as needed to resolve identified issues.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-238"></a>RSR-238</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.3.5&nbsp;Traceability</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-210"></a>RSR-210</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.2.4&nbsp;System-generated discrepancy report</h3>
+					<div class="htmlContent"><p>The METR translation system shall notify the associated translation system of any potential inconsistency detected during its verification process.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> derives:</div>
+                <div class="link"> <span><a href="#RSR-211">RSR-211</a></span>  System-generated discrepancy report</div>
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> supported by:</div>
+                <div class="link"> <span><a href="#RSR-167">RSR-167</a></span>  Verification process</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> generated by:</div>
+                <div class="link"> <span><a href="#RSR-167">RSR-167</a></span>  Verification process</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-356">SoSR-356</a></span>  electronic discrepancies; and</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-239"></a>RSR-239</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-113"></a>RSR-113</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.2.5&nbsp;METR info feedback</h3>
+					<div class="htmlContent"><p>The METR translation system shall provide a human-machine interface to report any identified discrepancies among rules to translator agents.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link"> <span><a href="MDR.html#MDR-19">MDR-19</a></span>  Transport rule</div>
+                <div class="link"> <span><a href="MDR.html#MDR-20">MDR-20</a></span>  Rule negotiation</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> generated by:</div>
+                <div class="link"> <span><a href="#RSR-167">RSR-167</a></span>  Verification process</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-240"></a>RSR-240</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-110"></a>RSR-110</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.2.6&nbsp;METR information</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link"> <span><a href="MDR.html#MDR-15">MDR-15</a></span>  Jurisdictional term</div>
+                <div class="link"> <span><a href="MDR.html#MDR-19">MDR-19</a></span>  Transport rule</div>
+                <div class="link"> <span><a href="MDR.html#MDR-44">MDR-44</a></span>  Defined area</div>
+                <div class="link"> <span><a href="MDR.html#MDR-145">MDR-145</a></span>  Facility</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="DHSR.html#DHSR-51">DHSR-51</a></span>  METR information</div>
+                <div class="link"> <span><a href="DSR.html#DSR-80">DSR-80</a></span>  METR information</div>
+                <div class="link"> <span><a href="#RSR-118">RSR-118</a></span>  METR information</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-306"></a>RSR-306</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.6.1&nbsp;Information content</h4>
+					<div class="htmlContent"><p>The “METR information” flow shall include:</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-465">SoSR-465</a></span>  Content</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-307"></a>RSR-307</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>relevant rules and meta-data;</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-308"></a>RSR-308</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>the boundaries of each relevant sub-area;</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-309"></a>RSR-309</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>jurisdictional vocabulary</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-310"></a>RSR-310</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.6.2&nbsp;Destination identification</h4>
+					<div class="htmlContent"><p>The METR translation system shall provide the “METR information” flow for any authorized system that initiates the flow.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-311"></a>RSR-311</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.6.3&nbsp;Causality</h4>
+					<div class="htmlContent"><p>The METR translation system shall provide METR information based on subscriptions from other systems.&nbsp;</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-312"></a>RSR-312</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.6.4&nbsp;Location constraints</h4>
+					<div class="htmlContent"><p>The METR translation system shall filter the METR information provided based on the location criteria established by the requesting system.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-471">SoSR-471</a></span>  Location constraint</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-313"></a>RSR-313</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.6.5&nbsp;Characteristic constraints</h4>
+					<div class="htmlContent"><p>The METR translation system shall filter the METR information provided based on the characteristics established by the requesting system, such as:</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-475">SoSR-475</a></span>  Content constraint</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-314"></a>RSR-314</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>manually implemented vehicle characteristics (e.g. addition of a trailer)</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-315"></a>RSR-315</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>static vehicle characteristics;</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-316"></a>RSR-316</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>user characteristics;&nbsp;</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-317"></a>RSR-317</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					
+					<div class="htmlContent"><p>(others as deemed appropriate in req’ts phase)</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-261"></a>RSR-261</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.6.6&nbsp;Provisioning latency</h4>
+					<div class="htmlContent"><p>Within the provisioningLatency time after the approval of each piece of information, the METR translation system shall provide the information to subscribed systems, if it meets their criteria.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-480">SoSR-480</a></span>  Response time</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> tailored by:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-391">SoSR-391</a></span>  provisionLatency</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-285"></a>RSR-285</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">NOTE: <p>Authorized external systems include distribution, discrepancy handler, and other translation systems.</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-318"></a>RSR-318</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-126"></a>RSR-126</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.6.7&nbsp;Provide expiration time</h4>
+					<div class="htmlContent"><p>The translation system shall indicate the time at which the trustworthiness of each rule can no longer be guaranteed.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-80">SoSR-80</a></span>  Trustworthiness expiration time</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-241"></a>RSR-241</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.6.8&nbsp;Traceability</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-104"></a>RSR-104</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>6.3&nbsp;Additional requirements</h2>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-135"></a>RSR-135</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.3.1&nbsp;Rule provenance</h3>
+					<div class="htmlContent"><p>The METR translation system shall record the provenance of each rule as it is created.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link"> <span><a href="MDR.html#MDR-146">MDR-146</a></span>  METR information item — Issuing entity</div>
+                <div class="link"> <span><a href="MDR.html#MDR-212">MDR-212</a></span>  METR information item — Translating enti…</div>
+                <div class="link"> <span><a href="MDR.html#MDR-65">MDR-65</a></span>  Transport rule — provenance</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-67">SoSR-67</a></span>  Provenance of information</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-223"></a>RSR-223</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-333"></a>RSR-333</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.3.2&nbsp;Information verification</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> supports:</div>
+                <div class="link"> <span><a href="#RSR-332">RSR-332</a></span>  Verify information</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-167"></a>RSR-167</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.3.2.1&nbsp;Verification process</h4>
+					<div class="htmlContent"><p>The METR distribution system shall perform verification checks on the entered, obtained, and collected information, including:</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> generates:</div>
+                <div class="link"> <span><a href="#RSR-128">RSR-128</a></span>  METR coordination</div>
+                <div class="link"> <span><a href="#RSR-210">RSR-210</a></span>  System-generated discrepancy report</div>
+                <div class="link"> <span><a href="#RSR-113">RSR-113</a></span>  METR info feedback</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-62">SoSR-62</a></span>  Verify rule consistency</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> supports:</div>
+                <div class="link"> <span><a href="#RSR-50">RSR-50</a></span>  Verify information (operator input)</div>
+                <div class="link"> <span><a href="#RSR-174">RSR-174</a></span>  Verify information (from external system…</div>
+                <div class="link"> <span><a href="#RSR-199">RSR-199</a></span>  Negotiate accuracy</div>
+                <div class="link"> <span><a href="#RSR-128">RSR-128</a></span>  METR coordination</div>
+                <div class="link"> <span><a href="#RSR-210">RSR-210</a></span>  System-generated discrepancy report</div>
+                <div class="link"> <span><a href="#RSR-203">RSR-203</a></span>  Inspect electronic discrepancy</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-168"></a>RSR-168</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>verifying that each rule does not create any potential inconsistency issue (e.g., with any vocabulary term or other known rule);</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-169"></a>RSR-169</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>verifying that vocabulary term definitions do not create any potential inconsistency issue (e.g., different definitions for same term from two translators representing same jurisdiction);</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-170"></a>RSR-170</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>verifying that the boundaries of defined areas do not create any inconsistency;</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-167">SoSR-167</a></span>  Verify rule authority</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-171"></a>RSR-171</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>verifying that terminated rules have been removed;</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-172"></a>RSR-172</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>verifying that any duplicate rules are removed;</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-173"></a>RSR-173</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>verifying that old versions of updated rules (i.e., with the same identifier) are removed;</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-224"></a>RSR-224</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-334"></a>RSR-334</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.3.2.2&nbsp;Performance requirement</h4>
+					<div class="htmlContent"><p>The METR translation system shall make all verified METR information available to "METR information” flows within the translationVerificationTime from the receipt of information from the “METR input” flow.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-480">SoSR-480</a></span>  Response time</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-213"></a>RSR-213</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.3.3&nbsp;Resolve discrepancy</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> supports:</div>
+                <div class="link"> <span><a href="#RSR-196">RSR-196</a></span>  Consolidated discrepancy report</div>
+                <div class="link"> <span><a href="#RSR-211">RSR-211</a></span>  System-generated discrepancy report</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-202"></a>RSR-202</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.3.3.1&nbsp;Flag discrepancy</h4>
+					<div class="htmlContent"><p>Upon receipt of a discrepancy report, the METR translation system shall revise the meta-data for the associated METR information record(s) to flag that there is a suspected discrepancy.</p><p>NOTE: This flag is used to prevent user systems from continuing to report the discrepancy.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link"> <span><a href="MDR.html#MDR-139">MDR-139</a></span>  METR information — discrepancy type</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-203"></a>RSR-203</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.3.3.2&nbsp;Inspect electronic discrepancy</h4>
+					<div class="htmlContent"><p>For discrepancy reports between electronic rules, the METR translation system shall attempt to confirm the discrepancy by using its own verification algorithm.&nbsp;</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> supported by:</div>
+                <div class="link"> <span><a href="#RSR-167">RSR-167</a></span>  Verification process</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-101"></a>RSR-101</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.3.3.3&nbsp;Operator discrepancy interface</h4>
+					<div class="htmlContent"><p>The METR translation system shall provide a human-machine interface to allow a translation agent to resolve the discrepancies in a timely manner.</p><p>NOTE: This allows translation agents to perform any manual steps in the process, which might include site visits to confirm the presence or absence of a traffic control device.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-356">SoSR-356</a></span>  electronic discrepancies; and</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-355">SoSR-355</a></span>  physical discrepancies;</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-205"></a>RSR-205</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.3.3.4&nbsp;Coordinate with discrepancy reporter</h4>
+					<div class="htmlContent"><p>If the translation system is unable to confirm the discrepancy, it may coordinate with the discrepancy reporter contact.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> generates:</div>
+                <div class="link"> <span><a href="#RSR-212">RSR-212</a></span>  Discrepancy report details</div>
+                <div class="link"> <span><a href="#RSR-128">RSR-128</a></span>  METR coordination</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-206"></a>RSR-206</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.3.3.5&nbsp;Update information based on confirmed discrepancy</h4>
+					<div class="htmlContent"><p>If a reported discrepancy is confirmed, the translator system shall allow the translator agent to update and approve the METR information record and remove the suspect flag.&nbsp;</p><p>NOTE: This can include a re-verification of the METR information.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-207"></a>RSR-207</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.3.3.6&nbsp;Update meta-data for a rejected discrepancy report</h4>
+					<div class="htmlContent"><p>If the reported discrepancy is determined to not be an issue with the METR information item (e.g., a problem with the physical infrastructure or a problem with the reporting system), the translation system shall remove the suspect flag.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-209"></a>RSR-209</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.3.3.7&nbsp;Notify discrepancy logic contacts for rejected report</h4>
+					<div class="htmlContent"><p>If the reported discrepancy is determined to be an error in the discrepancy reporting logic, the translator system shall notify the discrepancy logic contact of the problem.</p><p>NOTE: The discrepancy reporter contact can then take steps to manage its deployed systems to prevent future reports being submitted.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-225"></a>RSR-225</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.3.3.8&nbsp;Traceability</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-259"></a>RSR-259</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.3.4&nbsp;Ensure structured rules</h3>
+					<div class="htmlContent"><p>The METR translation system shall require rules to be defined in an unambiguous, structured format.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-79">SoSR-79</a></span>  General</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-288"></a>RSR-288</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.3.5&nbsp;Language Neutrality</h3>
+					<div class="htmlContent"><p>The METR translation system shall require all rules to be defined in a language-neutral format.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link"> <span><a href="MDR.html#MDR-67">MDR-67</a></span>  Language Neutral</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-101">SoSR-101</a></span>  Language neutral</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-268"></a>RSR-268</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.3.6&nbsp;Scope of rules verified against</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-269"></a>RSR-269</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.3.6.1&nbsp;Verify against all applicable rules</h4>
+					<div class="htmlContent"><p>Within the rule categories and geographic areas that it supports, the translation system shall perform consistency checks against all rules from all jurisdictional entities, from its level in the jurisdictional hierarchy and higher.</p><p>EXAMPLE &nbsp; &nbsp; A city-level translation system supports all rules in its supported rule categories from the city level to the national level.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-270"></a>RSR-270</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.3.6.2&nbsp;Verify against of internally-stored rules</h4>
+					<div class="htmlContent"><p>The translation system shall perform consistency checks against all other rules locally stored within its system.</p><p>EXAMPLE &nbsp; &nbsp; A roadside unit (RSU) can allow field personnel to enact a rule (e.g., road closure) without any verification checks if it is currently unaware of any other rules.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-271"></a>RSR-271</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.3.6.3&nbsp;Restrict rule implementation based on local policies</h4>
+					<div class="htmlContent"><p>The translation system shall prohibit the implementation of rules based on local policies.</p><p>EXAMPLE &nbsp; &nbsp; A roadside unit (RSU) can prohibit the activation of contraflow operation unless its implementation has been verified by a centralized system.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-272"></a>RSR-272</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.3.6.4&nbsp;Traceability</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-181"></a>RSR-181</td>
+            
+							<td class="description-col" style="padding-left:10px">
+					<h1>7&nbsp;Collection requirements</h1>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-184"></a>RSR-184</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>7.1&nbsp;Incoming flow requirements</h2>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-178"></a>RSR-178</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>7.1.1&nbsp;Rule management application status</h3>
+					<div class="htmlContent"><p>The METR translation system shall monitor the status of RSE-based distribution systems and their dissemination of configured rules.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="DSR.html#DSR-224">DSR-224</a></span>  rule management application status</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-286"></a>RSR-286</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:40px">NOTE: <p>The status information can include the position of the RSE-based distribution system, especially in the case of portable RSEs.</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-247"></a>RSR-247</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-179"></a>RSR-179</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>7.1.2&nbsp;Ad-hoc rule management status</h3>
+					<div class="htmlContent"><p>The METR translation system shall monitor the status of vehicle-based distribution systems and their dissemination of configured rules.</p><p>NOTE: The status information includes the position of the vehicle.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-248"></a>RSR-248</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-185"></a>RSR-185</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>7.2&nbsp;Outgoing flow requirements</h2>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-127"></a>RSR-127</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>7.2.1&nbsp;Rule management application info</h3>
+					<div class="htmlContent"><p>Within the provisionLatency time after the approval of each ad-hoc rule and its dissemination plan, the METR translation system shall configure localized distribution systems to distribute relevant ad-hoc rules according to defined parameters.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link"> <span><a href="MDR.html#MDR-15">MDR-15</a></span>  Jurisdictional term</div>
+                <div class="link"> <span><a href="MDR.html#MDR-19">MDR-19</a></span>  Transport rule</div>
+                <div class="link"> <span><a href="MDR.html#MDR-44">MDR-44</a></span>  Defined area</div>
+                <div class="link"> <span><a href="MDR.html#MDR-50">MDR-50</a></span>  Information broadcast parameters</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="DSR.html#DSR-169">DSR-169</a></span>  Rule management application info</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-287"></a>RSR-287</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:40px">NOTE: <p>This flow can also include additional information about relevant vocabulary terms, jurisdictional boundaries, and relevant rules as deemed appropriate by the translation system.</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-249"></a>RSR-249</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-175"></a>RSR-175</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>7.2.2&nbsp;Ad-hoc rule management info</h3>
+					<div class="htmlContent"><p>Within the provisionLatency time after the approval of each ad-hoc rule and its dissemination plan, the METR translation system shall direct appropriate vehicle-based distribution systems to distribute relevant rules per defined parameters.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link"> <span><a href="MDR.html#MDR-15">MDR-15</a></span>  Jurisdictional term</div>
+                <div class="link"> <span><a href="MDR.html#MDR-19">MDR-19</a></span>  Transport rule</div>
+                <div class="link"> <span><a href="MDR.html#MDR-44">MDR-44</a></span>  Defined area</div>
+                <div class="link"> <span><a href="MDR.html#MDR-50">MDR-50</a></span>  Information broadcast parameters</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="DSR.html#DSR-191">DSR-191</a></span>  Ad-hoc rule management info</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> tailored by:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-391">SoSR-391</a></span>  provisionLatency</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-250"></a>RSR-250</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-183"></a>RSR-183</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>7.3&nbsp;Additional requirements</h2>
+					<div class="htmlContent"><p>There are no additional requirements for the collection role of a translation system.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-108"></a>RSR-108</td>
+            
+							<td class="description-col" style="padding-left:10px">
+					<h1>8&nbsp;Internal flow descriptions (informative)</h1>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-133"></a>RSR-133</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>8.1&nbsp;Rule entry</h2>
+					<div class="htmlContent"><p>It is the responsibility of the translator agents to enter relevant rules into the translation system in a timely manner once they have been approved by rule-makers.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-472">SoSR-472</a></span>  proximity from a point location;</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-473">SoSR-473</a></span>  proximity along a route; and</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-474">SoSR-474</a></span>  used-defined area.</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-476">SoSR-476</a></span>  manually reported characteristics;</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-74">SoSR-74</a></span>  METR information availability</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-97">SoSR-97</a></span>  Time for download</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-64">SoSR-64</a></span>  Maintain rules</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-251"></a>RSR-251</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-136"></a>RSR-136</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>8.2&nbsp;Vocabulary entry</h2>
+					<div class="htmlContent"><p>It is the responsibility of the translator agents to enter relevant vocabulary into the translation system in a timely manner once they have been approved by rule-makers.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-60">SoSR-60</a></span>  Jurisdictional vocabulary</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-252"></a>RSR-252</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-137"></a>RSR-137</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>8.3&nbsp;Defined area entry</h2>
+					<div class="htmlContent"><p>It is the responsibility of the translator agents to enter relevant defined areas into the translation system in a timely manner once they have been approved by rule-makers.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-221">SoSR-221</a></span>  the geographical boundaries of the defin…</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-169">SoSR-169</a></span>  the jurisdictional entity with authority…</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-65">SoSR-65</a></span>  Rule catalogue</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-253"></a>RSR-253</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-220"></a>RSR-220</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>8.4&nbsp;Facility entry</h2>
+					<div class="htmlContent"><p>It is the responsibility of the translator agents to enter relevant facilities into the translation system in a timely manner once they have been approved by rule-makers.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-169">SoSR-169</a></span>  the jurisdictional entity with authority…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-254"></a>RSR-254</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-217"></a>RSR-217</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>8.5&nbsp;Location entry</h2>
+					<div class="htmlContent"><p>It is the responsibility of the translator agent to enter each location associated with each each METR information item such that it can be overlaid onto any map with sufficient accuracy for the purpose of the information.</p><p>NOTE: Different types of rules will have different accuracy requirements. For example, a jurisdiction can adopt a policy that speed limit zones are defined with 1 meter accuracy while parking spaces are defined with 1 cm accuracy.</p><p>NOTE 2: To achieve the desired level of accuracy when overlaid onto different maps, the location can be indicated with a location reference that refers to a distance from a known and identifiable point (e.g., the stop sign rule is applied at the marked stop bar).</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> realizes:</div>
+                <div class="link"> <span><a href="SoSR.html#SoSR-234">SoSR-234</a></span>  Define location accurately</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-255"></a>RSR-255</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-218"></a>RSR-218</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>8.6&nbsp;Discrepancy management</h2>
+					<div class="htmlContent"><p>It is the responsibility of the translator agent to manage discrepancies, including:</p><ul><li>investigating suspected discrepancies and either rejecting or confirming;</li><li>Providing user guidance to rules that have confirmed discrepancies, as appropriate;</li><li>taking necessary steps to resolve confirmed discrepancies; and&nbsp;</li><li>closing the discrepancies and ensuring that future discrepancy reports will be restored as appropriate.</li></ul></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-in-alt"></i> details from:</div>
+                <div class="link"> <span><a href="MDR.html#MDR-140">MDR-140</a></span>  METR information — discrepancy advice</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-256"></a>RSR-256</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="RSR-273"></a>RSR-273</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>8.7&nbsp;Awareness of rule-makers</h2>
+					<div class="htmlContent"><p>It is the responsibility of the translator agents to be aware of the authorized rule-makers for each jurisdictional entity and sub-area at its level of hierarchy and higher.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <hr>
+  </div>
+							</div>
+				<!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							<ul class="copyright">
+								<li><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://iso-tc204.github.io/iso24315p1/">Website Content:</a> <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p></li>
+								<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>Portions subject to ISO copyright. This website is not an ISO International Standard. It is provided to facilitate efforts to review and comment on the current draft. It is subject to change without notice and may not be referred to as an International Standard.</li>
+								<li>Users of this website are invited to submit, with their comments, notification of any relevant patent rights of which they are aware and to provide supporting documentation.</li>
+							</ul>
+						</div>
+					</section>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+</body>
+</html>

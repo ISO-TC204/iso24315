@@ -1,0 +1,5002 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>24315 METR-MDR: METR Data Requirements</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link href="jq/jquery-ui.css" rel="stylesheet">
+	<script src="external/jquery/jquery.js"></script>
+	<script src="jq/jquery-ui.js"></script>
+	<script src="glossary.js"></script>
+	<script>
+			$( document ).tooltip({
+				content: function() {
+					return $(this).attr('title');
+				}
+			});
+	</script>
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" style="position: static;">
+						<h2><a href="index.html">METR</a><img src="images/car_wifi.png" style="width: 2em;" /></h2>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="metr_overview.html">Overview</a></li>
+								<li><a href="development.html">Development Approach</a></li>
+								<li><a href="Vocab.html">Vocabulary</a></li>
+								<li><a href="ConOps.html">Operational Concept (ConOps)</a></li>
+								<li><a href="SoSR.html">System of Systems Requirements (SoSR)</a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Wrapper -->
+					<div class="inner">
+						<table>
+							<tr>
+								<td><h1>24315 METR<br />MDR: METR Data Requirements</h1><br />    <em>Last modified on 2023-04-10 09:38</em></td>
+								<td><!-- DDG search widget,@author Juri Wornowitski,@version 3.0,@link https://www.plainlight.com/ddg --><div id="widdget" style="width:230px;margin:10px 0;"><style type="text/css">#widdget input {display:block;height:30px;padding:4px;outline:none;border:1px solid #8d8d8d;border-right:0;box-sizing:border-box;border-radius:3px 0 0 3px;width:calc(100% - 41px);font-size:15px;} #widdget button {float:left;cursor:pointer;width:43px;height:30px;color:#fff;background-image:linear-gradient(#cacaca,#929292);border:0;border-radius:0 3px 3px 0;padding:0;} #widdget button:active {background-image:linear-gradient(#909090,#585858);} #widdget button:focus {outline:none;}</style><form style="position:relative" method="get" action="https://duckduckgo.com/" target="_top"><div style="float:right;position:absolute;top:0;right:-2px;z-index:3"><button type="submit">&#128269;</button></div><input type="text" name="q" placeholder="Search METR Website" /><input type="hidden" name="sites" value="https://iso-tc204.github.io/iso24315p1/" /></form></div></td>
+								<td width="390px"><span class="actions" style="position: relative; left: 70px;"><a href="https://github.com/ISO-TC204/iso24315p1/discussions" class="button primary">Submit Comment</a><br /></span>Traceability Tables: <div class="tab">
+									<button onclick="location.href='SP.html'" title="Workshop Summary Points">Wkshp</button>
+									<button onclick="location.href='Vocab.html'" title="Vocabulary">Vocab</button>
+									<button onclick="location.href='ConOps.html'" title="Operational Concept">ConOps</button>
+									<button onclick="location.href='SoSR.html'" title="System of Systems Requirements">SoSR</button>
+									<button onclick="location.href='RSR.html'" title="Regulation System Requirements">RSR</button>
+									<button onclick="location.href='DSR.html'" title="Distribution System Requirements">DSR</button>
+									<button onclick="location.href='CSR.html'" title="Consumer System Requirements">CSR</button>
+									<button onclick="location.href='DHSR.html'" title="Discrepancy Handling System Requirements">DHSR</button>
+									<button onclick="location.href='MDR.html'" title="METR Data Requirements">MDR</button>
+									<button onclick="location.href='ITS-SUR.html'" title="ITS-SU Requirements">ITS-SUR</button>
+								</div>NOTE: The RSR, DSR, CSR, DHSR, MDR, and ITS-SUR are still in very preliminary draft form</td>
+							</tr>
+						</table>
+							
+  <div class="reqviewTable table-responsive-md">
+    <table class="table table-sm">
+      <!-- Heading of the requirements table -->
+      <thead>
+        <tr>
+          <th class="id-col"><i class="fas fa-asterisk"></i> ID</th>
+          <th class="description-col"><i class="fas fa-align-left"></i> Description</th>
+          <th class="discussion-col"><i class="fas fa-comments"></i> Discussion</th>
+          <th class="links-col"><i class="fas fa-link"></i> Links</th>
+        </tr>
+      </thead>
+
+      <!-- Requirements table with list of requirements -->
+      <tbody>
+        <tr> 
+			<td class="id-col"><a id="MDR-10"></a>MDR-10</td>
+            
+							<td class="description-col" style="padding-left:10px">
+					<h1>1&nbsp;Scope</h1>
+					<div class="htmlContent"><p>The management of electronic transport regulations (METR) provides trustworthy, authoritative, machine-interpretable, transport-related rules for using surface transport facilities.</p><p>The scope of METR includes both rules that are relatively static (e.g., static speed limits) as well as those that are dynamic (e.g., variable speed limits, lane closures at incident scenes). However, where appropriate, METR is expected to incorporate existing standards (e.g., ISO/TS 19091 for signalized intersections).</p><p>This document defines requirements for the data that is to be exchanged among METR component systems. This document is presented in a format that is consistent with the guidance provided by ISO 29148 [2] for a system requirements document.&nbsp;</p><p>The operational concept for METR is provided in ISO 24315-1.</p><p>** Editor's Note: This draft document is generated from a requirements management tool. Headings within the draft document include a reference within square brackets (e.g., "[SoSR-35]") that indicate the source location of the text to assist in maintaining the text. These references will be removed in the final text. Text demarked with double asterisks ("**") are editorial notes that will be removed from the final draft. **</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-9"></a>MDR-9</td>
+            
+							<td class="description-col" style="padding-left:10px">
+					<h1>2&nbsp;Normative references</h1>
+					<div class="htmlContent"><p>The following documents are referred to in the text in such a way that some, or all, of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-337"></a>MDR-337</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					
+					<div class="htmlContent"><p>ISO/TS 14812,<em>&nbsp;Intelligent transport systems — Vocabulary</em></p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-338"></a>MDR-338</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					
+					<div class="htmlContent"><p>ISO/TS 24315-1,&nbsp;<em>Intelligent transport systems — Management of electronic traffic regulations (METR) — Part 1: Vocabulary</em></p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-339"></a>MDR-339</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					
+					<div class="htmlContent"><p>ISO/IEC/IEEE 24765,&nbsp;<em>Systems and software engineering — Vocabulary</em></p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-7"></a>MDR-7</td>
+            
+							<td class="description-col" style="padding-left:10px">
+					<h1>3&nbsp;Terms and definitions</h1>
+					<div class="htmlContent"><p style="text-decoration: none; text-align: left; color: rgb(0, 0, 0);">For the purposes of this document, the terms and definitions given in ISO/IEC/IEEE 24765, ISO/TS 14812 and ISO 24315-1 apply.</p><p style="text-decoration: none; text-align: left; color: rgb(0, 0, 0);">ISO&nbsp;and IEC maintain terminology databases for use in standardization at the following addresses:</p><p style="text-decoration: none; text-align: left; color: rgb(0, 0, 0);">• &nbsp; ISO Online browsing platform: available at <a href="https://www.iso.org/obp"><span style="text-decoration: underline; color: rgb(5, 60, 245);">https://www.iso.org/obp</span></a></p><p style="text-decoration: none; text-align: left; color: rgb(0, 0, 0);">• &nbsp; IEC Electropedia: available at <a href="https://www.electropedia.org/"><span style="text-decoration: underline; color: rgb(5, 60, 245);">https://www.electropedia.org</span></a></p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-8"></a>MDR-8</td>
+            
+							<td class="description-col" style="padding-left:10px">
+					<h1>4&nbsp;Symbols and abbreviated terms</h1>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-11"></a>MDR-11</td>
+            
+							<td class="description-col" style="padding-left:10px">
+					<h1>5&nbsp;Introduction</h1>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-207"></a>MDR-207</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>5.1&nbsp;Presentation of requirements</h2>
+					<div class="htmlContent"><p>The specific data requirements for METR are intended to be referenced by system-level requirements contained in ISO 24315 parts 3-6. They are presented in this document to minimize the duplication of text.</p><p>The requirements are presented as a logical data model. The actual structure and presentation of data within a conforming interface standard may vary from this logical model but all individual data requirements required by a system-level requirements standard shall be supported by conforming interface specifications.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-1"></a>MDR-1</td>
+            
+							<td class="description-col" style="padding-left:10px">
+					<h1>6&nbsp;Data requirements</h1>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-206"></a>MDR-206</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>6.1&nbsp;General</h2>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-67"></a>MDR-67</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.1.1&nbsp;Language Neutral</h3>
+					<div class="htmlContent"><p>All data exchanged by METR shall be language-neutral.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="RSR.html#RSR-288">RSR-288</a></span>  Language Neutrality</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-228"></a>MDR-228</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.1.2&nbsp;Traceability</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-141"></a>MDR-141</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>6.2&nbsp;METR information classes</h2>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-197"></a>MDR-197</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.2.1&nbsp;Class: METR catalogue</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="RSR.html#RSR-153">RSR-153</a></span>  General</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-208"></a>MDR-208</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.1.1&nbsp;General</h4>
+					<div class="htmlContent"><p>The METR catalogue allows METR distribution systems to publicize which categories of rules are fully available through the distribution system for the identified area.</p></div>
+					<div class="attachment">
+						<img src="24315%20METR_attachments/MDR-208_1_DM%20-%20METR%20Catalogue.png" width="998" height="338">
+						<i class="fas fa-image"></i> <a href="24315%20METR_attachments/MDR-208_1_DM%20-%20METR%20Catalogue.png"><span class="attachment-name">MDR-208_1_DM - METR Catalogue.png</span></a>
+					</div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-210"></a>MDR-210</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.1.2&nbsp;METR catalogue — Rule categorization scheme</h4>
+					<div class="htmlContent"><p>The METR catalogue shall uniquely identify the scheme used to categorize rules within the catalogue.&nbsp;</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-267"></a>MDR-267</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">NOTE: <p>While it is desirable to have all implementations use a single scheme, the identifier allows graceful migration to alternative schemes as deemed necessary - hopefully as a temporary solution until enhancements are incorporated into the next evolution of the standard scheme.&nbsp;</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-209"></a>MDR-209</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.1.3&nbsp;METR catalogue — Defined area</h4>
+					<div class="htmlContent"><p>The METR catalogue shall identify each relevant defined area for which METR information can be provided.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-198"></a>MDR-198</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.1.4&nbsp;METR catalogue — Supported pre-announced rule categories</h4>
+					<div class="htmlContent"><p>For each defined area, the METR catalogue shall indicate the pre-announced rule categories supported for each vehicle category.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="CSR.html#CSR-101">CSR-101</a></span>  availability of electronic rules for eac…</div>
+                <div class="link"> <span><a href="DHSR.html#DHSR-60">DHSR-60</a></span>  availability of electronic rules for eac…</div>
+                <div class="link"> <span><a href="DSR.html#DSR-163">DSR-163</a></span>  availability of electronic rules for eac…</div>
+                <div class="link"> <span><a href="RSR.html#RSR-124">RSR-124</a></span>  availability of electronic rules for eac…</div>
+                <div class="link"> <span><a href="RSR.html#RSR-60">RSR-60</a></span>  rule categories that are fully electroni…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-201"></a>MDR-201</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.1.5&nbsp;METR catalogue — Supported ad-hoc rule categories</h4>
+					<div class="htmlContent"><p>For each defined area, the METR catalogue shall indicate the ad-hoc rule categories supported for each vehicle category.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="CSR.html#CSR-199">CSR-199</a></span>  availability of electronic rules for eac…</div>
+                <div class="link"> <span><a href="DHSR.html#DHSR-60">DHSR-60</a></span>  availability of electronic rules for eac…</div>
+                <div class="link"> <span><a href="DSR.html#DSR-163">DSR-163</a></span>  availability of electronic rules for eac…</div>
+                <div class="link"> <span><a href="RSR.html#RSR-124">RSR-124</a></span>  availability of electronic rules for eac…</div>
+                <div class="link"> <span><a href="RSR.html#RSR-60">RSR-60</a></span>  rule categories that are fully electroni…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-202"></a>MDR-202</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.1.6&nbsp;METR catalogue — Ad-hoc rule communication technology</h4>
+					<div class="htmlContent"><p>For each ad-hoc rule category supported within a defined area, the catalogue shall identify the communication technology used to disseminate the rules.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="CSR.html#CSR-200">CSR-200</a></span>  communication parameters used to obtain …</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-269"></a>MDR-269</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">EXAMPLE: <p>DSRC or wide area broadcast on a specific radio frequency</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-203"></a>MDR-203</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.1.7&nbsp;METR catalogue — Ad-hoc rule communication parameters</h4>
+					<div class="htmlContent"><p>For each ad-hoc rule category supported within a defined area, the catalogue shall identify the communication technology parameters used to disseminate the rules.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="CSR.html#CSR-200">CSR-200</a></span>  communication parameters used to obtain …</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-252"></a>MDR-252</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">EXAMPLE: <p>Communication standards used</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-296"></a>MDR-296</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.1.8&nbsp;Traceability</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-147"></a>MDR-147</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.2.2&nbsp;METR information item</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="RSR.html#RSR-153">RSR-153</a></span>  General</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-211"></a>MDR-211</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.2.1&nbsp;General</h4>
+					<div class="htmlContent"><p>The METR information item class is an abstract generalized class that provides a common structure to data used by several other classes, including vehicle category, roadway category, user category, usage category, jurisdictional term, and transport rule.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-146"></a>MDR-146</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.2.2&nbsp;METR information item — Issuing entity</h4>
+					<div class="htmlContent"><p>The METR information item shall indicate the jurisdictional entity that legally defined the METR information item.</p><p><br></p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="RSR.html#RSR-135">RSR-135</a></span>  Rule provenance</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-253"></a>MDR-253</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">EXAMPLE: <p>The entity that defined the boundaries of a city</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-254"></a>MDR-254</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">EXAMPLE: <p>The entity that defined a rule</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-212"></a>MDR-212</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.2.3&nbsp;METR information item — Translating entity</h4>
+					<div class="htmlContent"><p>The METR information item shall indicate the entity that translated the item into electronic format.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="RSR.html#RSR-135">RSR-135</a></span>  Rule provenance</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-297"></a>MDR-297</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.2.4&nbsp;Traceability</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-155"></a>MDR-155</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.2.3&nbsp;Vehicle category</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="CSR.html#CSR-202">CSR-202</a></span>  vehicle terms;</div>
+                <div class="link"> <span><a href="DHSR.html#DHSR-156">DHSR-156</a></span>  vehicle terms;</div>
+                <div class="link"> <span><a href="DSR.html#DSR-257">DSR-257</a></span>  vehicle terms;</div>
+                <div class="link"> <span><a href="RSR.html#RSR-300">RSR-300</a></span>  vehicle terms;</div>
+                <div class="link"> <span><a href="RSR.html#RSR-153">RSR-153</a></span>  General</div>
+                <div class="link"> <span><a href="RSR.html#RSR-291">RSR-291</a></span>  vehicle terms;</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-213"></a>MDR-213</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.3.1&nbsp;General</h4>
+					<div class="htmlContent"><p>The VehicleCategory class is a specialization of the jurisdictional term class that allows jurisdictions to precisely define what is meant by specific vehicle terms that might be used within rules (e.g., "truck").</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-255"></a>MDR-255</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">NOTE: <p>It is expected that most terms are defined by high-level jurisdictional entities and inherited by lower-level jurisdictional entities, unless otherwise refined.</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-299"></a>MDR-299</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.3.2&nbsp;Traceability</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-156"></a>MDR-156</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.2.4&nbsp;Facility category</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="CSR.html#CSR-203">CSR-203</a></span>  facility terms;</div>
+                <div class="link"> <span><a href="DHSR.html#DHSR-157">DHSR-157</a></span>  facility terms;</div>
+                <div class="link"> <span><a href="DSR.html#DSR-258">DSR-258</a></span>  facility terms;</div>
+                <div class="link"> <span><a href="RSR.html#RSR-301">RSR-301</a></span>  facility terms;</div>
+                <div class="link"> <span><a href="RSR.html#RSR-153">RSR-153</a></span>  General</div>
+                <div class="link"> <span><a href="RSR.html#RSR-292">RSR-292</a></span>  facility terms;</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-214"></a>MDR-214</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.4.1&nbsp;General</h4>
+					<div class="htmlContent"><p>The FacilityCategory class is a specialization of the jurisdictional term class that allows jurisdictions to precisely define what is meant by specific facility terms that might be used within rules (e.g., "residential street").</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-300"></a>MDR-300</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.4.2&nbsp;Traceability</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-157"></a>MDR-157</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.2.5&nbsp;User category</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="RSR.html#RSR-153">RSR-153</a></span>  General</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-215"></a>MDR-215</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.5.1&nbsp;General</h4>
+					<div class="htmlContent"><p>The UserCategory class is a specialization of the jurisdictional term class that allows jurisdictions to precisely define what is meant by specific user terms that might be used within rules (e.g., "disability").</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-301"></a>MDR-301</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.5.2&nbsp;Traceability</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-158"></a>MDR-158</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.2.6&nbsp;Usage category</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="RSR.html#RSR-153">RSR-153</a></span>  General</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-216"></a>MDR-216</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.6.1&nbsp;General</h4>
+					<div class="htmlContent"><p>The UsageCategory class is a specialization of the jurisdictional term class that allows jurisdictions to precisely define what is meant by specific usage terms that might be used within rules (e.g., "HOV 2+", "hazardous goods").</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-302"></a>MDR-302</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.6.2&nbsp;Traceability</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-219"></a>MDR-219</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.2.7&nbsp;Environmental state</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="CSR.html#CSR-204">CSR-204</a></span>  environmental state terms;</div>
+                <div class="link"> <span><a href="DHSR.html#DHSR-158">DHSR-158</a></span>  environmental state terms;</div>
+                <div class="link"> <span><a href="DSR.html#DSR-259">DSR-259</a></span>  environmental state terms;</div>
+                <div class="link"> <span><a href="RSR.html#RSR-302">RSR-302</a></span>  environmental state terms;</div>
+                <div class="link"> <span><a href="RSR.html#RSR-153">RSR-153</a></span>  General</div>
+                <div class="link"> <span><a href="RSR.html#RSR-293">RSR-293</a></span>  environmental state terms;</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-230"></a>MDR-230</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.7.1&nbsp;General</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-303"></a>MDR-303</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.7.2&nbsp;Traceability</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-220"></a>MDR-220</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.2.8&nbsp;Restriction</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="CSR.html#CSR-205">CSR-205</a></span>  restriction terms;</div>
+                <div class="link"> <span><a href="DHSR.html#DHSR-159">DHSR-159</a></span>  restriction terms;</div>
+                <div class="link"> <span><a href="DSR.html#DSR-260">DSR-260</a></span>  restriction terms;</div>
+                <div class="link"> <span><a href="RSR.html#RSR-303">RSR-303</a></span>  restriction terms;</div>
+                <div class="link"> <span><a href="RSR.html#RSR-153">RSR-153</a></span>  General</div>
+                <div class="link"> <span><a href="RSR.html#RSR-294">RSR-294</a></span>  restriction terms;</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-231"></a>MDR-231</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.8.1&nbsp;General</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-304"></a>MDR-304</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.8.2&nbsp;Traceability</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-15"></a>MDR-15</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.2.9&nbsp;Jurisdictional term</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="CSR.html#CSR-72">CSR-72</a></span>  Ad-hoc rule information</div>
+                <div class="link"> <span><a href="CSR.html#CSR-70">CSR-70</a></span>  METR information for users</div>
+                <div class="link"> <span><a href="DHSR.html#DHSR-51">DHSR-51</a></span>  METR information</div>
+                <div class="link"> <span><a href="DSR.html#DSR-160">DSR-160</a></span>  jurisdiction-specific meanings of releva…</div>
+                <div class="link"> <span><a href="DSR.html#DSR-155">DSR-155</a></span>  METR information for users</div>
+                <div class="link"> <span><a href="DSR.html#DSR-169">DSR-169</a></span>  Rule management application info</div>
+                <div class="link"> <span><a href="DSR.html#DSR-191">DSR-191</a></span>  Ad-hoc rule management info</div>
+                <div class="link"> <span><a href="DSR.html#DSR-153">DSR-153</a></span>  Ad-hoc rule information for users</div>
+                <div class="link"> <span><a href="RSR.html#RSR-114">RSR-114</a></span>  METR input</div>
+                <div class="link"> <span><a href="RSR.html#RSR-161">RSR-161</a></span>  jurisdiction-specific meanings of releva…</div>
+                <div class="link"> <span><a href="RSR.html#RSR-118">RSR-118</a></span>  METR information</div>
+                <div class="link"> <span><a href="RSR.html#RSR-153">RSR-153</a></span>  General</div>
+                <div class="link"> <span><a href="RSR.html#RSR-110">RSR-110</a></span>  METR information</div>
+                <div class="link"> <span><a href="RSR.html#RSR-127">RSR-127</a></span>  Rule management application info</div>
+                <div class="link"> <span><a href="RSR.html#RSR-175">RSR-175</a></span>  Ad-hoc rule management info</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-18"></a>MDR-18</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.9.1&nbsp;General</h4>
+					<div class="htmlContent"><p>The JurisdictionalTerm class provides a formal declaration of the meaning of keywords used within transport rules.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-256"></a>MDR-256</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">EXAMPLE: <p>The term "bus" can be defined as a "vehicle term" that includes "city buses operated by the local public transport authority".</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-16"></a>MDR-16</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.9.2&nbsp;Jurisdictional term — Name</h4>
+					<div class="htmlContent"><p>The JurisdictionalTerm shall identify the name of the term being defined.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-17"></a>MDR-17</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.9.3&nbsp;Jurisdictional term — Definition</h4>
+					<div class="htmlContent"><p>The JurisdictionalTerm shall provide the legal definition of the term in the language in which it is legally defined.&nbsp;</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-257"></a>MDR-257</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">NOTE: <p>The intent is that the standardized structure accurately captures the meaning of this text, but this allows a base level of support when the existing structures are not (yet) able to fully capture the natural language meaning.</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-218"></a>MDR-218</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.9.4&nbsp;Jurisdictional term — Is fully represented</h4>
+					<div class="htmlContent"><p>The JurisdictionalTerm shall indicate whether the legal term includes details that are only captured in the native language definition data element.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-305"></a>MDR-305</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.9.5&nbsp;Traceability</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-19"></a>MDR-19</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.2.10&nbsp;Transport rule</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="CSR.html#CSR-72">CSR-72</a></span>  Ad-hoc rule information</div>
+                <div class="link"> <span><a href="CSR.html#CSR-70">CSR-70</a></span>  METR information for users</div>
+                <div class="link"> <span><a href="CSR.html#CSR-211">CSR-211</a></span>  Information content</div>
+                <div class="link"> <span><a href="DHSR.html#DHSR-51">DHSR-51</a></span>  METR information</div>
+                <div class="link"> <span><a href="DSR.html#DSR-194">DSR-194</a></span>  the relevant rules;</div>
+                <div class="link"> <span><a href="DSR.html#DSR-155">DSR-155</a></span>  METR information for users</div>
+                <div class="link"> <span><a href="DSR.html#DSR-169">DSR-169</a></span>  Rule management application info</div>
+                <div class="link"> <span><a href="DSR.html#DSR-191">DSR-191</a></span>  Ad-hoc rule management info</div>
+                <div class="link"> <span><a href="DSR.html#DSR-153">DSR-153</a></span>  Ad-hoc rule information for users</div>
+                <div class="link"> <span><a href="RSR.html#RSR-114">RSR-114</a></span>  METR input</div>
+                <div class="link"> <span><a href="RSR.html#RSR-50">RSR-50</a></span>  Verify information (operator input)</div>
+                <div class="link"> <span><a href="RSR.html#RSR-118">RSR-118</a></span>  METR information</div>
+                <div class="link"> <span><a href="RSR.html#RSR-153">RSR-153</a></span>  General</div>
+                <div class="link"> <span><a href="RSR.html#RSR-174">RSR-174</a></span>  Verify information (from external system…</div>
+                <div class="link"> <span><a href="RSR.html#RSR-55">RSR-55</a></span>  Verified METR information</div>
+                <div class="link"> <span><a href="RSR.html#RSR-128">RSR-128</a></span>  METR coordination</div>
+                <div class="link"> <span><a href="RSR.html#RSR-113">RSR-113</a></span>  METR info feedback</div>
+                <div class="link"> <span><a href="RSR.html#RSR-110">RSR-110</a></span>  METR information</div>
+                <div class="link"> <span><a href="RSR.html#RSR-127">RSR-127</a></span>  Rule management application info</div>
+                <div class="link"> <span><a href="RSR.html#RSR-175">RSR-175</a></span>  Ad-hoc rule management info</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-250"></a>MDR-250</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.10.1&nbsp;Overview</h4>
+					<div class="htmlContent"><p>A TransportRule is a specialization of METRInformation that defines regulatory, advisory, or guidance information. TransportRule information is segmented into two components. The primary rule information is the portion of the rule that is signed by the translator while the rule meta-data contains additional details about the rule that can change without requiring a new signature.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-60"></a>MDR-60</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.10.2&nbsp;Primary rule information</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-61"></a>MDR-61</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.2.1&nbsp;Overview</h5>
+					<div class="htmlContent"><p>The minimal rule information that interface standards shall include in the minimal attributes of a rule that are to be signed by the translation system and conveyed all the way to the user system without any modification.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-43"></a>MDR-43</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.2.2&nbsp;Transport rule — Unique identifier</h5>
+					<div class="htmlContent"><p>The identifier needs to be globally unique and is assumed to include the identify the source of the rule.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-258"></a>MDR-258</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:60px">NOTE: <p>If a Map Update System translates a rule into a "map rule", it must also contain a reference to the unique identifier of the source rule so that a generic discrepancy handler can properly handle any discrepancy reports.</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-45"></a>MDR-45</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.2.3&nbsp;Transport rule — Category</h5>
+					<div class="htmlContent"><p>The TransportRule shall be categorized into exactly one of the categories defined in the METR information categorization scheme. The METR information categorization scheme should include the following categories for rules:</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="DSR.html#DSR-165">DSR-165</a></span>  availability of electronic rules in each…</div>
+                <div class="link"> <span><a href="RSR.html#RSR-153">RSR-153</a></span>  General</div>
+                <div class="link"> <span><a href="RSR.html#RSR-121">RSR-121</a></span>  METR catalogue</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-204"></a>MDR-204</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:60px">
+					<ul style="list-style: square;">
+						<li><p>vehicle code rules (that do not fall into other categories, e.g., seat belt usage, headlight usage)</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-160"></a>MDR-160</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:60px">
+					<ul style="list-style: square;">
+						<li><p>right-of-way rules (e.g., stop, yield, overtaking, lane restrictions)</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-183"></a>MDR-183</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:60px">
+					<ul style="list-style: square;">
+						<li><p>speed restrictions</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+              <div class="comment">
+                <div class="comment-header"><i class="fas fa-comment"></i> 2022-08-25: Kenneth Vaughn</div>
+                <div class="comment-text"><p>Do vehicles need to know the speed limits of other vehicle types (e.g., do cars need to know the speed limit for trucks)? If there is a chance of a benefit and the cost is insignificant and perhaps simplifies the design, does it make sense to allow the sharing?</p></div>
+              </div>
+              <div class="comment">
+                <div class="comment-header"><i class="fas fa-comment"></i> 2022-08-25: Kenneth Vaughn</div>
+                <div class="comment-text"><p>Should the category be "speed rules" and include advisory speeds or "speed regulations" and only identify regulatory speed limits (with advisories listed as a part of general)? What implication does this have on agencies translating rules prior to stating that they have all rules entered for an area?</p></div>
+              </div>
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-181"></a>MDR-181</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:60px">
+					<ul style="list-style: square;">
+						<li><p>vehicle usage restrictions (e.g., HOV, cargo restrictions)</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-161"></a>MDR-161</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:60px">
+					<ul style="list-style: square;">
+						<li><p>general rules (e.g., snow chains, size restrictions. turning restrictions, noise restrictions, zonal regulations, work zones, environmental warnings, gradients, crossings)</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+              <div class="comment">
+                <div class="comment-header"><i class="fas fa-comment"></i> 2022-08-25: Kenneth Vaughn</div>
+                <div class="comment-text"><p>Should these groups be broken up further so that agencies can more easily add support for rule categories?</p></div>
+              </div>
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-187"></a>MDR-187</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:60px">
+					<ul style="list-style: square;">
+						<li><p>parking restrictions</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-190"></a>MDR-190</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:60px">
+					<ul style="list-style: square;">
+						<li><p>tolling rules</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-205"></a>MDR-205</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:60px">
+					<ul style="list-style: square;">
+						<li><p>commercial/regulated vehicle rules</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-193"></a>MDR-193</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:60px">
+					<ul style="list-style: square;">
+						<li><p>supplemental data locations (e.g., traffic signals)</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-221"></a>MDR-221</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:60px">NOTE: <p>Categories ending in "rules" include relevant regulations, warnings, and guidance; categories ending in regulations only include regulations, corresponding warnings and guidance will be contained under general rules.</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-137"></a>MDR-137</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.2.4&nbsp;Transport rule — Type</h5>
+					<div class="htmlContent"><p>Each rule shall identify the type of rule being defined, including the ability to report the following:</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-285"></a>MDR-285</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:60px">
+					<ul style="list-style: square;">
+						<li><p>standard signage rules (e.g., those defined in ISO 14823-1)</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-286"></a>MDR-286</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:60px">
+					<ul style="list-style: square;">
+						<li><p>an indication that temporary rules might exist without electronic equivalents</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-222"></a>MDR-222</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.2.5&nbsp;Transport rule — Applicable vehicle categories</h5>
+					<div class="htmlContent"><p>The TransportRule shall indicate the vehicle categories that it applies to, at least at a high level to be able to distinguish among the following categories:</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-162"></a>MDR-162</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:60px">
+					<ul style="list-style: square;">
+						<li><p>basic light-duty motor vehicle rules</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-199"></a>MDR-199</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:60px">
+					<ul style="list-style: square;">
+						<li><p>specialty motor vehicle rules (e.g., for trucks, trailers, buses)</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-169"></a>MDR-169</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:60px">
+					<ul style="list-style: square;">
+						<li><p>micro motorized vehicle rules (e.g., for micromobility, AMRs)</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-224"></a>MDR-224</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:60px">
+					<ul style="list-style: square;">
+						<li><p>other motorized vehicles (e.g., agricultural equipment);</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-171"></a>MDR-171</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:60px">
+					<ul style="list-style: square;">
+						<li><p>non-motorized transport rules (e.g., for pedestrians, pedal-cycles, non-motorized wheelchairs)</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-223"></a>MDR-223</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:60px">NOTE: <p>The exact definitions of vehicles would be defined within jurisdictional terms.</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-153"></a>MDR-153</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.2.6&nbsp;Transport rule — Applicable user categories</h5>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-154"></a>MDR-154</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.2.7&nbsp;Transport rule — Applicable usage categories</h5>
+					<div class="htmlContent"><p>(e.g. using a private vehicle for TNC services or for HOV)</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-281"></a>MDR-281</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.2.8&nbsp;Transport rule — Applicable cargo categories</h5>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-271"></a>MDR-271</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.2.9&nbsp;Transport rule — Applicable facility categories</h5>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-270"></a>MDR-270</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.2.10&nbsp;Transport rule — Applicable travel direction</h5>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-273"></a>MDR-273</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.2.11&nbsp;Transport rule — Applicable vehicle characteristics</h5>
+					<div class="htmlContent"><p>The TransportRule shall indicate any vehicle characteristics that affect the rule's applicability, including the vehicle's:&nbsp;</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-274"></a>MDR-274</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:60px">
+					<ul style="list-style: square;">
+						<li><p>dimensions</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-275"></a>MDR-275</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:60px">
+					<ul style="list-style: square;">
+						<li><p>mass</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-276"></a>MDR-276</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:60px">
+					<ul style="list-style: square;">
+						<li><p>energy source (e.g. fuel type)</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-277"></a>MDR-277</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:60px">
+					<ul style="list-style: square;">
+						<li><p>emission characteristics</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-278"></a>MDR-278</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:60px">
+					<ul style="list-style: square;">
+						<li><p>operational equipment (e.g., snow chains, toll tags)</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-279"></a>MDR-279</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:60px">
+					<ul style="list-style: square;">
+						<li><p>trailer characteristics</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-272"></a>MDR-272</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.2.12&nbsp;Transport rule — Applicable facility characteristics</h5>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-280"></a>MDR-280</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.2.13&nbsp;Transport rule — Applicable temporal characteristics</h5>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-52"></a>MDR-52</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.2.14&nbsp;Transport rule — Location</h5>
+					<div class="htmlContent"><p>the location of the rule</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-138"></a>MDR-138</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.2.15&nbsp;Transport rule — Location accuracy</h5>
+					<div class="htmlContent"><p>the accuracy of the location information (e.g., based on high-precision mapping, based on looking at online maps);</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-28"></a>MDR-28</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.2.16&nbsp;Transport rule — Associated traffic control device</h5>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-88"></a>MDR-88</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.2.17&nbsp;Transport rule — Associated supplemental data</h5>
+					<div class="htmlContent"><p>When supplemental data is required to interpret a rule, the rule shall identify each authorized supplemental data provider with the following information:</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-90"></a>MDR-90</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:60px">
+					<ul style="list-style: square;">
+						<li><p>the source and any communication parameters necessary to obtain the supplemental data</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-89"></a>MDR-89</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:60px">
+					<ul style="list-style: square;">
+						<li><p>the type of data to be provided</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-91"></a>MDR-91</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:60px">
+					<ul style="list-style: square;">
+						<li><p>the level of authority associated with the data from the indicated source</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-63"></a>MDR-63</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.2.18&nbsp;Transport rule — Trustworthiness assessment</h5>
+					<div class="htmlContent"><p>The transport rule shall indicate a level of trustworthiness that is associated with the rule.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-259"></a>MDR-259</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:60px">NOTE: <p>It is left to an interface specification to determine the details of this indication. It can be a provided several ways, such as by including several of the parameters identified in the list of supplemental attributes (e.g., translator type, verification type, provenance information, etc.) or by combining these parameters into a single value.&nbsp;</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-51"></a>MDR-51</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.2.19&nbsp;Transport rule — Enforceability</h5>
+					<div class="htmlContent"><p>Each transport rule shall indicate the type of enforcement that can be applied (amount of fine, towing, the agency that performs the enforcement, etc)</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="CSR.html#CSR-137">CSR-137</a></span>  the relevant rules and meta-data, includ…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-54"></a>MDR-54</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.2.20&nbsp;Transport rule — Legal status</h5>
+					<div class="htmlContent"><p>the intended level of authority (e.g., informational or normative)</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-335"></a>MDR-335</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.2.21&nbsp;Transport rule — inception</h5>
+					<div class="htmlContent"><p>(may be omitted reflecting a future rule)</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-336"></a>MDR-336</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.2.22&nbsp;Transport rule — termination</h5>
+					<div class="htmlContent"><p>(may be omitted indicating a permanent rule)</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-68"></a>MDR-68</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.2.23&nbsp;Flag suspect information</h5>
+					<div class="htmlContent"><p>The METR information shall identify any areas where rule expiration times are approaching or past expiration (e.g., due to degraded system operations).</p></div>
+				</td>
+			
+			<td class="discussion-col">
+              <div class="comment">
+                <div class="comment-header"><i class="fas fa-comment"></i> 2022-08-03: Kenneth Vaughn</div>
+                <div class="comment-text"><p>Restructure the parent rule information flow and then move this requirement to the data requirements section.</p></div>
+              </div>
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="CSR.html#CSR-103">CSR-103</a></span>  METR status information</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-140"></a>MDR-140</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.2.24&nbsp;METR information — discrepancy advice</h5>
+					<div class="htmlContent"><p>the recommended interpretation of the discrepancy (i.e., an optional field that allows translators to indicate whether the electronic rule should be considered more accurate, such as in the case of a missing sign)&nbsp;</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="RSR.html#RSR-218">RSR-218</a></span>  Discrepancy management</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-306"></a>MDR-306</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.2.25&nbsp;Traceability</h5>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-62"></a>MDR-62</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.10.3&nbsp;Rule meta-data</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-64"></a>MDR-64</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.3.1&nbsp;Overview</h5>
+					<div class="htmlContent"><p>Each transport rule shall also be associated with the additional meta-data that must be accessible in some cases, but does not necessarily need to be included with what is normally distributed to vehicles.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-55"></a>MDR-55</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.3.2&nbsp;Transport rule — Translation agency type</h5>
+					<div class="htmlContent"><p>the type of agency that translated the rule into an electronic record (e.g., government entity that issued rule, another governmental entity, private sector, crowd sourced)</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-283"></a>MDR-283</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.3.3&nbsp;Transport rule — Translation agency</h5>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-53"></a>MDR-53</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.3.4&nbsp;Transport rule — Verification type</h5>
+					<div class="htmlContent"><p>information about the process used to verify the rule, including the entity that verified the rule, the method used to verify (e.g., verified by independent party, entered by store owner, crowd sourcing), and the time that it was last confirmed;</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-56"></a>MDR-56</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.3.5&nbsp;Transport rule — Update time</h5>
+					<div class="htmlContent"><p>the time that the rule was last approved;</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-282"></a>MDR-282</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.3.6&nbsp;Transport rule — Expiration time</h5>
+					<div class="htmlContent"><p>The time the electronic rule loses trustworthiness.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-25"></a>MDR-25</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.3.7&nbsp;Transport rule — Entry status</h5>
+					<div class="htmlContent"><p>Identifies the entry status of the rule (e.g., discovered, under review, approved, verified, etc.)</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-65"></a>MDR-65</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.3.8&nbsp;Transport rule — provenance</h5>
+					<div class="htmlContent"><p>Information about the rule origination.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="RSR.html#RSR-135">RSR-135</a></span>  Rule provenance</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-260"></a>MDR-260</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:60px">NOTE: <p>At a minimum, the provenance information should include the translation agent who approved the rule, the date and time when the rule was approved, and the source material used by the translation agent to define the rule.</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-284"></a>MDR-284</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.3.9&nbsp;Transport rule — Precedence</h5>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-249"></a>MDR-249</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.3.10&nbsp;Transport rule — priority</h5>
+					<div class="htmlContent"><p>the priority assigned to distributing the rule to users when communication systems are under stress</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-139"></a>MDR-139</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.3.11&nbsp;METR information — discrepancy type</h5>
+					<div class="htmlContent"><p>the type of discrepancy that has been reported (i.e., the type code in the report)</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="RSR.html#RSR-202">RSR-202</a></span>  Flag discrepancy</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-307"></a>MDR-307</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					<h5>6.2.10.3.12&nbsp;Traceability</h5>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-24"></a>MDR-24</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.2.11&nbsp;Rule discovery details</h3>
+					<div class="htmlContent"><p>Includes the source of rule discovery (i.e., the specific vehicle that discovered), the time it was discovered, etc.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-233"></a>MDR-233</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.11.1&nbsp;General</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-308"></a>MDR-308</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.11.2&nbsp;Traceability</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-44"></a>MDR-44</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.2.12&nbsp;Defined area</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="CSR.html#CSR-72">CSR-72</a></span>  Ad-hoc rule information</div>
+                <div class="link"> <span><a href="CSR.html#CSR-70">CSR-70</a></span>  METR information for users</div>
+                <div class="link"> <span><a href="CSR.html#CSR-135">CSR-135</a></span>  the boundaries of each relevant sub-area…</div>
+                <div class="link"> <span><a href="DHSR.html#DHSR-51">DHSR-51</a></span>  METR information</div>
+                <div class="link"> <span><a href="DHSR.html#DHSR-73">DHSR-73</a></span>  the boundaries of each relevant sub-area…</div>
+                <div class="link"> <span><a href="DSR.html#DSR-159">DSR-159</a></span>  the boundaries of each relevant sub-area…</div>
+                <div class="link"> <span><a href="DSR.html#DSR-155">DSR-155</a></span>  METR information for users</div>
+                <div class="link"> <span><a href="DSR.html#DSR-169">DSR-169</a></span>  Rule management application info</div>
+                <div class="link"> <span><a href="DSR.html#DSR-191">DSR-191</a></span>  Ad-hoc rule management info</div>
+                <div class="link"> <span><a href="DSR.html#DSR-153">DSR-153</a></span>  Ad-hoc rule information for users</div>
+                <div class="link"> <span><a href="RSR.html#RSR-114">RSR-114</a></span>  METR input</div>
+                <div class="link"> <span><a href="RSR.html#RSR-160">RSR-160</a></span>  boundaries of the sub-area;</div>
+                <div class="link"> <span><a href="RSR.html#RSR-118">RSR-118</a></span>  METR information</div>
+                <div class="link"> <span><a href="RSR.html#RSR-153">RSR-153</a></span>  General</div>
+                <div class="link"> <span><a href="RSR.html#RSR-289">RSR-289</a></span>  the boundaries of each relevant sub-area…</div>
+                <div class="link"> <span><a href="RSR.html#RSR-110">RSR-110</a></span>  METR information</div>
+                <div class="link"> <span><a href="RSR.html#RSR-127">RSR-127</a></span>  Rule management application info</div>
+                <div class="link"> <span><a href="RSR.html#RSR-175">RSR-175</a></span>  Ad-hoc rule management info</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-234"></a>MDR-234</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.12.1&nbsp;General</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-150"></a>MDR-150</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.12.2&nbsp;Defined area — Boundaries</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-149"></a>MDR-149</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.12.3&nbsp;Defined area — Jurisdictional entity</h4>
+					<div class="htmlContent"><p>The immediate parent jurisdictional entity that has authority to issue rules for the defined area.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-152"></a>MDR-152</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.12.4&nbsp;Defined area - Categories supported</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-309"></a>MDR-309</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.12.5&nbsp;Traceability</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-38"></a>MDR-38</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.2.13&nbsp;Jurisdiction</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="RSR.html#RSR-153">RSR-153</a></span>  General</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-235"></a>MDR-235</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.13.1&nbsp;General</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-310"></a>MDR-310</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.13.2&nbsp;Traceability</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-145"></a>MDR-145</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.2.14&nbsp;Facility</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="CSR.html#CSR-70">CSR-70</a></span>  METR information for users</div>
+                <div class="link"> <span><a href="DHSR.html#DHSR-51">DHSR-51</a></span>  METR information</div>
+                <div class="link"> <span><a href="DSR.html#DSR-80">DSR-80</a></span>  METR information</div>
+                <div class="link"> <span><a href="DSR.html#DSR-155">DSR-155</a></span>  METR information for users</div>
+                <div class="link"> <span><a href="RSR.html#RSR-114">RSR-114</a></span>  METR input</div>
+                <div class="link"> <span><a href="RSR.html#RSR-219">RSR-219</a></span>  relevant facilities contained within the…</div>
+                <div class="link"> <span><a href="RSR.html#RSR-118">RSR-118</a></span>  METR information</div>
+                <div class="link"> <span><a href="RSR.html#RSR-153">RSR-153</a></span>  General</div>
+                <div class="link"> <span><a href="RSR.html#RSR-110">RSR-110</a></span>  METR information</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-236"></a>MDR-236</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.14.1&nbsp;General</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-151"></a>MDR-151</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.14.2&nbsp;Facility — Location</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-148"></a>MDR-148</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.14.3&nbsp;Facility — Jurisdictional entity</h4>
+					<div class="htmlContent"><p>The immediate parent jurisdictional entity that has authority to issue rules for the facility.&nbsp;</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-311"></a>MDR-311</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.2.14.4&nbsp;Traceability</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-26"></a>MDR-26</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>6.3&nbsp;Traffic control device</h2>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-237"></a>MDR-237</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.3.1&nbsp;General</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-29"></a>MDR-29</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.3.2&nbsp;Traffic control device — type</h3>
+					<div class="htmlContent"><p>e.g., stop sign, lane marking, pavement marking, curb marking, ...</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-27"></a>MDR-27</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.3.3&nbsp;Traffic control device — associated transport rule</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-30"></a>MDR-30</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.3.4&nbsp;Traffic control device — installation status</h3>
+					<div class="htmlContent"><p>e.g., ordered, installed</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-312"></a>MDR-312</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.3.5&nbsp;Traceability</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-144"></a>MDR-144</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>6.4&nbsp;Supplemental data classes</h2>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-238"></a>MDR-238</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.4.1&nbsp;General</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-47"></a>MDR-47</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.4.2&nbsp;Supplemental data category</h3>
+					<div class="htmlContent"><p>Needs to indicate characteristics about when/how likely supplemental data will be available when needed. For example, how likely is the emergency vehicle to broadcast that it is responding when only 70% of the emergency vehicle fleet is equipped?</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="CSR.html#CSR-102">CSR-102</a></span>  availability of supplemental data provid…</div>
+                <div class="link"> <span><a href="CSR.html#CSR-201">CSR-201</a></span>  communication parameters used to obtain …</div>
+                <div class="link"> <span><a href="DHSR.html#DHSR-61">DHSR-61</a></span>  availability of supplemental data provid…</div>
+                <div class="link"> <span><a href="DSR.html#DSR-164">DSR-164</a></span>  availability of each supplemental data c…</div>
+                <div class="link"> <span><a href="DSR.html#DSR-166">DSR-166</a></span>  availability of each supplemental data c…</div>
+                <div class="link"> <span><a href="RSR.html#RSR-125">RSR-125</a></span>  availability of each supplemental data c…</div>
+                <div class="link"> <span><a href="RSR.html#RSR-61">RSR-61</a></span>  supplemental data supported within each …</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-313"></a>MDR-313</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.4.2.1&nbsp;General</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-49"></a>MDR-49</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.4.2.2</h4>
+					<div class="htmlContent"><p>For each supplemental data category, the catalogue shall identify the communication technology and parameters used to disseminate the data.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-261"></a>MDR-261</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">EXAMPLE: <p>DSRC or wide area broadcast on a specific radio frequency</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-314"></a>MDR-314</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.4.2.3&nbsp;Traceability</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-57"></a>MDR-57</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.4.3&nbsp;Supplemental data type</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="CSR.html#CSR-209">CSR-209</a></span>  length of time time that each type of su…</div>
+                <div class="link"> <span><a href="CSR.html#CSR-210">CSR-210</a></span>  the legal standing of each type of suppl…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-315"></a>MDR-315</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.4.3.1&nbsp;General</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-287"></a>MDR-287</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.4.3.2&nbsp;Supplemental data type — Type</h4>
+					<div class="htmlContent"><p>The SupplementalData shall indicate its type, which shall include:</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-288"></a>MDR-288</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>signal timing information</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-289"></a>MDR-289</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>environmental conditions</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-290"></a>MDR-290</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>external conditions (e.g., workers present, pedestrian in crosswalk)</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-291"></a>MDR-291</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>clock data</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-292"></a>MDR-292</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>vehicle permit</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-293"></a>MDR-293</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>user permit</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-294"></a>MDR-294</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>usage permit</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-295"></a>MDR-295</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">
+					<ul style="list-style: square;">
+						<li><p>emergency data (e.g., evacuation zones)</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-58"></a>MDR-58</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.4.3.3&nbsp;Supplemental data type — Authority</h4>
+					<div class="htmlContent"><p>the amount of legal authority associated with the data. For example:</p><ol><li>Legally binding and intended as sole source</li><li>High confidence but should be coupled with other available data</li><li>Should be considered with all other information</li><li>Believed to be accurate but cannot be relied upon as primary source</li><li>Not trustworthy (i.e., testing mode)</li></ol></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-59"></a>MDR-59</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.4.3.4&nbsp;Supplemental data type — Expiration</h4>
+					<div class="htmlContent"><p>The identification of the supplemental data provider shall indicate the maximum age of supplemental data received, prior to it being considered no longer trustworthy</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-316"></a>MDR-316</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.4.3.5&nbsp;Traceability</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-142"></a>MDR-142</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>6.5&nbsp;Discrepancy-related classes</h2>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-251"></a>MDR-251</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.5.1&nbsp;Overview</h3>
+					<div class="htmlContent"><p>There are several classes that relate to discrepancies:</p><ol><li>A discrepancy fingerprint is used to uniquely identify a specific discrepancy report.</li><li>A discrepancy report provides a complete report about a discrepancy as recorded from a field source. It is sent from a METR user to a discrepancy handling system and can be forwarded to a translator upon request.</li><li>A consolidated discrepancy report is used by a discrepancy handling system to report a confirmed discrepancy in a summary fashion by omitting or summarizing details and redundancies contained in the individual discrepancy reports.</li><li>A rule negotiation request can contain discrepancy reports as a part of its justification.</li></ol></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-71"></a>MDR-71</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.5.2&nbsp;Discrepancy fingerprint</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="DHSR.html#DHSR-90">DHSR-90</a></span>  Discrepancy report management</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-239"></a>MDR-239</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.5.2.1&nbsp;General</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-72"></a>MDR-72</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.5.2.2&nbsp;Discrepancy fingerprint — METR information item id</h4>
+					<div class="htmlContent"><p>The identifier of the METR information item(s) for which a discrepancy has been detected</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-73"></a>MDR-73</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.5.2.3&nbsp;Discrepancy report — Type</h4>
+					<div class="htmlContent"><p>A code that represents the type of error that is being reported. The code list shall include both a list of standard codes for standardized error types as well as code space reserved for enterprise-specific extensions to the list.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-74"></a>MDR-74</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.5.2.4&nbsp;Discrepancy report — Discrepancy logic model contact</h4>
+					<div class="htmlContent"><p>The address that can be used to contact the developer of the system that generated the discrepancy report with an indication of the logic model used. The address should be specific enough to allow the developer to immediately understand the source &nbsp;(e.g., the specific software product) that generated the discrepancy report.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-262"></a>MDR-262</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">NOTE: <p>This should be treated as confidential information</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-75"></a>MDR-75</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.5.2.5&nbsp;Discrepancy report — Discrepancy logic release id</h4>
+					<div class="htmlContent"><p>A identifier that uniquely indicates the release of the software that generated the discrepancy report. The identifier shall only increase in value over time so that receiving systems can determine when a new discrepancy report is being generated by a newer version of software.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-317"></a>MDR-317</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.5.2.6&nbsp;Traceability</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-31"></a>MDR-31</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.5.3&nbsp;METR discrepancy report</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="CSR.html#CSR-127">CSR-127</a></span>  METR discrepancy report</div>
+                <div class="link"> <span><a href="DHSR.html#DHSR-86">DHSR-86</a></span>  Log detected inconsistencies</div>
+                <div class="link"> <span><a href="DHSR.html#DHSR-83">DHSR-83</a></span>  Consolidated discrepancy report</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-240"></a>MDR-240</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.5.3.1&nbsp;General</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-33"></a>MDR-33</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.5.3.2&nbsp;METR discrepancy report — Fingerprint</h4>
+					<div class="htmlContent"><p>The discrepancy report shall include the METR discrepancy fingerprint.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-83"></a>MDR-83</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.5.3.3&nbsp;METR discrepancy report — Notes</h4>
+					<div class="htmlContent"><p>The discrepancy report may include a notes field to provide a natural language description of the detected discrepancy. A note should be provided if the discrepancy type is not a standardized value.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-35"></a>MDR-35</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.5.3.4&nbsp;Rule discrepancy report — Location</h4>
+					<div class="htmlContent"><p>The discrepancy report may include a location field that indicates the location where a discrepancy is relevant.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-263"></a>MDR-263</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">NOTE: <p>This is especially important in the case of discrepancies that are associated with a large area and the discrepancy report needs to refer to a more specific point. (e.g., reporting an inconsistency on a control zone sign when entering a control zone).</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-34"></a>MDR-34</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.5.3.5&nbsp;Rule discrepancy report — Time</h4>
+					<div class="htmlContent"><p>Indication of the date(s) and time(s) when the discrepancy was detected.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-264"></a>MDR-264</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">NOTE: <p>The timestamp can be especially valuable when the report has been delayed due to connectivity issues.</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-86"></a>MDR-86</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.5.3.6&nbsp;METR discrepancy report — Supporting data</h4>
+					<div class="htmlContent"><p>The discrepancy report should include any relevant supporting data that can be used to justify the generation of the report.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-265"></a>MDR-265</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">EXAMPLE: <p>photo of the location showing a conflicting rule&nbsp;</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-318"></a>MDR-318</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.5.3.7&nbsp;Traceability</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-70"></a>MDR-70</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.5.4&nbsp;Consolidated METR discrepancy report</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-319"></a>MDR-319</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.5.4.1&nbsp;General</h4>
+					<div class="htmlContent"><p>The consolidated discrepancy report shall include a list of received reports, where each item in the list represents the same METR information item.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-77"></a>MDR-77</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					
+					<div class="htmlContent"><p><span style="text-align: left;">The consolidated discrepancy report shall include fingerprint associated with a set of&nbsp;</span>discrepancy reports that indicate the type of vehicle reporting the discrepancy.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-78"></a>MDR-78</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					
+					<div class="htmlContent"><p><span style="text-align: left;">The consolidated discrepancy report shall include number</span> of reports received with the indicated fingerprint;</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-81"></a>MDR-81</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					
+					<div class="htmlContent"><p><span style="text-align: left;">The consolidated discrepancy report shall include&nbsp;</span>any notes associated with discrepancy fingerprint.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-84"></a>MDR-84</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					
+					<div class="htmlContent"><p><span style="text-align: left;">The consolidated discrepancy report shall include&nbsp;</span>any locations included in the discrepancy reports with the same fingerprint.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-87"></a>MDR-87</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					
+					<div class="htmlContent"><p><span style="text-align: left;">The consolidated discrepancy report shall include an&nbsp;</span>indication of how many of the reports have additional data (e.g., supporting data).</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-85"></a>MDR-85</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:40px">NOTE: <p>It is left to the interface design to determine if the volume of reports is based on a raw count, a count with timestamp information, a rate at which reports are being received, etc.</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-241"></a>MDR-241</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.5.4.2&nbsp;Traceability</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-20"></a>MDR-20</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.5.5&nbsp;Rule negotiation</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="RSR.html#RSR-50">RSR-50</a></span>  Verify information (operator input)</div>
+                <div class="link"> <span><a href="RSR.html#RSR-174">RSR-174</a></span>  Verify information (from external system…</div>
+                <div class="link"> <span><a href="RSR.html#RSR-128">RSR-128</a></span>  METR coordination</div>
+                <div class="link"> <span><a href="RSR.html#RSR-113">RSR-113</a></span>  METR info feedback</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-242"></a>MDR-242</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.5.5.1&nbsp;General</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-321"></a>MDR-321</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.5.5.2&nbsp;Traceability</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-143"></a>MDR-143</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>6.6&nbsp;Management information classes</h2>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-21"></a>MDR-21</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.6.1&nbsp;Rule broadcast</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-323"></a>MDR-323</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.6.1.1&nbsp;General</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-322"></a>MDR-322</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.6.1.2&nbsp;Rule broadcast — Configuration</h4>
+					<div class="htmlContent"><p>Each transport rule intended for repeated broadcast shall be associated with configuration parameters that specify details about how it will be broadcast.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-268"></a>MDR-268</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">EXAMPLE: <p>The number of times the rule should be broadcasted over a period of time.</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-22"></a>MDR-22</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.6.1.3&nbsp;Rule broadcast — Operational status</h4>
+					<div class="htmlContent"><p>Each component used to broadcast rules shall track properties about broadcast operations.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-266"></a>MDR-266</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:50px">EXAMPLE: <p>The number of times each rule has been broadcasted.</p></td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-244"></a>MDR-244</td>
+            
+							<td class="description-col" style="padding-left:50px">
+					
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-243"></a>MDR-243</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.6.1.4&nbsp;Traceability</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-36"></a>MDR-36</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.6.2&nbsp;Distribution service</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-245"></a>MDR-245</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.6.2.1&nbsp;General</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-41"></a>MDR-41</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.6.2.2&nbsp;Distribution service — Access details</h4>
+					<div class="htmlContent"><p>the mechanisms and parameters that can be used to connect to the METR distribution system</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-37"></a>MDR-37</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.6.2.3&nbsp;Distribution service — Terms of service</h4>
+					<div class="htmlContent"><p>Indication of any fees, rules on which map providers can be used, etc.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-40"></a>MDR-40</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.6.2.4&nbsp;Distribution service - Geographic areas</h4>
+					<div class="htmlContent"><p><span style="color: rgb(19, 19, 19); text-align: left;">the geographic areas for which rules can be provided</span></p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-39"></a>MDR-39</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.6.2.5&nbsp;Distribution service - Rule categories</h4>
+					<div class="htmlContent"><p><span style="color: rgb(19, 19, 19); text-align: left;">the rule categories (e.g., user classifications, vehicle classifications) that it can provide</span></p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-324"></a>MDR-324</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.6.2.6&nbsp;Traceability</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-48"></a>MDR-48</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.6.3&nbsp;System status</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="DHSR.html#DHSR-14">DHSR-14</a></span>  Component status</div>
+                <div class="link"> <span><a href="DSR.html#DSR-42">DSR-42</a></span>  Component status</div>
+                <div class="link"> <span><a href="RSR.html#RSR-24">RSR-24</a></span>  Component status</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-325"></a>MDR-325</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.6.3.1&nbsp;General</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-246"></a>MDR-246</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.6.3.2&nbsp;Traceability</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-50"></a>MDR-50</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.6.4&nbsp;Information broadcast parameters</h3>
+					<div class="htmlContent"><p>Defines how often an RSE should broadcast a rule</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="DSR.html#DSR-169">DSR-169</a></span>  Rule management application info</div>
+                <div class="link"> <span><a href="DSR.html#DSR-191">DSR-191</a></span>  Ad-hoc rule management info</div>
+                <div class="link"> <span><a href="RSR.html#RSR-127">RSR-127</a></span>  Rule management application info</div>
+                <div class="link"> <span><a href="RSR.html#RSR-175">RSR-175</a></span>  Ad-hoc rule management info</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-326"></a>MDR-326</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.6.4.1&nbsp;General</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-247"></a>MDR-247</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					<h4>6.6.4.2&nbsp;Traceability</h4>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-92"></a>MDR-92</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>6.7&nbsp;Vehicle characteristics</h2>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> details to:</div>
+                <div class="link"> <span><a href="CSR.html#CSR-151">CSR-151</a></span>  Default configuration</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-248"></a>MDR-248</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.1&nbsp;General</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-93"></a>MDR-93</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.2&nbsp;Vehicle characteristics — Approach angle</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-94"></a>MDR-94</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.3&nbsp;Vehicle characteristics — Body style</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-95"></a>MDR-95</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.4&nbsp;Vehicle characteristics — Carpool</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-96"></a>MDR-96</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.5&nbsp;Vehicle characteristics — Catalytic converter</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-298"></a>MDR-298</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.6&nbsp;Vehicle characteristics — Certifications</h3>
+					<div class="htmlContent"><p>(e.g., ADS is qualified by jurisdiction for certain environments)</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-97"></a>MDR-97</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.7&nbsp;Vehicle characteristics — Departure angle</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-98"></a>MDR-98</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.8&nbsp;Vehicle characteristics — Differential</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-99"></a>MDR-99</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.9&nbsp;Vehicle characteristics — Drivetrain</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-100"></a>MDR-100</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.10&nbsp;Vehicle characteristics — Emissions</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-101"></a>MDR-101</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.11&nbsp;Vehicle characteristics — Engine cylinder arrangement</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-102"></a>MDR-102</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.12&nbsp;Vehicle characteristics — License plate category</h3>
+					<div class="htmlContent"><p>even/odd</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-103"></a>MDR-103</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.13&nbsp;Vehicle characteristics — Front axle clearance</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-104"></a>MDR-104</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.14&nbsp;Vehicle characteristics — Fuel</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-105"></a>MDR-105</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.15&nbsp;Vehicle characteristics — Gradeability</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-106"></a>MDR-106</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.16&nbsp;Vehicle characteristics — Gross vehicle mass</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-107"></a>MDR-107</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.17&nbsp;Vehicle characteristics — Height</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-108"></a>MDR-108</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.18&nbsp;Vehicle characteristics — Intended road network</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-109"></a>MDR-109</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.19&nbsp;Vehicle characteristics — Length</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-110"></a>MDR-110</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.20&nbsp;Vehicle characteristics — Living accommodations</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-111"></a>MDR-111</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.21&nbsp;Vehicle characteristics — Load type</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-112"></a>MDR-112</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.22&nbsp;Vehicle characteristics — Maximum laden mass</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-113"></a>MDR-113</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.23&nbsp;Vehicle characteristics — Mid-axle clearance</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-114"></a>MDR-114</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.24&nbsp;Vehicle characteristics — Mobility form</h3>
+					<div class="htmlContent"><p>wheeled, tracked, ambulatory</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-115"></a>MDR-115</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.25&nbsp;Vehicle characteristics — Number of cylinders</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-116"></a>MDR-116</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.26&nbsp;Vehicle characteristics — Number of doors</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-117"></a>MDR-117</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.27&nbsp;Vehicle characteristics — Number of occupants</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-118"></a>MDR-118</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.28&nbsp;Vehicle characteristics — Number of wheels</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-119"></a>MDR-119</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.29&nbsp;Vehicle characteristics — Position of axles</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-120"></a>MDR-120</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.30&nbsp;Vehicle characteristics — Ramp angle</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-121"></a>MDR-121</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.31&nbsp;Vehicle characteristics — Rear access</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-122"></a>MDR-122</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.32&nbsp;Vehicle characteristics — Rear axle clearance</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-123"></a>MDR-123</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.33&nbsp;Vehicle characteristics — Permissions</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-124"></a>MDR-124</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.34&nbsp;Vehicle characteristics — Roof</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-125"></a>MDR-125</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.35&nbsp;Vehicle characteristics — Rows of seating</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-126"></a>MDR-126</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.36&nbsp;Vehicle characteristics — Shared compartment</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-127"></a>MDR-127</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.37&nbsp;Vehicle characteristics — Side windows</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-128"></a>MDR-128</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.38&nbsp;Vehicle characteristics — Trailer</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-129"></a>MDR-129</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.39&nbsp;Vehicle characteristics — Transported items</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-130"></a>MDR-130</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.40&nbsp;Vehicle characteristics — Unladen mass with battery</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-131"></a>MDR-131</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.41&nbsp;Vehicle characteristics — Unladen mass without battery</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-132"></a>MDR-132</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.42&nbsp;Vehicle characteristics — Usage</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-133"></a>MDR-133</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.43&nbsp;Vehicle characteristics — User qualification</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-134"></a>MDR-134</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.44&nbsp;Vehicle characteristics — Design speed</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-135"></a>MDR-135</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.45&nbsp;Vehicle characteristics — Wheel arrangement</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-136"></a>MDR-136</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.46&nbsp;Vehicle characteristics — Width</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-327"></a>MDR-327</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>6.7.47&nbsp;Traceability</h3>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-328"></a>MDR-328</td>
+            
+							<td class="description-col" style="padding-left:10px">
+					<h1>7&nbsp;Information flow requirements</h1>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-329"></a>MDR-329</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>7.1&nbsp;METR information for users</h2>
+					<div class="htmlContent"><p>The METR information flow for users shall include:</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-330"></a>MDR-330</td>
+            
+			 
+				<td class="description-col htmlContent" style="padding-left:30px">
+					<ul style="list-style: square;">
+						<li><p>Rule information</p></li>
+					</ul>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-331"></a>MDR-331</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					
+					<div class="htmlContent"><p>applicable vehicle categories</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-332"></a>MDR-332</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					
+					<div class="htmlContent"><p>applicable user categories</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-333"></a>MDR-333</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					
+					<div class="htmlContent"><p>applicable usage categories</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-334"></a>MDR-334</td>
+            
+							<td class="description-col" style="padding-left:40px">
+					
+					<div class="htmlContent"><p>applicable cargo categories</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-340"></a>MDR-340</td>
+            
+							<td class="description-col" style="padding-left:10px">
+					<h1>8&nbsp;Tentative characteristics of METR information</h1>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-341"></a>MDR-341</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>8.1&nbsp;General</h2>
+					<div class="htmlContent"><p>This annex provides a tentative listing of the characteristics that might need to be recorded for each piece of METR information.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-342"></a>MDR-342</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>8.2&nbsp;Rule meta-data</h2>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-343"></a>MDR-343</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>8.2.1&nbsp;Identifier</h3>
+					<div class="htmlContent"><p>Every piece of METR information should be associated with a unique identifier for easy reference.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="SP.html#SP-166">SP-166</a></span>  METR should be able to characterize each…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-344"></a>MDR-344</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>8.2.2&nbsp;Category</h3>
+					<div class="htmlContent"><p>Each rule should be explicitly included in a METR information category so that the rule can be retrieved or filtered as appropriate for each user. For example, Annex D provides a list of potential categories that can be used to manage which rules are retrieved via METR.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="SP.html#SP-39">SP-39</a></span>  Filtering should include almost all para…</div>
+                <div class="link"> <span><a href="SP.html#SP-69">SP-69</a></span>  See slide for examples of rule character…</div>
+                <div class="link"> <span><a href="SP.html#SP-166">SP-166</a></span>  METR should be able to characterize each…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-345"></a>MDR-345</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>8.2.3&nbsp;Source of information</h3>
+					<div class="htmlContent"><p>Each piece of METR information should indicate the authority of the root source of the information. For example, is the source the actual rule-maker (i.e., individual with authority to enact the rule), a legally authorized representative of the rule-maker (e.g., hired staff of the rule-maker), a separate entity (e.g., a private private company that translates rules for areas where rule-makers do not provide METR information), or perhaps a separate entity whose information is approved in bulk by the rule-maker.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="SP.html#SP-137">SP-137</a></span>  Need to support (and convey to users) th…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-346"></a>MDR-346</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>8.2.4&nbsp;Issuing authority</h3>
+					<div class="htmlContent"><p>Each piece of METR information should identify the rule-maker that issued the information.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="SP.html#SP-184">SP-184</a></span>  Users need to be able to determine the s…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-347"></a>MDR-347</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>8.2.5&nbsp;Permit information</h3>
+					<div class="htmlContent"><p>Some METR information might be associated with permits that grant an entity special privileges to use the public right of way (PROW) in ways that &nbsp;potentially infringe upon others (e.g., the right to place scaffolding on sidewalks for building maintenance). When rules are associated with such permits, the permit information should be accessible.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="SP.html#SP-39">SP-39</a></span>  Filtering should include almost all para…</div>
+                <div class="link"> <span><a href="SP.html#SP-69">SP-69</a></span>  See slide for examples of rule character…</div>
+                <div class="link"> <span><a href="SP.html#SP-111">SP-111</a></span>  Characteristics should include permits, …</div>
+                <div class="link"> <span><a href="SP.html#SP-148">SP-148</a></span>  METR needs to provide a way to link rule…</div>
+                <div class="link"> <span><a href="SP.html#SP-166">SP-166</a></span>  METR should be able to characterize each…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-348"></a>MDR-348</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>8.2.6&nbsp;Enforcement information</h3>
+					<div class="htmlContent"><p>A rule can include information on who is authorized to enforce the rule (e.g., the towing company where a towed vehicle can be found).</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="SP.html#SP-142">SP-142</a></span>  METR needs to be able to accommodate enf…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-349"></a>MDR-349</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>8.2.7&nbsp;Penalty information</h3>
+					<div class="htmlContent"><p>A rule can include information about the penalties that can apply upon enforcement action (e.g., a maximum fine or fines doubled).</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="SP.html#SP-142">SP-142</a></span>  METR needs to be able to accommodate enf…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-350"></a>MDR-350</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>8.3&nbsp;Rule location characteristics</h2>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-351"></a>MDR-351</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>8.3.1&nbsp;Location</h3>
+					<div class="htmlContent"><p>Rules are generally associated with locations, which are often referred to as a point location (i.e., a point when the path is viewed in a linear fashion), a linear location (i.e., a stretch along a curvilinear path), or an area location (i.e., an area that encompasses a portion of the surface - or near-surface, such as a bridge or tunnel - of the earth). Area locations can include specific defined areas or an entire jurisdiction. For example, rules might include stop signs or gates (i.e., point locations), on-street parking restrictions (i.e., linear locations), congestion zones (i.e., a custom area location), and rules related to the use of headlights (i.e., jurisdictional area locations).</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="SP.html#SP-39">SP-39</a></span>  Filtering should include almost all para…</div>
+                <div class="link"> <span><a href="SP.html#SP-69">SP-69</a></span>  See slide for examples of rule character…</div>
+                <div class="link"> <span><a href="SP.html#SP-78">SP-78</a></span>  The ConOps should explain that rules mig…</div>
+                <div class="link"> <span><a href="SP.html#SP-105">SP-105</a></span>  METR needs to convey the location for ev…</div>
+                <div class="link"> <span><a href="SP.html#SP-166">SP-166</a></span>  METR should be able to characterize each…</div>
+                <div class="link"> <span><a href="SP.html#SP-172">SP-172</a></span>  Motor vehicle systems need to be aware o…</div>
+                <div class="link"> <span><a href="SP.html#SP-176">SP-176</a></span>  METR needs to support public transport r…</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> incorporates to:</div>
+                <div class="link"> <span><a href="ConOps.html#ConOps-261">ConOps-261</a></span>  Operation of a traffic signal</div>
+                <div class="link"> <span><a href="ConOps.html#ConOps-266">ConOps-266</a></span>  Encountering road works</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-352"></a>MDR-352</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>8.3.2&nbsp;Heading applicability</h3>
+					<div class="htmlContent"><p>Some rules are only applicable to users that have a particular heading. For example, some northbound lanes might only have vehicle occupancy rules in the morning while southbound lanes only have vehicle occupancy rules in the evening.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-353"></a>MDR-353</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>8.3.3&nbsp;Map alignment</h3>
+					<div class="htmlContent"><p>Some rules need higher location precision to be properly interpreted; mechanisms to provide the required precision need to be conveyed as a part of the rule. For example, while normal GNSS and mapping accuracy of a few meters is sufficient for warnings for animal crossings, parking space information needs typically needs to be accurate to within a few centimeters. Rules that require higher precision need to convey how the location information contained within the rule can accurately be represented into the real-world location (e.g., by identifying a local pavement marking or other landmark that can be used to provide a local reference point).</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="SP.html#SP-167">SP-167</a></span>  In order to implement some rules (e.g., …</div>
+                <div class="link"> <span><a href="SP.html#SP-171">SP-171</a></span>  VRUs/VRVs need to be aware of the classe…</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> incorporates to:</div>
+                <div class="link"> <span><a href="ConOps.html#ConOps-262">ConOps-262</a></span>  Locating appropriate parking</div>
+                <div class="link"> <span><a href="ConOps.html#ConOps-266">ConOps-266</a></span>  Encountering road works</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-354"></a>MDR-354</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>8.4&nbsp;Temporal characteristics</h2>
+					<div class="htmlContent"><p>A rule can be associated with a schedule, hours of applicability, fuzzy times (e.g., "dawn", "holidays"), applicable days of week, applicable start and end dates, and other temporal constraints.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="SP.html#SP-39">SP-39</a></span>  Filtering should include almost all para…</div>
+                <div class="link"> <span><a href="SP.html#SP-69">SP-69</a></span>  See slide for examples of rule character…</div>
+                <div class="link"> <span><a href="SP.html#SP-166">SP-166</a></span>  METR should be able to characterize each…</div>
+                <div class="link"> <span><a href="SP.html#SP-177">SP-177</a></span>  METR should be able to convey informatio…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-355"></a>MDR-355</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>8.5&nbsp;Facility Characteristics</h2>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-356"></a>MDR-356</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>8.5.1&nbsp;Facility classification</h3>
+					<div class="htmlContent"><p>Some rules only apply to certain classifications of roads/pathways. For example, an urban residential road is likely to have a different default speed limit than a rural motorway.&nbsp;</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="SP.html#SP-39">SP-39</a></span>  Filtering should include almost all para…</div>
+                <div class="link"> <span><a href="SP.html#SP-69">SP-69</a></span>  See slide for examples of rule character…</div>
+                <div class="link"> <span><a href="SP.html#SP-166">SP-166</a></span>  METR should be able to characterize each…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-357"></a>MDR-357</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>8.5.2&nbsp;Pavement type</h3>
+					<div class="htmlContent"><p>Some rules apply to roads with certain pavement types. For example, gravel roads might be associated with a lower speed limit.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-358"></a>MDR-358</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>8.6&nbsp;Vehicle characteristics</h2>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-359"></a>MDR-359</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>8.6.1&nbsp;Vehicle classification </h3>
+					<div class="htmlContent"><p>Some rules apply to a specific set of vehicle classifications. For example, heavy vehicles might be restricted to certain lanes on a motorway.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="SP.html#SP-39">SP-39</a></span>  Filtering should include almost all para…</div>
+                <div class="link"> <span><a href="SP.html#SP-69">SP-69</a></span>  See slide for examples of rule character…</div>
+                <div class="link"> <span><a href="SP.html#SP-166">SP-166</a></span>  METR should be able to characterize each…</div>
+                <div class="link"> <span><a href="SP.html#SP-176">SP-176</a></span>  METR needs to support public transport r…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-360"></a>MDR-360</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>8.6.2&nbsp;Vehicle physical dimensions</h3>
+					<div class="htmlContent"><p>Some rules apply to the physical dimensions of a vehicle, such as its length, width, and/or height. For example, tall vehicles might be restricted from entering a tunnel.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="SP.html#SP-39">SP-39</a></span>  Filtering should include almost all para…</div>
+                <div class="link"> <span><a href="SP.html#SP-69">SP-69</a></span>  See slide for examples of rule character…</div>
+                <div class="link"> <span><a href="SP.html#SP-166">SP-166</a></span>  METR should be able to characterize each…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-361"></a>MDR-361</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>8.6.3&nbsp;Vehicle mass</h3>
+					<div class="htmlContent"><p>Some rules apply to the mass (or weight) of a vehicle. For example:</p><ol><li>a bridge might prohibit vehicles above a specific weight</li><li>a jurisdiction might require special registration of vehicles more than a specified mass</li></ol></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-362"></a>MDR-362</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>8.6.4&nbsp;Vehicle permits/tags</h3>
+					<div class="htmlContent"><p>Some rules apply to vehicles that are associated with an official permit. For example:&nbsp;</p><ol><li>a vehicle might be issued a permit to park (or be parked) near the owner's residence&nbsp;</li><li>a vehicle might be equipped with a toll tag that allows it to use a tolled facility</li></ol><p>NOTE: A vehicle permit is associated with the vehicle irrespective of the current occupants. Vehicle permits can be associated with expirations that occur due to time or due to change in registration.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="SP.html#SP-69">SP-69</a></span>  See slide for examples of rule character…</div>
+                <div class="link"> <span><a href="SP.html#SP-111">SP-111</a></span>  Characteristics should include permits, …</div>
+                <div class="link"> <span><a href="SP.html#SP-166">SP-166</a></span>  METR should be able to characterize each…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-363"></a>MDR-363</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>8.6.5&nbsp;Vehicle certifications</h3>
+					<div class="htmlContent"><p>Some rules apply to vehicles with specific certification, which might be granted on a make and model basis. For example, a jurisdiction might require level 4 and 5 ADS-equipped vehicles to have distinct certificates to operate in specific environments, such as for:</p><ol><li>motorways,&nbsp;</li><li>roundabouts,&nbsp;</li><li>traffic circles,</li><li>a specific (e.g., complex) interchange</li></ol></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="SP.html#SP-122">SP-122</a></span>  Regulators might establish rules that re…</div>
+                <div class="link"> <span><a href="SP.html#SP-166">SP-166</a></span>  METR should be able to characterize each…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-364"></a>MDR-364</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>8.6.6&nbsp;Fuel type</h3>
+					<div class="htmlContent"><p>Some rules apply to vehicles based on the fuel type that they are using. For example, a central business district might restrict vehicles that are using diesel fuel.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="SP.html#SP-69">SP-69</a></span>  See slide for examples of rule character…</div>
+                <div class="link"> <span><a href="SP.html#SP-166">SP-166</a></span>  METR should be able to characterize each…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-365"></a>MDR-365</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>8.6.7&nbsp;Emission profile</h3>
+					<div class="htmlContent"><p>Some rules apply to vehicles based on their emissions profile. For example, an emission control zone might be restricted only to vehicles that meet ultra low emission vehicle standards.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="SP.html#SP-69">SP-69</a></span>  See slide for examples of rule character…</div>
+                <div class="link"> <span><a href="SP.html#SP-103">SP-103</a></span>  The characteristics used by a jurisdicti…</div>
+                <div class="link"> <span><a href="SP.html#SP-166">SP-166</a></span>  METR should be able to characterize each…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-366"></a>MDR-366</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>8.6.8&nbsp;Vehicle equipment</h3>
+					<div class="htmlContent"><p>Some rules apply to equipment that is associated with the vehicle. For example access to a road might be restricted to vehicles with snow chains.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-367"></a>MDR-367</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>8.6.9&nbsp;Trailers and attachments</h3>
+					<div class="htmlContent"><p>Some rules apply to vehicles with trailers. For example:</p><ol><li>a jurisdiction might restrict the number of trailers that can be attached to a vehicle</li><li>a vehicle with a trailer might be restricted from using a specific roadway</li><li>a vehicle with a carrier on the back might be required to have additional reflectors to designate the end of the carrier.</li></ol></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="SP.html#SP-69">SP-69</a></span>  See slide for examples of rule character…</div>
+                <div class="link"> <span><a href="SP.html#SP-166">SP-166</a></span>  METR should be able to characterize each…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-368"></a>MDR-368</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>8.7&nbsp;Vehicle usage characteristics</h2>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-369"></a>MDR-369</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>8.7.1&nbsp;Vehicle usage classification</h3>
+					<div class="htmlContent"><p>Some rules apply to a particular usage of a vehicle regardless of an official permit. For example:&nbsp;</p><ol><li>some lanes on a motorway might be restricted to high occupancy vehicles</li><li>a segment of kerbside might be restricted for passenger loading and unloading</li></ol></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="SP.html#SP-69">SP-69</a></span>  See slide for examples of rule character…</div>
+                <div class="link"> <span><a href="SP.html#SP-103">SP-103</a></span>  The characteristics used by a jurisdicti…</div>
+                <div class="link"> <span><a href="SP.html#SP-106">SP-106</a></span>  METR needs to support rules that charact…</div>
+                <div class="link"> <span><a href="SP.html#SP-166">SP-166</a></span>  METR should be able to characterize each…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-370"></a>MDR-370</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>8.7.2&nbsp;Cargo classifications</h3>
+					<div class="htmlContent"><p>Some rules only apply to vehicles based on their cargo. For example, vehicles carrying dangerous goods might be restricted from entering a tunnel.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="SP.html#SP-39">SP-39</a></span>  Filtering should include almost all para…</div>
+                <div class="link"> <span><a href="SP.html#SP-69">SP-69</a></span>  See slide for examples of rule character…</div>
+                <div class="link"> <span><a href="SP.html#SP-106">SP-106</a></span>  METR needs to support rules that charact…</div>
+                <div class="link"> <span><a href="SP.html#SP-166">SP-166</a></span>  METR should be able to characterize each…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-371"></a>MDR-371</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>8.7.3&nbsp;Vehicle usage permits</h3>
+					<div class="htmlContent"><p>Some rules apply to a vehicles associated with an official permit related to vehicle usage. For example, a stretch of kerbside might be restricted to vehicles with permits related to ridesourcing operations.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-372"></a>MDR-372</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>8.8&nbsp;User characteristics</h2>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-373"></a>MDR-373</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>8.8.1&nbsp;User classification</h3>
+					<div class="htmlContent"><p>Some rules apply to particular classifications of users. For example:</p><ol><li>Commercial vehicle operators might be required to stop at check points</li><li>Police officers and emergency responders might be allowed to use turn around lanes on a motorway</li></ol></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="SP.html#SP-39">SP-39</a></span>  Filtering should include almost all para…</div>
+                <div class="link"> <span><a href="SP.html#SP-69">SP-69</a></span>  See slide for examples of rule character…</div>
+                <div class="link"> <span><a href="SP.html#SP-78">SP-78</a></span>  The ConOps should explain that rules mig…</div>
+                <div class="link"> <span><a href="SP.html#SP-111">SP-111</a></span>  Characteristics should include permits, …</div>
+                <div class="link"> <span><a href="SP.html#SP-166">SP-166</a></span>  METR should be able to characterize each…</div>
+                <div class="link"> <span><a href="SP.html#SP-176">SP-176</a></span>  METR needs to support public transport r…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-374"></a>MDR-374</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>8.8.2&nbsp;User permits</h3>
+					<div class="htmlContent"><p>Some rules apply to a users associated with an official permit. For example:</p><ol><li>a user might be issued a permit to park a vehicle near the user's residence&nbsp;</li><li>a user might be issued a permit to park in accessible parking spaces</li></ol><p>NOTE: A user permit is associated with the user and can be moved between vehicles as needed.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-375"></a>MDR-375</td>
+            
+							<td class="description-col" style="padding-left:20px">
+					<h2>8.9&nbsp;Supporting data</h2>
+					<div class="htmlContent"></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="SP.html#SP-69">SP-69</a></span>  See slide for examples of rule character…</div>
+                <div class="link"> <span><a href="SP.html#SP-166">SP-166</a></span>  METR should be able to characterize each…</div>
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> incorporates to:</div>
+                <div class="link"> <span><a href="ConOps.html#ConOps-259">ConOps-259</a></span>  Snowy conditions</div>
+                <div class="link"> <span><a href="ConOps.html#ConOps-260">ConOps-260</a></span>  Start of snowfall</div>
+                <div class="link"> <span><a href="ConOps.html#ConOps-261">ConOps-261</a></span>  Operation of a traffic signal</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-376"></a>MDR-376</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>8.9.1&nbsp;General</h3>
+					<div class="htmlContent"><p>The meaning and/or activity status of some rules (e.g., signal timing, pull over for emergency vehicle, lower speed when raining) is dependent upon supporting data. The rules need to identify such cases along with the acceptable source(s) for the supporting data.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> incorporates to:</div>
+                <div class="link"> <span><a href="ConOps.html#ConOps-292">ConOps-292</a></span>  Encountering rain</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-377"></a>MDR-377</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>8.9.2&nbsp;Environmental conditions</h3>
+					<div class="htmlContent"><p>Some rules only apply when certain environmental conditions are present. For example:</p><ol><li>lower speed limits might apply during rain</li><li>parking restrictions might take affect due to snow&nbsp;</li><li>certain vehicles might be restricted when air pollution exceeds certain levels</li></ol></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> incorporates to:</div>
+                <div class="link"> <span><a href="ConOps.html#ConOps-260">ConOps-260</a></span>  Start of snowfall</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-378"></a>MDR-378</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>8.9.3&nbsp;External conditions</h3>
+					<div class="htmlContent"><p>Some rules only apply when certain external conditions exist that might be difficult for vehicle-based sensors to detect. For example, speed limits might be reduced when workers or children are present.</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="SP.html#SP-69">SP-69</a></span>  See slide for examples of rule character…</div>
+                <div class="link"> <span><a href="SP.html#SP-166">SP-166</a></span>  METR should be able to characterize each…</div>
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-379"></a>MDR-379</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>8.9.4&nbsp;Emergency conditions</h3>
+					<div class="htmlContent"><p>Some rules only apply when certain emergency conditions exist that might be difficult for vehicle-based sensors to detect. For example, access to specific streets might be restricted due to a terrorist threat level</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+          </td>
+        </tr>
+        <tr> 
+			<td class="id-col"><a id="MDR-380"></a>MDR-380</td>
+            
+							<td class="description-col" style="padding-left:30px">
+					<h3>8.9.5&nbsp;On-board data</h3>
+					<div class="htmlContent"><p>Some rules might apply only when on-board sensors detect specific conditions (e.g., rain detected, driver fatigue detected).</p></div>
+				</td>
+			
+			<td class="discussion-col">
+			</td>
+
+			<td class="links-col">
+              <div class="links-type-name"><i class="fas fa-sign-out-alt"></i> derived from:</div>
+                <div class="link"> <span><a href="SP.html#SP-111">SP-111</a></span>  Characteristics should include permits, …</div>
+                <div class="link"> <span><a href="SP.html#SP-166">SP-166</a></span>  METR should be able to characterize each…</div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <hr>
+  </div>
+							</div>
+				<!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							<ul class="copyright">
+								<li><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://iso-tc204.github.io/iso24315p1/">Website Content:</a> <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p></li>
+								<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>Portions subject to ISO copyright. This website is not an ISO International Standard. It is provided to facilitate efforts to review and comment on the current draft. It is subject to change without notice and may not be referred to as an International Standard.</li>
+								<li>Users of this website are invited to submit, with their comments, notification of any relevant patent rights of which they are aware and to provide supporting documentation.</li>
+							</ul>
+						</div>
+					</section>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+</body>
+</html>
