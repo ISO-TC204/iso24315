@@ -33,12 +33,6 @@
           "SP-17"
         ]
       },
-      "history": [
-        {
-          "addedLink": {
-            "target": [
-              "SP-17"
-            ],
             "type": "derivedFrom"
           },
           "changedBy": {
@@ -61,12 +55,6 @@
           "SP-19"
         ]
       },
-      "history": [
-        {
-          "addedLink": {
-            "target": [
-              "SP-19"
-            ],
             "type": "derivedFrom"
           },
           "changedBy": {
@@ -89,12 +77,6 @@
           "SP-22"
         ]
       },
-      "history": [
-        {
-          "addedLink": {
-            "target": [
-              "SP-22"
-            ],
             "type": "derivedFrom"
           },
           "changedBy": {
@@ -117,12 +99,6 @@
           "SP-25"
         ]
       },
-      "history": [
-        {
-          "addedLink": {
-            "target": [
-              "SP-25"
-            ],
             "type": "derivedFrom"
           },
           "changedBy": {
@@ -145,12 +121,6 @@
           "SP-44"
         ]
       },
-      "history": [
-        {
-          "addedLink": {
-            "target": [
-              "SP-44"
-            ],
             "type": "derivedFrom"
           },
           "changedBy": {
@@ -173,12 +143,6 @@
           "SP-45"
         ]
       },
-      "history": [
-        {
-          "addedLink": {
-            "target": [
-              "SP-45"
-            ],
             "type": "derivedFrom"
           },
           "changedBy": {
@@ -202,12 +166,6 @@
           "SP-75"
         ]
       },
-      "history": [
-        {
-          "addedLink": {
-            "target": [
-              "SP-52"
-            ],
             "type": "derivedFrom"
           },
           "changedBy": {
@@ -244,12 +202,6 @@
           "SP-53"
         ]
       },
-      "history": [
-        {
-          "addedLink": {
-            "target": [
-              "SP-53"
-            ],
             "type": "derivedFrom"
           },
           "changedBy": {
@@ -272,12 +224,6 @@
           "SP-55"
         ]
       },
-      "history": [
-        {
-          "addedLink": {
-            "target": [
-              "SP-55"
-            ],
             "type": "derivedFrom"
           },
           "changedBy": {
@@ -300,12 +246,6 @@
           "SP-63"
         ]
       },
-      "history": [
-        {
-          "addedLink": {
-            "target": [
-              "SP-63"
-            ],
             "type": "derivedFrom"
           },
           "changedBy": {
@@ -328,12 +268,6 @@
           "SP-65"
         ]
       },
-      "history": [
-        {
-          "addedLink": {
-            "target": [
-              "SP-65"
-            ],
             "type": "derivedFrom"
           },
           "changedBy": {
@@ -356,12 +290,6 @@
           "SP-67"
         ]
       },
-      "history": [
-        {
-          "addedLink": {
-            "target": [
-              "SP-67"
-            ],
             "type": "derivedFrom"
           },
           "changedBy": {
@@ -383,12 +311,6 @@
           "SP-75"
         ]
       },
-      "history": [
-        {
-          "addedLink": {
-            "target": [
-              "SP-75"
-            ],
             "type": "derivedFrom"
           },
           "changedBy": {
@@ -411,12 +333,6 @@
           "SP-76"
         ]
       },
-      "history": [
-        {
-          "addedLink": {
-            "target": [
-              "SP-76"
-            ],
             "type": "derivedFrom"
           },
           "changedBy": {
@@ -439,12 +355,6 @@
           "SP-77"
         ]
       },
-      "history": [
-        {
-          "addedLink": {
-            "target": [
-              "SP-77"
-            ],
             "type": "derivedFrom"
           },
           "changedBy": {
@@ -467,12 +377,6 @@
           "SP-79"
         ]
       },
-      "history": [
-        {
-          "addedLink": {
-            "target": [
-              "SP-79"
-            ],
             "type": "derivedFrom"
           },
           "changedBy": {
@@ -495,12 +399,6 @@
           "SP-80"
         ]
       },
-      "history": [
-        {
-          "addedLink": {
-            "target": [
-              "SP-80"
-            ],
             "type": "derivedFrom"
           },
           "changedBy": {
@@ -551,12 +449,6 @@
           "SP-87"
         ]
       },
-      "history": [
-        {
-          "addedLink": {
-            "target": [
-              "SP-87"
-            ],
             "type": "derivedFrom"
           },
           "changedBy": {
@@ -579,12 +471,6 @@
           "SP-92"
         ]
       },
-      "history": [
-        {
-          "addedLink": {
-            "target": [
-              "SP-92"
-            ],
             "type": "derivedFrom"
           },
           "changedBy": {
@@ -607,12 +493,6 @@
           "SP-118"
         ]
       },
-      "history": [
-        {
-          "addedLink": {
-            "target": [
-              "SP-118"
-            ],
             "type": "derivedFrom"
           },
           "changedBy": {
@@ -635,12 +515,6 @@
           "SP-127"
         ]
       },
-      "history": [
-        {
-          "addedLink": {
-            "target": [
-              "SP-127"
-            ],
             "type": "derivedFrom"
           },
           "changedBy": {
@@ -661,34 +535,6 @@
           "SP-163"
         ]
       },
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-01T12:53:06.650Z",
-          "docId": "N",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-02T16:56:36.934Z"
-        },
-        {
-          "addedLink": {
-            "target": [
-              "SP-163"
-            ],
             "type": "derivedFrom"
           },
           "changedBy": {
@@ -710,45 +556,6 @@
           "SP-199"
         ]
       },
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:55:41.504Z",
-          "docId": "N",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:56:27.516Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>Jurisdictional entities might require sub-jurisdictions to support some aspects of METR.</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:57:43.587Z"
-        },
-        {
-          "addedLink": {
-            "target": [
-              "SP-189"
-            ],
             "type": "derivedFrom"
           },
           "changedBy": {
@@ -774,7 +581,7 @@
         },
         {
           "attributesChanged": {
-            "text": "<p>Jurisdictional entities might require sub-jurisdictions to support some aspects of METR (e.g., provision of some types of rules).</p>"
+            "text": ""
           },
           "changedBy": {
             "company": "Trevilon",
@@ -795,34 +602,6 @@
           "SP-199"
         ]
       },
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:56:31.086Z",
-          "docId": "N",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:57:24.413Z"
-        },
-        {
-          "addedLink": {
-            "target": [
-              "SP-189"
-            ],
             "type": "derivedFrom"
           },
           "changedBy": {
@@ -848,7 +627,7 @@
         },
         {
           "attributesChanged": {
-            "text": "<p>Jurisdictional entities might require transport user systems to support some aspects of METR.</p>"
+            "text": ""
           },
           "changedBy": {
             "company": "Trevilon",
@@ -868,34 +647,6 @@
           "SP-191"
         ]
       },
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T18:09:55.172Z",
-          "docId": "N",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T18:11:30.843Z"
-        },
-        {
-          "addedLink": {
-            "target": [
-              "SP-191"
-            ],
             "type": "derivedFrom"
           },
           "changedBy": {
@@ -916,34 +667,6 @@
           "SP-196"
         ]
       },
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-17T14:04:41.269Z",
-          "docId": "N",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-17T14:04:58.934Z"
-        },
-        {
-          "addedLink": {
-            "target": [
-              "SP-196"
-            ],
             "type": "derivedFrom"
           },
           "changedBy": {

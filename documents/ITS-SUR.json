@@ -21,160 +21,38 @@
       "guid": "0f336d9c-ea14-423a-a602-b8d52710fdfb",
       "heading": "Scope",
       "text": "",
-      "type": "s",
-      "history": [
-        {
-          "affectedNodeId": "5",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2022-09-30T11:03:24.474Z",
-          "docId": "RSR",
-          "structureAction": "Copy"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2023-07-14T23:16:00.049Z"
-        }
-      ]
+      "type": "s"
     },
     {
       "id": "47",
       "guid": "18741c0a-dc28-4b51-a73f-80c8953c14d3",
       "heading": "Normative references",
       "text": "",
-      "type": "s",
-      "history": [
-        {
-          "affectedNodeId": "4",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2022-09-30T11:03:24.474Z",
-          "docId": "RSR",
-          "structureAction": "Copy"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2022-09-30T13:55:27.733Z"
-        }
-      ]
+      "type": "s"
     },
     {
       "id": "41",
       "guid": "13f35259-3713-4f04-a743-bba98c23896b",
       "heading": "Terms and definitions",
-      "type": "s",
-      "history": [
-        {
-          "affectedNodeId": "2",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2022-09-30T11:03:24.474Z",
-          "docId": "RSR",
-          "structureAction": "Copy"
-        }
-      ]
+      "type": "s"
     },
     {
       "id": "46",
       "guid": "4294d2e3-7627-4e33-8705-57336a620335",
       "heading": "Symbols and abbreviated terms",
-      "type": "s",
-      "history": [
-        {
-          "affectedNodeId": "3",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2022-09-30T11:03:24.474Z",
-          "docId": "RSR",
-          "structureAction": "Copy"
-        }
-      ]
+      "type": "s"
     },
     {
       "id": "49",
       "guid": "f614cb55-d465-4a44-b7a8-b76d9bfff3e7",
       "heading": "Introduction",
-      "type": "s",
-      "history": [
-        {
-          "affectedNodeId": "6",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2022-09-30T11:03:24.474Z",
-          "docId": "RSR",
-          "structureAction": "Copy"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>This document does not place requirements on external interfaces, but it does identify the external interfaces that are expected to exist per the ConOps. In these cases, it uses a \"should\" statement rather than a \"shall\" statement.</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2022-09-30T11:03:48.906Z"
-        }
-      ]
+      "type": "s"
     },
     {
       "id": "2",
       "guid": "eee27325-1490-47f8-b85e-02e1e547bdea",
       "heading": "General requirements",
       "type": "s",
-      "history": [
-        {
-          "affectedNodeId": "195",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2022-08-16T21:00:09.746Z",
-          "docId": "DSR",
-          "structureAction": "Copy"
-        },
-        {
-          "attributesChanged": {
-            "type": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2022-09-16T15:02:12.620Z"
-        }
-      ],
       "children": [
         {
           "id": "5",
@@ -187,23 +65,6 @@
               "SoSR-100"
             ]
           },
-          "history": [
-            {
-              "affectedNodeId": "170",
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T21:00:09.746Z",
-              "docId": "DSR",
-              "structureAction": "Copy"
-            },
-            {
-              "addedLink": {
-                "target": [
-                  "SoSR-100"
-                ],
                 "type": "realizes"
               },
               "changedBy": {
@@ -215,7 +76,7 @@
             },
             {
               "attributesChanged": {
-                "text": "<p>The METR distribution system shall support the publicly available interface specification defined by the regional authority for the intended area of distribution.</p>"
+                "text": ""
               },
               "changedBy": {
                 "company": "Trevilon",
@@ -226,7 +87,7 @@
             },
             {
               "attributesChanged": {
-                "text": "<p>The ITS station shall support the publicly available interface specification(s) defined by the regional authority for the intended area of distribution.</p>"
+                "text": ""
               },
               "changedBy": {
                 "company": "Trevilon",
@@ -237,7 +98,7 @@
             },
             {
               "attributesChanged": {
-                "text": "<p>The ITS station shall support the publicly available interface specification(s) defined by the relevant regional authority.</p>"
+                "text": ""
               },
               "changedBy": {
                 "company": "Trevilon",
@@ -281,7 +142,7 @@
             },
             {
               "attributesChanged": {
-                "text": "<p>The ITS-SU shall support the publicly available interface specification(s) defined by the relevant regional authority.</p>"
+                "text": ""
               },
               "changedBy": {
                 "company": "Trevilon",
@@ -303,23 +164,6 @@
               "SoSR-209"
             ]
           },
-          "history": [
-            {
-              "affectedNodeId": "27",
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T21:00:09.746Z",
-              "docId": "DSR",
-              "structureAction": "Copy"
-            },
-            {
-              "addedLink": {
-                "target": [
-                  "SoSR-209"
-                ],
                 "type": "realizes"
               },
               "changedBy": {
@@ -331,7 +175,7 @@
             },
             {
               "attributesChanged": {
-                "text": "<p>The METR distribution system shall manage its resources to ensure service resiliency.</p><p>NOTE: Resources include processing power, memory, network connectivity, storage space, etc.</p>"
+                "text": ""
               },
               "changedBy": {
                 "company": "Trevilon",
@@ -342,7 +186,7 @@
             },
             {
               "attributesChanged": {
-                "text": "<p>The ITS station shall manage its resources to ensure service resiliency.</p><p>NOTE: Resources include processing power, memory, network connectivity, storage space, etc.</p>"
+                "text": ""
               },
               "changedBy": {
                 "company": "Trevilon",
@@ -369,104 +213,12 @@
           "guid": "351d5d9a-c043-4aa0-bceb-7a207f9b933f",
           "heading": "System management",
           "type": "s",
-          "history": [
-            {
-              "affectedNodeId": "9",
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-10-18T22:24:34.958Z",
-              "docId": "RSR",
-              "structureAction": "Copy"
-            },
-            {
-              "attributesChanged": {
-                "heading": "METR system management"
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-10-19T14:21:29.189Z"
-            },
-            {
-              "attributesChanged": {
-                "text": "<p>general system health and diagnostics</p>"
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-10-19T14:21:42.523Z"
-            }
-          ],
           "children": [
             {
               "id": "54",
               "guid": "5e44eb39-af85-452a-a5e6-fd41ee6c3c1c",
               "heading": "Platform management",
-              "text": "",
-              "history": [
-                {
-                  "affectedNodeId": "50",
-                  "changedBy": {
-                    "company": "Trevilon",
-                    "email": "kvaughn@trevilon.com",
-                    "name": "Kenneth Vaughn"
-                  },
-                  "changedOn": "2023-03-16T13:02:48.979Z",
-                  "docId": "ITS-SUR",
-                  "structureAction": "Create"
-                },
-                {
-                  "attributesChanged": {
-                    "heading": null
-                  },
-                  "changedBy": {
-                    "company": "Trevilon",
-                    "email": "kvaughn@trevilon.com",
-                    "name": "Kenneth Vaughn"
-                  },
-                  "changedOn": "2023-03-16T13:02:58.379Z"
-                },
-                {
-                  "affectedNodeId": "51",
-                  "changedBy": {
-                    "company": "Trevilon",
-                    "email": "kvaughn@trevilon.com",
-                    "name": "Kenneth Vaughn"
-                  },
-                  "changedOn": "2023-03-16T13:03:27.358Z",
-                  "docId": "ITS-SUR",
-                  "structureAction": "SwapUp"
-                },
-                {
-                  "attributesChanged": {
-                    "text": null
-                  },
-                  "changedBy": {
-                    "company": "Trevilon",
-                    "email": "kvaughn@trevilon.com",
-                    "name": "Kenneth Vaughn"
-                  },
-                  "changedOn": "2023-03-16T13:05:46.881Z"
-                },
-                {
-                  "attributesChanged": {
-                    "text": "<p>The ITS-SU shall allow for authorized remote systems to manage its operational platform to ensure expected operations.</p><p>EXAMPLE &nbsp; A traffic management centre acting as a translator can reboot the unix platform.</p>"
-                  },
-                  "changedBy": {
-                    "company": "Trevilon",
-                    "email": "kvaughn@trevilon.com",
-                    "name": "Kenneth Vaughn"
-                  },
-                  "changedOn": "2023-03-16T13:06:44.789Z"
-                }
-              ]
+              "text": ""
             },
             {
               "id": "52",
@@ -479,23 +231,6 @@
                   "SoSR-228"
                 ]
               },
-              "history": [
-                {
-                  "affectedNodeId": "100",
-                  "changedBy": {
-                    "company": "Trevilon",
-                    "email": "kvaughn@trevilon.com",
-                    "name": "Kenneth Vaughn"
-                  },
-                  "changedOn": "2022-10-18T22:24:34.958Z",
-                  "docId": "RSR",
-                  "structureAction": "Copy"
-                },
-                {
-                  "addedLink": {
-                    "target": [
-                      "SoSR-228"
-                    ],
                     "type": "realizes"
                   },
                   "changedBy": {
@@ -507,7 +242,7 @@
                 },
                 {
                   "attributesChanged": {
-                    "text": "<p>The METR translation system shall manage the METR application running on field distribution systems to ensure expected operations of disseminating rules.</p><p>NOTE: This is especially true for ad-hoc rules.</p><p>EXAMPLE &nbsp; A traffic management centre acting as a translator can control the broadcast of ad-hoc rules via roadside equipment.</p>"
+                    "text": ""
                   },
                   "changedBy": {
                     "company": "Trevilon",
@@ -551,7 +286,7 @@
                 },
                 {
                   "attributesChanged": {
-                    "text": "<p>The ITS-SU shall allow for authorized remote systems to manage its operation to ensure expected operations.</p><p>EXAMPLE &nbsp; A traffic management centre acting as a translator can control the broadcast of ad-hoc rules via roadside equipment.</p>"
+                    "text": ""
                   },
                   "changedBy": {
                     "company": "Trevilon",
@@ -573,23 +308,6 @@
                   "SoSR-210"
                 ]
               },
-              "history": [
-                {
-                  "affectedNodeId": "11",
-                  "changedBy": {
-                    "company": "Trevilon",
-                    "email": "kvaughn@trevilon.com",
-                    "name": "Kenneth Vaughn"
-                  },
-                  "changedOn": "2022-10-18T22:24:34.958Z",
-                  "docId": "RSR",
-                  "structureAction": "Copy"
-                },
-                {
-                  "addedLink": {
-                    "target": [
-                      "SoSR-210"
-                    ],
                     "type": "realizes"
                   },
                   "changedBy": {
@@ -601,7 +319,7 @@
                 },
                 {
                   "attributesChanged": {
-                    "text": "<p>The METR translation system shall manage the installation of upgrades and patches in a manner that does not disrupt its continuous provision of services.</p>"
+                    "text": ""
                   },
                   "changedBy": {
                     "company": "Trevilon",
@@ -656,7 +374,7 @@
                 },
                 {
                   "attributesChanged": {
-                    "text": "<p>The ITS-SU shall manage the installation of upgrades and patches in a manner that does not disrupt its continuous provision of services.</p>"
+                    "text": ""
                   },
                   "changedBy": {
                     "company": "Trevilon",
@@ -670,20 +388,7 @@
             {
               "id": "53",
               "guid": "145247f4-6c90-4323-9d9a-6df8866c1b98",
-              "heading": "Traceability",
-              "history": [
-                {
-                  "affectedNodeId": "242",
-                  "changedBy": {
-                    "company": "Trevilon",
-                    "email": "kvaughn@trevilon.com",
-                    "name": "Kenneth Vaughn"
-                  },
-                  "changedOn": "2022-10-18T22:24:34.958Z",
-                  "docId": "RSR",
-                  "structureAction": "Copy"
-                }
-              ]
+              "heading": "Traceability"
             }
           ]
         },
@@ -698,56 +403,6 @@
               "ITS-SUR-16"
             ]
           },
-          "history": [
-            {
-              "affectedNodeId": "212",
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T21:00:09.746Z",
-              "docId": "DSR",
-              "structureAction": "Copy"
-            },
-            {
-              "attributesChanged": {
-                "text": "<p>The METR distribution system shall comply with the relevant security policies as defined by the CCMS.</p><p>NOTE: The security policies often include policies for enrollment, authorization, misbehaviour reporting, and credentials revocation.</p>"
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T21:01:40.489Z"
-            },
-            {
-              "attributesChanged": {
-                "text": "<p>The ITS station shall comply with the relevant security policies as defined by the CCMS.</p><p>NOTE: The security policies often include policies for enrollment, authorization, misbehaviour reporting, and credentials revocation.</p>"
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T21:22:23.246Z"
-            },
-            {
-              "attributesChanged": {
-                "type": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-09-16T15:02:44.597Z"
-            },
-            {
-              "addedLink": {
-                "target": [
-                  "ITS-SUR-16"
-                ],
                 "type": "supports"
               },
               "changedBy": {
@@ -759,7 +414,7 @@
             },
             {
               "attributesChanged": {
-                "text": "<p>The ITS-SU shall comply with the relevant security policies as defined by the CCMS.</p><p>NOTE: The security policies often include policies for enrollment, authorization, misbehaviour reporting, and credentials revocation.</p>"
+                "text": ""
               },
               "changedBy": {
                 "company": "Trevilon",
@@ -781,23 +436,6 @@
               "SoSR-49"
             ]
           },
-          "history": [
-            {
-              "affectedNodeId": "46",
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T21:52:34.980Z",
-              "docId": "DSR",
-              "structureAction": "Copy"
-            },
-            {
-              "addedLink": {
-                "target": [
-                  "SoSR-49"
-                ],
                 "type": "realizes"
               },
               "changedBy": {
@@ -809,7 +447,7 @@
             },
             {
               "attributesChanged": {
-                "text": "<p>The METR distribution system shall ensure that all communications received are authenticated prior to further processing.</p>"
+                "text": ""
               },
               "changedBy": {
                 "company": "Trevilon",
@@ -837,52 +475,6 @@
           "heading": "Confidential information",
           "text": "",
           "type": "m",
-          "history": [
-            {
-              "affectedNodeId": "174",
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T21:00:09.746Z",
-              "docId": "DSR",
-              "structureAction": "Copy"
-            },
-            {
-              "attributesChanged": {
-                "text": "<p>The METR distribution system shall maintain the confidentiality of all information related to METR users and operators by:</p>"
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T21:03:58.061Z"
-            },
-            {
-              "attributesChanged": {
-                "text": "<p>The ITS station shall maintain the confidentiality of all personally identifiable information (PII) by:</p>"
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T21:22:39.884Z"
-            },
-            {
-              "attributesChanged": {
-                "type": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-09-16T15:02:44.597Z"
-            }
-          ],
           "children": [
             {
               "id": "7",
@@ -895,23 +487,6 @@
                   "SoSR-104"
                 ]
               },
-              "history": [
-                {
-                  "affectedNodeId": "175",
-                  "changedBy": {
-                    "company": "Trevilon",
-                    "email": "kvaughn@trevilon.com",
-                    "name": "Kenneth Vaughn"
-                  },
-                  "changedOn": "2022-08-16T21:00:09.746Z",
-                  "docId": "DSR",
-                  "structureAction": "Copy"
-                },
-                {
-                  "addedLink": {
-                    "target": [
-                      "SoSR-104"
-                    ],
                     "type": "realizes"
                   },
                   "changedBy": {
@@ -956,23 +531,6 @@
                   "SoSR-103"
                 ]
               },
-              "history": [
-                {
-                  "affectedNodeId": "176",
-                  "changedBy": {
-                    "company": "Trevilon",
-                    "email": "kvaughn@trevilon.com",
-                    "name": "Kenneth Vaughn"
-                  },
-                  "changedOn": "2022-08-16T21:00:09.746Z",
-                  "docId": "DSR",
-                  "structureAction": "Copy"
-                },
-                {
-                  "addedLink": {
-                    "target": [
-                      "SoSR-103"
-                    ],
                     "type": "realizes"
                   },
                   "changedBy": {
@@ -984,7 +542,7 @@
                 },
                 {
                   "attributesChanged": {
-                    "text": "<p>minimizing the amount of user and operator data it stores; and</p>"
+                    "text": ""
                   },
                   "changedBy": {
                     "company": "Trevilon",
@@ -995,7 +553,7 @@
                 },
                 {
                   "attributesChanged": {
-                    "text": "<p>minimizing the amount of personally identifiable information that it stores; and</p>"
+                    "text": ""
                   },
                   "changedBy": {
                     "company": "Trevilon",
@@ -1050,23 +608,6 @@
                   "SoSR-345"
                 ]
               },
-              "history": [
-                {
-                  "affectedNodeId": "177",
-                  "changedBy": {
-                    "company": "Trevilon",
-                    "email": "kvaughn@trevilon.com",
-                    "name": "Kenneth Vaughn"
-                  },
-                  "changedOn": "2022-08-16T21:00:09.746Z",
-                  "docId": "DSR",
-                  "structureAction": "Copy"
-                },
-                {
-                  "addedLink": {
-                    "target": [
-                      "SoSR-345"
-                    ],
                     "type": "realizes"
                   },
                   "changedBy": {
@@ -1078,7 +619,7 @@
                 },
                 {
                   "attributesChanged": {
-                    "text": "<p>openly publishing what it uses user and operator data for.</p>"
+                    "text": ""
                   },
                   "changedBy": {
                     "company": "Trevilon",
@@ -1124,35 +665,6 @@
               "SoSR-107"
             ]
           },
-          "history": [
-            {
-              "affectedNodeId": "2",
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:43:26.838Z",
-              "docId": "ITS-SUR",
-              "structureAction": "Create"
-            },
-            {
-              "attributesChanged": {
-                "heading": null,
-                "text": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:44:37.692Z"
-            },
-            {
-              "addedLink": {
-                "target": [
-                  "SoSR-107"
-                ],
                 "type": "realizes"
               },
               "changedBy": {
@@ -1187,24 +699,6 @@
               "SoSR-105"
             ]
           },
-          "history": [
-            {
-              "affectedNodeId": "179",
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T21:00:09.746Z",
-              "docId": "DSR",
-              "structureAction": "Copy"
-            },
-            {
-              "addedLink": {
-                "target": [
-                  "SoSR-103",
-                  "SoSR-105"
-                ],
                 "type": "realizes"
               },
               "changedBy": {
@@ -1216,7 +710,7 @@
             },
             {
               "attributesChanged": {
-                "text": "<p>The METR distribution system shall only allow operators to access data to which they are authorized.</p>"
+                "text": ""
               },
               "changedBy": {
                 "company": "Trevilon",
@@ -1227,7 +721,7 @@
             },
             {
               "attributesChanged": {
-                "text": "<p>The ITS station shall only allow access to data for which authorization credentials are provided.</p>"
+                "text": ""
               },
               "changedBy": {
                 "company": "Trevilon",
@@ -1238,7 +732,7 @@
             },
             {
               "attributesChanged": {
-                "text": "<p>The ITS station shall only allow access to data for which valid authorization credentials are provided.</p>"
+                "text": ""
               },
               "changedBy": {
                 "company": "Trevilon",
@@ -1249,7 +743,7 @@
             },
             {
               "attributesChanged": {
-                "text": "<p>The ITS-SU shall only allow access to data for which valid authorization credentials are provided.</p>"
+                "text": ""
               },
               "changedBy": {
                 "company": "Trevilon",
@@ -1282,23 +776,6 @@
               "SoSR-106"
             ]
           },
-          "history": [
-            {
-              "affectedNodeId": "180",
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T21:00:09.746Z",
-              "docId": "DSR",
-              "structureAction": "Copy"
-            },
-            {
-              "addedLink": {
-                "target": [
-                  "SoSR-106"
-                ],
                 "type": "realizes"
               },
               "changedBy": {
@@ -1310,7 +787,7 @@
             },
             {
               "attributesChanged": {
-                "text": "<p>The METR distribution system shall maintain timestamped records of all changes to rule information and system configurations.</p>"
+                "text": ""
               },
               "changedBy": {
                 "company": "Trevilon",
@@ -1332,7 +809,7 @@
             },
             {
               "attributesChanged": {
-                "text": "<p>The ITS station shall log a timestamped record of each change to its application data and system configuration.</p>"
+                "text": ""
               },
               "changedBy": {
                 "company": "Trevilon",
@@ -1365,23 +842,6 @@
               "SoSR-106"
             ]
           },
-          "history": [
-            {
-              "affectedNodeId": "12",
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T21:17:31.980Z",
-              "docId": "ITS-SUR",
-              "structureAction": "Copy"
-            },
-            {
-              "addedLink": {
-                "target": [
-                  "SoSR-106"
-                ],
                 "type": "realizes"
               },
               "changedBy": {
@@ -1394,7 +854,7 @@
             {
               "attributesChanged": {
                 "heading": "Maintain change log",
-                "text": "<p>The ITS station shall log a timestamped record of each change to its application data and system configuration.</p>"
+                "text": ""
               },
               "changedBy": {
                 "company": "Trevilon",
@@ -1405,7 +865,7 @@
             },
             {
               "attributesChanged": {
-                "text": "<p>The ITS station shall log a timestamped record for each data exchange with an external entity.</p>"
+                "text": ""
               },
               "changedBy": {
                 "company": "Trevilon",
@@ -1432,41 +892,6 @@
           "guid": "67b739f4-0fef-498e-a242-890bd890ece9",
           "heading": "Respond in timely manner",
           "type": "s",
-          "history": [
-            {
-              "affectedNodeId": "2",
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T21:09:31.355Z",
-              "docId": "ITS-SUR",
-              "structureAction": "Create"
-            },
-            {
-              "attributesChanged": {
-                "heading": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T21:09:47.478Z"
-            },
-            {
-              "attributesChanged": {
-                "type": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-09-16T15:03:12.651Z"
-            }
-          ],
           "children": [
             {
               "id": "13",
@@ -1479,23 +904,6 @@
                   "SoSR-97"
                 ]
               },
-              "history": [
-                {
-                  "affectedNodeId": "127",
-                  "changedBy": {
-                    "company": "Trevilon",
-                    "email": "kvaughn@trevilon.com",
-                    "name": "Kenneth Vaughn"
-                  },
-                  "changedOn": "2022-08-16T21:00:09.746Z",
-                  "docId": "DSR",
-                  "structureAction": "Copy"
-                },
-                {
-                  "addedLink": {
-                    "target": [
-                      "SoSR-97"
-                    ],
                     "type": "realizes"
                   },
                   "changedBy": {
@@ -1507,7 +915,7 @@
                 },
                 {
                   "attributesChanged": {
-                    "text": "<p>The METR distribution system shall have a response time of no more than metrDistributionResponseTime for any data exchange.</p>"
+                    "text": ""
                   },
                   "changedBy": {
                     "company": "Trevilon",
@@ -1551,7 +959,7 @@
                 },
                 {
                   "attributesChanged": {
-                    "text": "<p>The ITS station shall have a response time of no more than stationResponseTime for any data exchange, unless otherwise stated.</p>"
+                    "text": ""
                   },
                   "changedBy": {
                     "company": "Trevilon",
@@ -1606,53 +1014,7 @@
               "guid": "c74be2b9-be3e-4916-9b19-3b612fe6d96f",
               "heading": "Response time definition",
               "text": "",
-              "type": "m",
-              "history": [
-                {
-                  "affectedNodeId": "128",
-                  "changedBy": {
-                    "company": "Trevilon",
-                    "email": "kvaughn@trevilon.com",
-                    "name": "Kenneth Vaughn"
-                  },
-                  "changedOn": "2022-08-16T21:00:09.746Z",
-                  "docId": "DSR",
-                  "structureAction": "Copy"
-                },
-                {
-                  "affectedNodeId": "13",
-                  "changedBy": {
-                    "company": "Trevilon",
-                    "email": "kvaughn@trevilon.com",
-                    "name": "Kenneth Vaughn"
-                  },
-                  "changedOn": "2022-08-16T21:10:08.075Z",
-                  "docId": "ITS-SUR",
-                  "structureAction": "Promote"
-                },
-                {
-                  "attributesChanged": {
-                    "heading": null
-                  },
-                  "changedBy": {
-                    "company": "Trevilon",
-                    "email": "kvaughn@trevilon.com",
-                    "name": "Kenneth Vaughn"
-                  },
-                  "changedOn": "2022-08-16T21:10:17.377Z"
-                },
-                {
-                  "attributesChanged": {
-                    "type": null
-                  },
-                  "changedBy": {
-                    "company": "Trevilon",
-                    "email": "kvaughn@trevilon.com",
-                    "name": "Kenneth Vaughn"
-                  },
-                  "changedOn": "2022-09-16T15:03:16.618Z"
-                }
-              ]
+              "type": "m"
             }
           ]
         }
@@ -1663,41 +1025,6 @@
       "guid": "1fed5d84-257e-4b7c-bad3-362560441369",
       "heading": "Incoming flow requirements",
       "type": "s",
-      "history": [
-        {
-          "affectedNodeId": "209",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2022-08-16T21:00:09.746Z",
-          "docId": "DSR",
-          "structureAction": "Copy"
-        },
-        {
-          "affectedNodeId": "2",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2022-08-16T21:00:42.639Z",
-          "docId": "ITS-SUR",
-          "structureAction": "Promote"
-        },
-        {
-          "attributesChanged": {
-            "type": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2022-09-16T15:03:40.069Z"
-        }
-      ],
       "children": [
         {
           "id": "16",
@@ -1709,23 +1036,6 @@
               "SoSR-48"
             ]
           },
-          "history": [
-            {
-              "affectedNodeId": "45",
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T21:00:09.746Z",
-              "docId": "DSR",
-              "structureAction": "Copy"
-            },
-            {
-              "addedLink": {
-                "target": [
-                  "SoSR-48"
-                ],
                 "type": "realizes"
               },
               "changedBy": {
@@ -1752,7 +1062,7 @@
             },
             {
               "attributesChanged": {
-                "text": "<p>The METR distribution system shall obtain relevant policies for enrollment, authorization, misbehaviour reporting, and credentials revocation.</p>"
+                "text": ""
               },
               "changedBy": {
                 "company": "Trevilon",
@@ -1763,7 +1073,7 @@
             },
             {
               "attributesChanged": {
-                "text": "<p>The ITS station shall obtain relevant policies for enrollment, authorization, misbehaviour reporting, and credentials revocation from the CCMS.</p>"
+                "text": ""
               },
               "changedBy": {
                 "company": "Trevilon",
@@ -1834,250 +1144,30 @@
               "heading": "Obtain policies",
               "text": "",
               "type": "m",
-              "history": [
-                {
-                  "affectedNodeId": "16",
-                  "changedBy": {
-                    "company": "Trevilon",
-                    "email": "kvaughn@trevilon.com",
-                    "name": "Kenneth Vaughn"
-                  },
-                  "changedOn": "2022-08-16T21:11:10.367Z",
-                  "docId": "ITS-SUR",
-                  "structureAction": "Create"
-                },
-                {
-                  "attributesChanged": {
-                    "heading": null
-                  },
-                  "changedBy": {
-                    "company": "Trevilon",
-                    "email": "kvaughn@trevilon.com",
-                    "name": "Kenneth Vaughn"
-                  },
-                  "changedOn": "2022-08-16T21:11:17.322Z"
-                },
-                {
-                  "attributesChanged": {
-                    "heading": "General",
-                    "text": null
-                  },
-                  "changedBy": {
-                    "company": "Trevilon",
-                    "email": "kvaughn@trevilon.com",
-                    "name": "Kenneth Vaughn"
-                  },
-                  "changedOn": "2022-08-16T21:11:33.978Z"
-                },
-                {
-                  "attributesChanged": {
-                    "text": "<p>The ITS station shall obtain relevant policies for enrollment, authorization, misbehaviour reporting, and credentials revocation from the CCMS.</p>"
-                  },
-                  "changedBy": {
-                    "company": "Trevilon",
-                    "email": "kvaughn@trevilon.com",
-                    "name": "Kenneth Vaughn"
-                  },
-                  "changedOn": "2022-08-16T21:12:51.388Z"
-                },
-                {
-                  "attributesChanged": {
-                    "text": "<p>The ITS station shall obtain the following relevant policies from the CCMS:</p>"
-                  },
-                  "changedBy": {
-                    "company": "Trevilon",
-                    "email": "kvaughn@trevilon.com",
-                    "name": "Kenneth Vaughn"
-                  },
-                  "changedOn": "2022-08-16T21:24:07.647Z"
-                },
-                {
-                  "attributesChanged": {
-                    "type": null
-                  },
-                  "changedBy": {
-                    "company": "Trevilon",
-                    "email": "kvaughn@trevilon.com",
-                    "name": "Kenneth Vaughn"
-                  },
-                  "changedOn": "2022-09-16T15:03:42.592Z"
-                }
-              ],
               "children": [
                 {
                   "id": "22",
                   "guid": "7256cc74-a46e-4f2b-88ca-497bd455ecba",
                   "text": "",
-                  "type": "l",
-                  "history": [
-                    {
-                      "affectedNodeId": "21",
-                      "changedBy": {
-                        "company": "Trevilon",
-                        "email": "kvaughn@trevilon.com",
-                        "name": "Kenneth Vaughn"
-                      },
-                      "changedOn": "2022-08-16T21:12:55.337Z",
-                      "docId": "ITS-SUR",
-                      "structureAction": "Create"
-                    },
-                    {
-                      "attributesChanged": {
-                        "text": null
-                      },
-                      "changedBy": {
-                        "company": "Trevilon",
-                        "email": "kvaughn@trevilon.com",
-                        "name": "Kenneth Vaughn"
-                      },
-                      "changedOn": "2022-08-16T21:13:06.588Z"
-                    },
-                    {
-                      "attributesChanged": {
-                        "text": "<p><span style=\"color: rgb(19, 19, 19); text-align: left; background-color: rgb(255, 255, 255);\">enrollment</span></p>"
-                      },
-                      "changedBy": {
-                        "company": "Trevilon",
-                        "email": "kvaughn@trevilon.com",
-                        "name": "Kenneth Vaughn"
-                      },
-                      "changedOn": "2022-08-16T21:24:14.379Z"
-                    },
-                    {
-                      "attributesChanged": {
-                        "type": null
-                      },
-                      "changedBy": {
-                        "company": "Trevilon",
-                        "email": "kvaughn@trevilon.com",
-                        "name": "Kenneth Vaughn"
-                      },
-                      "changedOn": "2022-09-16T15:03:50.256Z"
-                    }
-                  ]
+                  "type": "l"
                 },
                 {
                   "id": "23",
                   "guid": "aae9e614-6126-4a9f-bf97-c52b351ecaaf",
                   "text": "",
-                  "type": "l",
-                  "history": [
-                    {
-                      "affectedNodeId": "21",
-                      "changedBy": {
-                        "company": "Trevilon",
-                        "email": "kvaughn@trevilon.com",
-                        "name": "Kenneth Vaughn"
-                      },
-                      "changedOn": "2022-08-16T21:13:10.079Z",
-                      "docId": "ITS-SUR",
-                      "structureAction": "Create"
-                    },
-                    {
-                      "attributesChanged": {
-                        "text": null
-                      },
-                      "changedBy": {
-                        "company": "Trevilon",
-                        "email": "kvaughn@trevilon.com",
-                        "name": "Kenneth Vaughn"
-                      },
-                      "changedOn": "2022-08-16T21:13:20.525Z"
-                    },
-                    {
-                      "attributesChanged": {
-                        "type": null
-                      },
-                      "changedBy": {
-                        "company": "Trevilon",
-                        "email": "kvaughn@trevilon.com",
-                        "name": "Kenneth Vaughn"
-                      },
-                      "changedOn": "2022-09-16T15:03:50.256Z"
-                    }
-                  ]
+                  "type": "l"
                 },
                 {
                   "id": "24",
                   "guid": "2e36b093-e938-4948-8a27-793efcdda488",
                   "text": "",
-                  "type": "l",
-                  "history": [
-                    {
-                      "affectedNodeId": "21",
-                      "changedBy": {
-                        "company": "Trevilon",
-                        "email": "kvaughn@trevilon.com",
-                        "name": "Kenneth Vaughn"
-                      },
-                      "changedOn": "2022-08-16T21:13:23.202Z",
-                      "docId": "ITS-SUR",
-                      "structureAction": "Create"
-                    },
-                    {
-                      "attributesChanged": {
-                        "text": null
-                      },
-                      "changedBy": {
-                        "company": "Trevilon",
-                        "email": "kvaughn@trevilon.com",
-                        "name": "Kenneth Vaughn"
-                      },
-                      "changedOn": "2022-08-16T21:13:35.176Z"
-                    },
-                    {
-                      "attributesChanged": {
-                        "type": null
-                      },
-                      "changedBy": {
-                        "company": "Trevilon",
-                        "email": "kvaughn@trevilon.com",
-                        "name": "Kenneth Vaughn"
-                      },
-                      "changedOn": "2022-09-16T15:03:50.256Z"
-                    }
-                  ]
+                  "type": "l"
                 },
                 {
                   "id": "25",
                   "guid": "5b99151b-85e1-4f51-8d8a-db2c7dbba4c2",
                   "text": "",
-                  "type": "l",
-                  "history": [
-                    {
-                      "affectedNodeId": "21",
-                      "changedBy": {
-                        "company": "Trevilon",
-                        "email": "kvaughn@trevilon.com",
-                        "name": "Kenneth Vaughn"
-                      },
-                      "changedOn": "2022-08-16T21:13:37.537Z",
-                      "docId": "ITS-SUR",
-                      "structureAction": "Create"
-                    },
-                    {
-                      "attributesChanged": {
-                        "text": null
-                      },
-                      "changedBy": {
-                        "company": "Trevilon",
-                        "email": "kvaughn@trevilon.com",
-                        "name": "Kenneth Vaughn"
-                      },
-                      "changedOn": "2022-08-16T21:13:42.343Z"
-                    },
-                    {
-                      "attributesChanged": {
-                        "type": null
-                      },
-                      "changedBy": {
-                        "company": "Trevilon",
-                        "email": "kvaughn@trevilon.com",
-                        "name": "Kenneth Vaughn"
-                      },
-                      "changedOn": "2022-09-16T15:03:50.256Z"
-                    }
-                  ]
+                  "type": "l"
                 }
               ]
             },
@@ -2095,23 +1185,6 @@
                   "SoSR-50"
                 ]
               },
-              "history": [
-                {
-                  "affectedNodeId": "44",
-                  "changedBy": {
-                    "company": "Trevilon",
-                    "email": "kvaughn@trevilon.com",
-                    "name": "Kenneth Vaughn"
-                  },
-                  "changedOn": "2022-08-16T21:00:09.746Z",
-                  "docId": "DSR",
-                  "structureAction": "Copy"
-                },
-                {
-                  "addedLink": {
-                    "target": [
-                      "SoSR-45"
-                    ],
                     "type": "realizes"
                   },
                   "changedBy": {
@@ -2123,7 +1196,7 @@
                 },
                 {
                   "attributesChanged": {
-                    "text": "<p>The METR distribution system shall implement the relevant authorization policies.</p><p>EXAMPLE &nbsp;Data is rejected if not from authorized source with required permissions</p>"
+                    "text": ""
                   },
                   "changedBy": {
                     "company": "Trevilon",
@@ -2156,7 +1229,7 @@
                 },
                 {
                   "attributesChanged": {
-                    "text": "<p>The ITS station shall comply with the authorization policies .</p><p>EXAMPLE &nbsp;Data is rejected if not from authorized source with required permissions</p>"
+                    "text": ""
                   },
                   "changedBy": {
                     "company": "Trevilon",
@@ -2167,7 +1240,7 @@
                 },
                 {
                   "attributesChanged": {
-                    "text": "<p>The ITS station shall comply with the security policies obtained from the CCMS.</p>"
+                    "text": ""
                   },
                   "changedBy": {
                     "company": "Trevilon",
@@ -2231,23 +1304,6 @@
               "ITS-SUR-19"
             ]
           },
-          "history": [
-            {
-              "affectedNodeId": "211",
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T21:00:09.746Z",
-              "docId": "DSR",
-              "structureAction": "Copy"
-            },
-            {
-              "addedLink": {
-                "target": [
-                  "DSR-47"
-                ],
                 "type": "generates"
               },
               "changedBy": {
@@ -2273,7 +1329,7 @@
             },
             {
               "attributesChanged": {
-                "text": "<p>The METR distribution system shall obtain long-term security credentials that demonstrate its trustworthiness.</p>"
+                "text": ""
               },
               "changedBy": {
                 "company": "Trevilon",
@@ -2284,7 +1340,7 @@
             },
             {
               "attributesChanged": {
-                "text": "<p>The ITS station shall obtain long-term security credentials that demonstrate its trustworthiness.</p>"
+                "text": ""
               },
               "changedBy": {
                 "company": "Trevilon",
@@ -2331,67 +1387,6 @@
               "SoSR-51"
             ]
           },
-          "history": [
-            {
-              "affectedNodeId": "15",
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T21:48:07.084Z",
-              "docId": "ITS-SUR",
-              "structureAction": "Create"
-            },
-            {
-              "attributesChanged": {
-                "heading": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T21:48:28.025Z"
-            },
-            {
-              "attributesChanged": {
-                "text": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T21:49:21.732Z"
-            },
-            {
-              "attributesChanged": {
-                "text": "<p>The ITS-SU shall ignore the security credentials for&nbsp;</p>"
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T21:50:13.961Z"
-            },
-            {
-              "attributesChanged": {
-                "text": "<p>The ITS-SU shall reject the security credentials for any <span style=\"color: rgb(34, 34, 34); text-align: left; background-color: rgb(250, 250, 250); text-decoration: none;\">certificate whose trust has been revoked by the CCMS.</span></p>"
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T21:50:22.124Z"
-            },
-            {
-              "addedLink": {
-                "target": [
-                  "SoSR-51"
-                ],
                 "type": "realizes"
               },
               "changedBy": {
@@ -2418,223 +1413,28 @@
           "id": "31",
           "guid": "f2c915a4-ccdb-40bc-b08c-7a001fceafb3",
           "heading": "Permission application receipt",
-          "type": "m",
-          "history": [
-            {
-              "affectedNodeId": "15",
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:15:25.842Z",
-              "docId": "ITS-SUR",
-              "structureAction": "Create"
-            },
-            {
-              "attributesChanged": {
-                "heading": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:15:37.272Z"
-            },
-            {
-              "attributesChanged": {
-                "heading": "permission application receipt"
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:23:05.302Z"
-            },
-            {
-              "attributesChanged": {
-                "type": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-09-16T15:03:56.521Z"
-            }
-          ]
+          "type": "m"
         },
         {
           "id": "32",
           "guid": "99cdd87e-5365-4c64-b109-7be39d72d5c8",
           "heading": "Permission request received",
           "conformance": "center: ?? see ARC-IT SU02",
-          "type": "m",
-          "history": [
-            {
-              "affectedNodeId": "15",
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:15:53.107Z",
-              "docId": "ITS-SUR",
-              "structureAction": "Create"
-            },
-            {
-              "attributesChanged": {
-                "heading": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:16:07.549Z"
-            },
-            {
-              "attributesChanged": {
-                "conformance": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:16:48.263Z"
-            },
-            {
-              "attributesChanged": {
-                "conformance": "center: ?? see "
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:17:01.397Z"
-            },
-            {
-              "attributesChanged": {
-                "type": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-09-16T15:03:56.521Z"
-            }
-          ]
+          "type": "m"
         },
         {
           "id": "38",
           "guid": "e58c8f31-7340-4d37-8452-9d04c92da3d6",
           "heading": "Device identification",
           "conformance": "center: ?? see ARC-IT SU02",
-          "type": "m",
-          "history": [
-            {
-              "affectedNodeId": "15",
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:18:56.703Z",
-              "docId": "ITS-SUR",
-              "structureAction": "Create"
-            },
-            {
-              "attributesChanged": {
-                "heading": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:21:02.906Z"
-            },
-            {
-              "attributesChanged": {
-                "conformance": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:21:30.322Z"
-            },
-            {
-              "attributesChanged": {
-                "type": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-09-16T15:03:56.521Z"
-            }
-          ]
+          "type": "m"
         },
         {
           "id": "39",
           "guid": "c9f1f736-425a-4cc1-abc3-e30217aa71cf",
           "heading": "Permission application",
           "conformance": "center: ?? see ARC-IT SU02",
-          "type": "m",
-          "history": [
-            {
-              "affectedNodeId": "15",
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:21:36.536Z",
-              "docId": "ITS-SUR",
-              "structureAction": "Create"
-            },
-            {
-              "attributesChanged": {
-                "heading": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:21:44.674Z"
-            },
-            {
-              "attributesChanged": {
-                "conformance": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:21:46.890Z"
-            },
-            {
-              "attributesChanged": {
-                "type": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-09-16T15:03:56.521Z"
-            }
-          ]
+          "type": "m"
         }
       ]
     },
@@ -2643,52 +1443,6 @@
       "guid": "01d4394d-45c1-4387-86f0-568915599884",
       "heading": "Outgoing flow requirements",
       "type": "s",
-      "history": [
-        {
-          "affectedNodeId": "210",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2022-08-16T21:00:09.746Z",
-          "docId": "DSR",
-          "structureAction": "Copy"
-        },
-        {
-          "affectedNodeId": "2",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2022-08-16T21:00:47.120Z",
-          "docId": "ITS-SUR",
-          "structureAction": "Promote"
-        },
-        {
-          "affectedNodeId": "15",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2022-08-16T21:00:49.801Z",
-          "docId": "ITS-SUR",
-          "structureAction": "SwapDown"
-        },
-        {
-          "attributesChanged": {
-            "type": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2022-09-16T15:03:59.040Z"
-        }
-      ],
       "children": [
         {
           "id": "19",
@@ -2701,23 +1455,6 @@
               "SoSR-50"
             ]
           },
-          "history": [
-            {
-              "affectedNodeId": "47",
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T21:00:09.746Z",
-              "docId": "DSR",
-              "structureAction": "Copy"
-            },
-            {
-              "addedLink": {
-                "target": [
-                  "SoSR-50"
-                ],
                 "type": "realizes"
               },
               "changedBy": {
@@ -2729,7 +1466,7 @@
             },
             {
               "attributesChanged": {
-                "text": "<p>The METR distribution system shall enroll in the CCMS as required by the relevant enrollment policies.</p><p>NOTE: This will allow the system to obtain valid credentials from a credential management service.</p>"
+                "text": ""
               },
               "changedBy": {
                 "company": "Trevilon",
@@ -2740,7 +1477,7 @@
             },
             {
               "attributesChanged": {
-                "text": "<p>The ITS station shall enroll in the CCMS as required by the relevant enrollment policies.</p><p>NOTE: This will allow the system to obtain valid credentials from a credential management service.</p>"
+                "text": ""
               },
               "changedBy": {
                 "company": "Trevilon",
@@ -2763,7 +1500,7 @@
             {
               "attributesChanged": {
                 "heading": "Device enrollment information",
-                "text": "<p>The ITS-SU shall enroll in the CCMS as required by the relevant enrollment policies.</p><p>NOTE: This will allow the ITS-SU to obtain valid credentials from a credential management service.</p>"
+                "text": ""
               },
               "changedBy": {
                 "company": "Trevilon",
@@ -2785,68 +1522,6 @@
               "SoSR-52"
             ]
           },
-          "history": [
-            {
-              "affectedNodeId": "18",
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T21:42:58.469Z",
-              "docId": "ITS-SUR",
-              "structureAction": "Create"
-            },
-            {
-              "attributesChanged": {
-                "heading": null,
-                "text": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T21:43:58.029Z"
-            },
-            {
-              "attributesChanged": {
-                "text": "<p>The ITS-SU shall notify the CCMS of any misbehaviour detected.</p>"
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T21:44:59.798Z"
-            },
-            {
-              "attributesChanged": {
-                "text": "<p>The ITS-SU shall notify the CCMS of any misbehaviour detected.</p><p>NOTE:&nbsp;</p>"
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T21:46:31.421Z"
-            },
-            {
-              "attributesChanged": {
-                "text": "<p>The ITS-SU shall notify the CCMS of any detected misbehaviour according to the CCMS misbehaviour policies.</p><p>NOTE: The detected behaviour can include <span style=\"color: rgb(34, 34, 34); text-align: left; background-color: rgb(250, 250, 250); text-decoration: none;\">potential security issues encountered in processing messages, including message authentication or integrity failures, plausibility failures, or other issues appropriate to the CCMS' misbehavior policies.</span></p>"
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T21:46:38.020Z"
-            },
-            {
-              "addedLink": {
-                "target": [
-                  "SoSR-52"
-                ],
                 "type": "realizes"
               },
               "changedBy": {
@@ -2869,7 +1544,7 @@
             },
             {
               "attributesChanged": {
-                "text": "<p>The ITS-SU shall notify the CCMS of any detected misbehaviour according to the CCMS misbehaviour policies.</p><p>NOTE: The detected behaviour can include potential security issues encountered in processing messages, including message authentication or integrity failures, plausibility failures, or other issues appropriate to the CCMS' misbehavior policies.</p>"
+                "text": ""
               },
               "changedBy": {
                 "company": "Trevilon",
@@ -2891,46 +1566,6 @@
               "SoSR-150"
             ]
           },
-          "history": [
-            {
-              "affectedNodeId": "18",
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:00:28.172Z",
-              "docId": "ITS-SUR",
-              "structureAction": "Create"
-            },
-            {
-              "attributesChanged": {
-                "heading": null,
-                "text": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:00:59.463Z"
-            },
-            {
-              "attributesChanged": {
-                "text": "<p>The ITS-SU shall maintain&nbsp;</p>"
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:05:48.682Z"
-            },
-            {
-              "addedLink": {
-                "target": [
-                  "SoSR-150"
-                ],
                 "type": "realizes"
               },
               "changedBy": {
@@ -2953,7 +1588,7 @@
             },
             {
               "attributesChanged": {
-                "text": "<p>The ITS-SU shall maintain the security information necessary to ensure the privacy, integrity, and authenticability of its data transmissions.</p><p>NOTE: This includes certificates with associated public and private verifying/signing and encrypting/decrypting keys.</p>"
+                "text": ""
               },
               "changedBy": {
                 "company": "Trevilon",
@@ -2968,264 +1603,34 @@
           "id": "33",
           "guid": "67538a9f-93ff-499d-b31f-556c348ae8ed",
           "heading": "Device identification",
-          "type": "m",
-          "history": [
-            {
-              "affectedNodeId": "18",
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:17:11.539Z",
-              "docId": "ITS-SUR",
-              "structureAction": "Create"
-            },
-            {
-              "attributesChanged": {
-                "heading": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:17:23.868Z"
-            },
-            {
-              "attributesChanged": {
-                "heading": "device identification"
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:23:17.500Z"
-            },
-            {
-              "attributesChanged": {
-                "type": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-09-16T15:04:07.503Z"
-            }
-          ]
+          "type": "m"
         },
         {
           "id": "34",
           "guid": "25bb4713-8bbc-4eb8-b2cd-d61210690f22",
           "heading": "Permission application",
-          "type": "m",
-          "history": [
-            {
-              "affectedNodeId": "18",
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:17:26.960Z",
-              "docId": "ITS-SUR",
-              "structureAction": "Create"
-            },
-            {
-              "attributesChanged": {
-                "heading": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:17:34.991Z"
-            },
-            {
-              "attributesChanged": {
-                "heading": "permission application"
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:23:13.304Z"
-            },
-            {
-              "attributesChanged": {
-                "type": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-09-16T15:04:07.503Z"
-            }
-          ]
+          "type": "m"
         },
         {
           "id": "35",
           "guid": "4042e110-13e1-46b8-8692-c78bd59c8859",
           "heading": "Permission request",
           "conformance": "center: ?? see ARC-IT SU02",
-          "type": "m",
-          "history": [
-            {
-              "affectedNodeId": "18",
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:17:37.697Z",
-              "docId": "ITS-SUR",
-              "structureAction": "Create"
-            },
-            {
-              "attributesChanged": {
-                "heading": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:17:48.162Z"
-            },
-            {
-              "attributesChanged": {
-                "conformance": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:18:06.057Z"
-            },
-            {
-              "attributesChanged": {
-                "type": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-09-16T15:04:07.503Z"
-            }
-          ]
+          "type": "m"
         },
         {
           "id": "36",
           "guid": "f24fc32b-bf5f-4e92-b76c-a9c52cdcd541",
           "heading": "Permission update request",
           "conformance": "center: ?? see ARC-IT SU02",
-          "type": "m",
-          "history": [
-            {
-              "affectedNodeId": "18",
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:17:51.194Z",
-              "docId": "ITS-SUR",
-              "structureAction": "Create"
-            },
-            {
-              "attributesChanged": {
-                "heading": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:18:01.061Z"
-            },
-            {
-              "attributesChanged": {
-                "conformance": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:18:07.422Z"
-            },
-            {
-              "attributesChanged": {
-                "type": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-09-16T15:04:07.503Z"
-            }
-          ]
+          "type": "m"
         },
         {
           "id": "37",
           "guid": "08135500-b451-499b-8e6b-0c7cb1fb483f",
           "heading": "Permission application receipt",
           "conformance": "center: ?? see ARC-IT SU02",
-          "type": "m",
-          "history": [
-            {
-              "affectedNodeId": "18",
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:18:30.640Z",
-              "docId": "ITS-SUR",
-              "structureAction": "Create"
-            },
-            {
-              "attributesChanged": {
-                "heading": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:18:45.586Z"
-            },
-            {
-              "attributesChanged": {
-                "conformance": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-08-16T22:18:48.754Z"
-            },
-            {
-              "attributesChanged": {
-                "type": null
-              },
-              "changedBy": {
-                "company": "Trevilon",
-                "email": "kvaughn@trevilon.com",
-                "name": "Kenneth Vaughn"
-              },
-              "changedOn": "2022-09-16T15:04:07.503Z"
-            }
-          ]
+          "type": "m"
         }
       ]
     }

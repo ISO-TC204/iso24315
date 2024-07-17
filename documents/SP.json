@@ -24,20 +24,7 @@
       "LUN": "<p>A3</p>",
       "slide": "9",
       "source": "W1",
-      "topic": "Connectivity",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "A3"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Connectivity"
     },
     {
       "id": "3",
@@ -47,20 +34,7 @@
       "LUN": "<p>A1</p>",
       "slide": "9",
       "source": "W1",
-      "topic": "Connectivity",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "A1"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Connectivity"
     },
     {
       "id": "4",
@@ -70,20 +44,7 @@
       "LUN": "<p>A4</p>",
       "slide": "9",
       "source": "W1",
-      "topic": "Connectivity",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "A4"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Connectivity"
     },
     {
       "id": "5",
@@ -93,20 +54,7 @@
       "LUN": "<p>A6</p>",
       "slide": "9",
       "source": "W1",
-      "topic": "Connectivity",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "A6"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Connectivity"
     },
     {
       "id": "6",
@@ -116,20 +64,7 @@
       "LUN": "<p>A7</p>",
       "slide": "9",
       "source": "W1",
-      "topic": "Connectivity",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "A7"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Connectivity"
     },
     {
       "id": "7",
@@ -139,20 +74,7 @@
       "LUN": "<p>A5</p>",
       "slide": "9",
       "source": "W1",
-      "topic": "Connectivity",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "A5"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Connectivity"
     },
     {
       "id": "8",
@@ -163,12 +85,6 @@
       "slide": "9",
       "source": "W1",
       "topic": "Connectivity",
-      "history": [
-        {
-          "addedLink": {
-            "target": [
-              "UN-30"
-            ],
             "type": "derivedFrom"
           },
           "changedBy": {
@@ -269,20 +185,7 @@
       "LUN": "<p>UN32</p>",
       "slide": "9",
       "source": "W1",
-      "topic": "Connectivity",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN32"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Connectivity"
     },
     {
       "id": "10",
@@ -292,20 +195,7 @@
       "LUN": "<p>A9</p>",
       "slide": "9",
       "source": "W1",
-      "topic": "Connectivity",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "A9"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Connectivity"
     },
     {
       "id": "11",
@@ -315,20 +205,7 @@
       "LUN": "<p>A10</p>",
       "slide": "9",
       "source": "W1",
-      "topic": "Connectivity",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "A10"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Connectivity"
     },
     {
       "id": "12",
@@ -338,20 +215,7 @@
       "LUN": "<p>UN35</p>",
       "slide": "9",
       "source": "W1",
-      "topic": "Connectivity",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN35"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Connectivity"
     },
     {
       "id": "13",
@@ -361,20 +225,7 @@
       "LUN": "<p>UN2</p>",
       "slide": "14",
       "source": "W1",
-      "topic": "Trustworthiness",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN2"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Trustworthiness"
     },
     {
       "id": "14",
@@ -384,20 +235,7 @@
       "LUN": "<p>UN36</p>",
       "slide": "17",
       "source": "W1",
-      "topic": "Roles",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN36"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Roles"
     },
     {
       "id": "15",
@@ -407,20 +245,7 @@
       "LUN": "<p>UN43</p>",
       "slide": "17",
       "source": "W1",
-      "topic": "Roles",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN43"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Roles"
     },
     {
       "id": "16",
@@ -430,20 +255,7 @@
       "LUN": "<p>R2</p>",
       "slide": "17",
       "source": "W1",
-      "topic": "Roles",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "R2"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Roles"
     },
     {
       "id": "17",
@@ -453,20 +265,7 @@
       "LUN": "<p>N2</p>",
       "slide": "17",
       "source": "W1",
-      "topic": "Roles",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "N2"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Roles"
     },
     {
       "id": "18",
@@ -476,20 +275,7 @@
       "LUN": "<p>E1</p>",
       "slide": "17",
       "source": "W1",
-      "topic": "Roles",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "E1"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Roles"
     },
     {
       "id": "19",
@@ -499,20 +285,7 @@
       "LUN": "<p>N3, T4</p>",
       "slide": "17",
       "source": "W1",
-      "topic": "Roles",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "N3, T4"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Roles"
     },
     {
       "id": "20",
@@ -522,20 +295,7 @@
       "LUN": "<p>E2</p>",
       "slide": "17",
       "source": "W1",
-      "topic": "Roles",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "E2"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Roles"
     },
     {
       "id": "21",
@@ -545,20 +305,7 @@
       "LUN": "<p>UN2</p>",
       "slide": "17",
       "source": "W1",
-      "topic": "Roles",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN2"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Roles"
     },
     {
       "id": "22",
@@ -568,20 +315,7 @@
       "LUN": "<p>N4</p>",
       "slide": "21",
       "source": "W1",
-      "topic": "Modes",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "N4"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Modes"
     },
     {
       "id": "23",
@@ -592,12 +326,6 @@
       "slide": "21",
       "source": "W1",
       "topic": "Modes",
-      "history": [
-        {
-          "addedLink": {
-            "target": [
-              "UN-14"
-            ],
             "type": "derivedFrom"
           },
           "changedBy": {
@@ -642,20 +370,7 @@
       "LUN": "<p>UN8, UN10</p>",
       "slide": "21",
       "source": "W1",
-      "topic": "Modes",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN8, UN10"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Modes"
     },
     {
       "id": "25",
@@ -665,20 +380,7 @@
       "LUN": "<p>N5</p>",
       "slide": "21",
       "source": "W1",
-      "topic": "Modes",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "N5"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Modes"
     },
     {
       "id": "26",
@@ -688,20 +390,7 @@
       "LUN": "<p>UN68</p>",
       "slide": "21",
       "source": "W1",
-      "topic": "Modes",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN68"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Modes"
     },
     {
       "id": "27",
@@ -711,20 +400,7 @@
       "LUN": "<p>A11, A12</p>",
       "slide": "30",
       "source": "W1",
-      "topic": "Push/Pull",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "A11, A12"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Push/Pull"
     },
     {
       "id": "28",
@@ -734,20 +410,7 @@
       "LUN": "<p>R3</p>",
       "slide": "30",
       "source": "W1",
-      "topic": "Push/Pull",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "R3"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Push/Pull"
     },
     {
       "id": "29",
@@ -757,20 +420,7 @@
       "LUN": "<p>UN39, UN69</p>",
       "slide": "31",
       "source": "W1",
-      "topic": "Push/Pull",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN39, UN69"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Push/Pull"
     },
     {
       "id": "30",
@@ -780,20 +430,7 @@
       "LUN": "<p>UN28</p>",
       "slide": "32",
       "source": "W1",
-      "topic": "Push/Pull",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN28"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Push/Pull"
     },
     {
       "id": "31",
@@ -803,20 +440,7 @@
       "LUN": "<p>A13</p>",
       "slide": "32",
       "source": "W1",
-      "topic": "Push/Pull",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "A13"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Push/Pull"
     },
     {
       "id": "32",
@@ -826,20 +450,7 @@
       "LUN": "<p>UN67, T5</p>",
       "slide": "32",
       "source": "W1",
-      "topic": "Push/Pull",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN67, T5"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Push/Pull"
     },
     {
       "id": "33",
@@ -849,20 +460,7 @@
       "LUN": "<p>TODO</p>",
       "slide": "32",
       "source": "W1",
-      "topic": "Push/Pull",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "TODO"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Push/Pull"
     },
     {
       "id": "34",
@@ -872,20 +470,7 @@
       "LUN": "<p>A15</p>",
       "slide": "33",
       "source": "W1",
-      "topic": "Push/Pull",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "A15"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Push/Pull"
     },
     {
       "id": "35",
@@ -895,20 +480,7 @@
       "LUN": "<p>UN30</p>",
       "slide": "33",
       "source": "W1",
-      "topic": "Push/Pull",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN30"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Push/Pull"
     },
     {
       "id": "36",
@@ -918,20 +490,7 @@
       "LUN": "<p>UN70</p>",
       "slide": "33",
       "source": "W1",
-      "topic": "Push/Pull",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN70"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Push/Pull"
     },
     {
       "id": "37",
@@ -941,20 +500,7 @@
       "LUN": "<p>UN71</p>",
       "slide": "34",
       "source": "W1",
-      "topic": "Push/Pull",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN71"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Push/Pull"
     },
     {
       "id": "38",
@@ -964,20 +510,7 @@
       "LUN": "<p>UN37, UN40, UN41, UN71</p>",
       "slide": "34",
       "source": "W1",
-      "topic": "Push/Pull",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN37, UN40, UN41, UN71"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Push/Pull"
     },
     {
       "id": "39",
@@ -987,20 +520,7 @@
       "LUN": "<p>UN71</p>",
       "slide": "34",
       "source": "W1",
-      "topic": "Push/Pull",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN71"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Push/Pull"
     },
     {
       "id": "40",
@@ -1010,20 +530,7 @@
       "LUN": "<p>UN72</p>",
       "slide": "34",
       "source": "W1",
-      "topic": "Push/Pull",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN72"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Push/Pull"
     },
     {
       "id": "41",
@@ -1033,20 +540,7 @@
       "LUN": "<p>T7</p>",
       "slide": "12",
       "source": "W2",
-      "topic": "Roles",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "T7"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Roles"
     },
     {
       "id": "42",
@@ -1056,20 +550,7 @@
       "LUN": "<p>UN4, UN6</p>",
       "slide": "12",
       "source": "W2",
-      "topic": "Roles",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN4, UN6"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Roles"
     },
     {
       "id": "43",
@@ -1079,20 +560,7 @@
       "LUN": "<p>R4, R5, R6</p>",
       "slide": "14",
       "source": "W2",
-      "topic": "Roles",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "R4, R5, R6"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Roles"
     },
     {
       "id": "44",
@@ -1102,20 +570,7 @@
       "LUN": "<p>N6</p>",
       "slide": "17",
       "source": "W2",
-      "topic": "Roles",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "N6"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Roles"
     },
     {
       "id": "45",
@@ -1125,31 +580,7 @@
       "LUN": "<p>UN15, UN69, R4, R5, R7, !!!!!!!!!!!!!!!!!!!!!!!!!!!!</p>",
       "slide": "17",
       "source": "W2",
-      "topic": "Roles",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN15, UN69, R4, R5, R7"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-01T14:27:22.881Z"
-        },
-        {
-          "attributesChanged": {
-            "LUN": "UN15, UN69, R4, R5, R7, !!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Roles"
     },
     {
       "id": "46",
@@ -1159,20 +590,7 @@
       "LUN": "<p>UN3, UN12, R8</p>",
       "slide": "19",
       "source": "W2",
-      "topic": "Roles",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN3, UN12, R8"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Roles"
     },
     {
       "id": "47",
@@ -1182,20 +600,7 @@
       "LUN": "<p>UN2</p>",
       "slide": "19",
       "source": "W2",
-      "topic": "Roles",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN2"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Roles"
     },
     {
       "id": "48",
@@ -1205,20 +610,7 @@
       "LUN": "<p>UN3, UN12, R8</p>",
       "slide": "21",
       "source": "W2",
-      "topic": "Roles",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN3, UN12, R8"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Roles"
     },
     {
       "id": "49",
@@ -1228,20 +620,7 @@
       "LUN": "<p>UN28, R9</p>",
       "slide": "22",
       "source": "W2",
-      "topic": "Roles",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN28, R9"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Roles"
     },
     {
       "id": "50",
@@ -1251,20 +630,7 @@
       "LUN": "<p>UN71</p>",
       "slide": "22",
       "source": "W2",
-      "topic": "Filters",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN71"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Filters"
     },
     {
       "id": "51",
@@ -1274,20 +640,7 @@
       "LUN": "<p>UN50</p>",
       "slide": "23",
       "source": "W2",
-      "topic": "Discrepancies",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN50"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Discrepancies"
     },
     {
       "id": "52",
@@ -1297,20 +650,7 @@
       "LUN": "<p>N8</p>",
       "slide": "23",
       "source": "W2",
-      "topic": "Data Distribution",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "N8"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Data Distribution"
     },
     {
       "id": "53",
@@ -1320,20 +660,7 @@
       "LUN": "<p>N9</p>",
       "slide": "23",
       "source": "W2",
-      "topic": "Discovery",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "N9"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Discovery"
     },
     {
       "id": "54",
@@ -1343,20 +670,7 @@
       "LUN": "<p>T8, T9</p>",
       "slide": "23",
       "source": "W2",
-      "topic": "Data Sources",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "T8, T9"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Data Sources"
     },
     {
       "id": "55",
@@ -1366,20 +680,7 @@
       "LUN": "<p>UN69, N10</p>",
       "slide": "23",
       "source": "W2",
-      "topic": "Data Sources",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN69, N10"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Data Sources"
     },
     {
       "id": "56",
@@ -1389,20 +690,7 @@
       "LUN": "<p>UN8, UN10</p>",
       "slide": "26",
       "source": "W2",
-      "topic": "Catalogue",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN8, UN10"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Catalogue"
     },
     {
       "id": "57",
@@ -1412,20 +700,7 @@
       "LUN": "<p>T10, T11</p>",
       "slide": "27",
       "source": "W2",
-      "topic": "Terminology",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "T10, T11"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Terminology"
     },
     {
       "id": "58",
@@ -1435,20 +710,7 @@
       "LUN": "<p>UN5</p>",
       "slide": "32",
       "source": "W2",
-      "topic": "Privacy",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN5"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Privacy"
     },
     {
       "id": "59",
@@ -1476,20 +738,7 @@
       "LUN": "<p>R10, R11</p>",
       "slide": "32",
       "source": "W2",
-      "topic": "Roles",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "R10, R11"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Roles"
     },
     {
       "id": "62",
@@ -1499,20 +748,7 @@
       "LUN": "<p>UN26, R12</p>",
       "slide": "23",
       "source": "W2",
-      "topic": "Data Sources",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN26, R12"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Data Sources"
     },
     {
       "id": "63",
@@ -1522,20 +758,7 @@
       "LUN": "<p>N11</p>",
       "slide": "11",
       "source": "W2",
-      "topic": "Roles",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "N11"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Roles"
     },
     {
       "id": "64",
@@ -1545,20 +768,7 @@
       "LUN": "<p>UN22, UN71</p>",
       "slide": "26",
       "source": "W2",
-      "topic": "Filters",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN22, UN71"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Filters"
     },
     {
       "id": "65",
@@ -1568,20 +778,7 @@
       "LUN": "<p>N12</p>",
       "slide": "11",
       "source": "W3",
-      "topic": "Rule types",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "N12"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Rule types"
     },
     {
       "id": "66",
@@ -1591,20 +788,7 @@
       "LUN": "<p>T13, T14, T15, T16, T17</p>",
       "slide": "11",
       "source": "W3",
-      "topic": "Rule types",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "T13, T14, T15, T16, T17"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Rule types"
     },
     {
       "id": "67",
@@ -1614,20 +798,7 @@
       "LUN": "<p>N13</p>",
       "slide": "22",
       "source": "W3",
-      "topic": "Rule types",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "N13"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Rule types"
     },
     {
       "id": "68",
@@ -1637,20 +808,7 @@
       "LUN": "<p>UN1, UN5</p>",
       "slide": "29",
       "source": "W3",
-      "topic": "Trustworthiness",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN1, UN5"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Trustworthiness"
     },
     {
       "id": "69",
@@ -1660,20 +818,7 @@
       "LUN": "<p>UN39</p>",
       "slide": "30",
       "source": "W3",
-      "topic": "Rule characteristics",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN39"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Rule characteristics"
     },
     {
       "id": "70",
@@ -1683,20 +828,7 @@
       "LUN": "<p>UN39</p>",
       "slide": "31",
       "source": "W3",
-      "topic": "Rule characteristics",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN39"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Rule characteristics"
     },
     {
       "id": "71",
@@ -1706,20 +838,7 @@
       "LUN": "<p>UN40, UN41</p>",
       "slide": "32",
       "source": "W3",
-      "topic": "Evacuation plans",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN40, UN41"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Evacuation plans"
     },
     {
       "id": "72",
@@ -1729,20 +848,7 @@
       "LUN": "<p>R13</p>",
       "slide": "29",
       "source": "W3",
-      "topic": "Responsibilities",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "R13"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Responsibilities"
     },
     {
       "id": "73",
@@ -1752,20 +858,7 @@
       "LUN": "<p>R3</p>",
       "slide": "29",
       "source": "W3",
-      "topic": "Responsibilities",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "R3"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Responsibilities"
     },
     {
       "id": "74",
@@ -1775,20 +868,7 @@
       "LUN": "<p>R4, R5, R6, R14</p>",
       "slide": "29",
       "source": "W3",
-      "topic": "Responsibilities",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "R4, R5, R6, R14"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Responsibilities"
     },
     {
       "id": "75",
@@ -1798,20 +878,7 @@
       "LUN": "<p>N8, N14, T18, T8</p>",
       "slide": "8",
       "source": "W3",
-      "topic": "Roles",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "N8, N14, T18, T8"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Roles"
     },
     {
       "id": "76",
@@ -1821,20 +888,7 @@
       "LUN": "<p>R15, N15</p>",
       "slide": "8",
       "source": "W3",
-      "topic": "Roles",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "R15, N15"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Roles"
     },
     {
       "id": "77",
@@ -1844,20 +898,7 @@
       "LUN": "<p>N16</p>",
       "slide": "10",
       "source": "W3",
-      "topic": "Lifecycle",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "N16"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Lifecycle"
     },
     {
       "id": "78",
@@ -1867,20 +908,7 @@
       "LUN": "<p>RC1, RC3</p>",
       "slide": "10",
       "source": "W3",
-      "topic": "Characteristics",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "RC1, RC3"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Characteristics"
     },
     {
       "id": "79",
@@ -1890,20 +918,7 @@
       "LUN": "<p>UN21</p>",
       "slide": "8",
       "source": "W3",
-      "topic": "Roles",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN21"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Roles"
     },
     {
       "id": "80",
@@ -1913,20 +928,7 @@
       "LUN": "<p>N18</p>",
       "slide": "11",
       "source": "W3",
-      "topic": "Rule types",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "N18"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Rule types"
     },
     {
       "id": "81",
@@ -1936,20 +938,7 @@
       "LUN": "<p>E3</p>",
       "slide": "18",
       "source": "W3",
-      "topic": "Use cases",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "E3"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Use cases"
     },
     {
       "id": "82",
@@ -1959,20 +948,7 @@
       "LUN": "<p>E4</p>",
       "slide": "25",
       "source": "W3",
-      "topic": "Use cases",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "E4"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Use cases"
     },
     {
       "id": "83",
@@ -1982,20 +958,7 @@
       "LUN": "<p>R16</p>",
       "slide": "29",
       "source": "W3",
-      "topic": "Responsibilities",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "R16"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Responsibilities"
     },
     {
       "id": "84",
@@ -2005,20 +968,7 @@
       "LUN": "<p>UN2</p>",
       "slide": "29",
       "source": "W3",
-      "topic": "Responsibilities",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN2"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Responsibilities"
     },
     {
       "id": "85",
@@ -2028,20 +978,7 @@
       "LUN": "<p>R3</p>",
       "slide": "29",
       "source": "W3",
-      "topic": "Responsibilities",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "R3"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Responsibilities"
     },
     {
       "id": "86",
@@ -2051,20 +988,7 @@
       "LUN": "<p>UN69, UN72</p>",
       "slide": "31",
       "source": "W3",
-      "topic": "Filters",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN69, UN72"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Filters"
     },
     {
       "id": "87",
@@ -2074,20 +998,7 @@
       "LUN": "<p>N19</p>",
       "slide": "7",
       "source": "W4",
-      "topic": "Conflicts",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "N19"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Conflicts"
     },
     {
       "id": "88",
@@ -2097,20 +1008,7 @@
       "LUN": "<p>UN34</p>",
       "slide": "7",
       "source": "W4",
-      "topic": "Conflicts",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN34"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Conflicts"
     },
     {
       "id": "89",
@@ -2120,20 +1018,7 @@
       "LUN": "<p>UN34</p>",
       "slide": "7",
       "source": "W4",
-      "topic": "Conflicts",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN34"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Conflicts"
     },
     {
       "id": "90",
@@ -2143,20 +1028,7 @@
       "LUN": "<p>UN34</p>",
       "slide": "7",
       "source": "W4",
-      "topic": "Conflicts",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN34"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Conflicts"
     },
     {
       "id": "91",
@@ -2166,20 +1038,7 @@
       "LUN": "<p>UN34, E17</p>",
       "slide": "8",
       "source": "W4",
-      "topic": "Conflicts",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN34, E17"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Conflicts"
     },
     {
       "id": "92",
@@ -2189,20 +1048,7 @@
       "LUN": "<p>N20</p>",
       "slide": "8",
       "source": "W4",
-      "topic": "Ownership",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "N20"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Ownership"
     },
     {
       "id": "93",
@@ -2212,20 +1058,7 @@
       "LUN": "<p>A16</p>",
       "slide": "9",
       "source": "W4",
-      "topic": "Refresh",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "A16"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Refresh"
     },
     {
       "id": "94",
@@ -2235,20 +1068,7 @@
       "LUN": "<p>UN39, UN16, T10, T11</p>",
       "slide": "11",
       "source": "W4",
-      "topic": "Expiration",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN39, UN16, T10, T11"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Expiration"
     },
     {
       "id": "95",
@@ -2258,20 +1078,7 @@
       "LUN": "<p>E5</p>",
       "slide": "11",
       "source": "W4",
-      "topic": "Communications",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "E5"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Communications"
     },
     {
       "id": "96",
@@ -2281,20 +1088,7 @@
       "LUN": "<p>UN1</p>",
       "slide": "11",
       "source": "W4",
-      "topic": "Authentication",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN1"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Authentication"
     },
     {
       "id": "97",
@@ -2304,20 +1098,7 @@
       "LUN": "<p>E6</p>",
       "slide": "11",
       "source": "W4",
-      "topic": "Expiration",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "E6"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Expiration"
     },
     {
       "id": "98",
@@ -2327,20 +1108,7 @@
       "LUN": "<p>E7</p>",
       "slide": "12",
       "source": "W4",
-      "topic": "Expiration",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "E7"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Expiration"
     },
     {
       "id": "99",
@@ -2350,20 +1118,7 @@
       "LUN": "<p>E7</p>",
       "slide": "12",
       "source": "W4",
-      "topic": "Expiration",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "E7"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Expiration"
     },
     {
       "id": "100",
@@ -2373,20 +1128,7 @@
       "LUN": "<p>E7</p>",
       "slide": "12",
       "source": "W4",
-      "topic": "Expiration",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "E7"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Expiration"
     },
     {
       "id": "101",
@@ -2396,20 +1138,7 @@
       "LUN": "<p>UN71</p>",
       "slide": "6",
       "source": "W5",
-      "topic": "Categories",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN71"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Categories"
     },
     {
       "id": "102",
@@ -2419,20 +1148,7 @@
       "LUN": "<p>UN22</p>",
       "slide": "8",
       "source": "W5",
-      "topic": "Vehicle types",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN22"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Vehicle types"
     },
     {
       "id": "103",
@@ -2442,20 +1158,7 @@
       "LUN": "<p>UN39, RC11, RC14</p>",
       "slide": "8",
       "source": "W5",
-      "topic": "Vehicle types",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN39, RC11, RC14"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Vehicle types"
     },
     {
       "id": "104",
@@ -2465,20 +1168,7 @@
       "LUN": "<p>UN23</p>",
       "slide": "9",
       "source": "W5",
-      "topic": "Road types",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN23"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Road types"
     },
     {
       "id": "105",
@@ -2488,20 +1178,7 @@
       "LUN": "<p>UN39, RC1</p>",
       "slide": "10",
       "source": "W5",
-      "topic": "Rule locations",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN39, RC1"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Rule locations"
     },
     {
       "id": "106",
@@ -2511,20 +1188,7 @@
       "LUN": "<p>UN39, RC7, RC11</p>",
       "slide": "12",
       "source": "W5",
-      "topic": "Vehicle characteristics",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN39, RC7, RC11"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Vehicle characteristics"
     },
     {
       "id": "107",
@@ -2534,20 +1198,7 @@
       "LUN": "<p>UN71</p>",
       "slide": "12",
       "source": "W5",
-      "topic": "Vehicle characteristics",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN71"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Vehicle characteristics"
     },
     {
       "id": "108",
@@ -2557,20 +1208,7 @@
       "LUN": "<p>UN24</p>",
       "slide": "13",
       "source": "W5",
-      "topic": "Graphics",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN24"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Graphics"
     },
     {
       "id": "109",
@@ -2580,20 +1218,7 @@
       "LUN": "<p>UN3</p>",
       "slide": "14",
       "source": "W5",
-      "topic": "Rule updates",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN3"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Rule updates"
     },
     {
       "id": "110",
@@ -2603,20 +1228,7 @@
       "LUN": "<p>UN18</p>",
       "slide": "14",
       "source": "W5",
-      "topic": "Rule updates",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN18"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Rule updates"
     },
     {
       "id": "111",
@@ -2626,20 +1238,7 @@
       "LUN": "<p>UN39, RC8, RC15, RC3, RC17</p>",
       "slide": "12",
       "source": "W5",
-      "topic": "Vehicle characteristics",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN39, RC8, RC15, RC3, RC17"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Vehicle characteristics"
     },
     {
       "id": "112",
@@ -2649,20 +1248,7 @@
       "LUN": "<p>UN2</p>",
       "slide": "6",
       "source": "W6",
-      "topic": "Trustworthiness",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN2"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Trustworthiness"
     },
     {
       "id": "113",
@@ -2672,20 +1258,7 @@
       "LUN": "<p>T19</p>",
       "slide": "7",
       "source": "W6",
-      "topic": "Terminology",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "T19"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Terminology"
     },
     {
       "id": "114",
@@ -2695,20 +1268,7 @@
       "LUN": "<p>UN67, UN3</p>",
       "slide": "14",
       "source": "W6",
-      "topic": "Content",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN67, UN3"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Content"
     },
     {
       "id": "115",
@@ -2718,20 +1278,7 @@
       "LUN": "<p>UN43</p>",
       "slide": "14",
       "source": "W6",
-      "topic": "Conflicts",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN43"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Conflicts"
     },
     {
       "id": "116",
@@ -2741,20 +1288,7 @@
       "LUN": "<p>T20, T21</p>",
       "slide": "17",
       "source": "W6",
-      "topic": "Terminology",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "T20, T21"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Terminology"
     },
     {
       "id": "117",
@@ -2764,20 +1298,7 @@
       "LUN": "<p>T19</p>",
       "slide": "18",
       "source": "W6",
-      "topic": "Variable speeds",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "T19"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Variable speeds"
     },
     {
       "id": "118",
@@ -2787,20 +1308,7 @@
       "LUN": "<p>N21</p>",
       "slide": "18",
       "source": "W6",
-      "topic": "Scenarios",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "N21"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Scenarios"
     },
     {
       "id": "119",
@@ -2810,20 +1318,7 @@
       "LUN": "<p>UN67</p>",
       "slide": "6",
       "source": "W6",
-      "topic": "General",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN67"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "General"
     },
     {
       "id": "120",
@@ -2833,20 +1328,7 @@
       "LUN": "<p>UN67</p>",
       "slide": "6",
       "source": "W6",
-      "topic": "General",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN67"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "General"
     },
     {
       "id": "121",
@@ -2856,20 +1338,7 @@
       "LUN": "<p>UN73</p>",
       "slide": "6",
       "source": "W6",
-      "topic": "General",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN73"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "General"
     },
     {
       "id": "122",
@@ -2879,20 +1348,7 @@
       "LUN": "<p>RC18</p>",
       "slide": "6",
       "source": "W6",
-      "topic": "ODD",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "RC18"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "ODD"
     },
     {
       "id": "123",
@@ -2902,20 +1358,7 @@
       "LUN": "<p>UN41</p>",
       "slide": "6",
       "source": "W6",
-      "topic": "Ad Hoc",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN41"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Ad Hoc"
     },
     {
       "id": "124",
@@ -2925,20 +1368,7 @@
       "LUN": "<p>E8</p>",
       "slide": "9",
       "source": "W6",
-      "topic": "ADS Fallback",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "E8"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "ADS Fallback"
     },
     {
       "id": "125",
@@ -2948,20 +1378,7 @@
       "LUN": "<p>UN10</p>",
       "slide": "6",
       "source": "W6",
-      "topic": "Completeness",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN10"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Completeness"
     },
     {
       "id": "126",
@@ -2971,20 +1388,7 @@
       "LUN": "<p>UN26</p>",
       "slide": "6",
       "source": "W6",
-      "topic": "Certification ",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN26"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Certification "
     },
     {
       "id": "127",
@@ -2994,20 +1398,7 @@
       "LUN": "<p>N22</p>",
       "slide": "8",
       "source": "W6",
-      "topic": "Dynamic boundaries",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "N22"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Dynamic boundaries"
     },
     {
       "id": "128",
@@ -3017,20 +1408,7 @@
       "LUN": "<p>UN14</p>",
       "slide": "11",
       "source": "W6",
-      "topic": "Redundancy",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN14"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Redundancy"
     },
     {
       "id": "129",
@@ -3040,20 +1418,7 @@
       "LUN": "<p>UN26</p>",
       "slide": "12",
       "source": "W6",
-      "topic": "ORDS",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN26"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "ORDS"
     },
     {
       "id": "130",
@@ -3063,20 +1428,7 @@
       "LUN": "<p>E9</p>",
       "slide": "18",
       "source": "W6",
-      "topic": "Presentation",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "E9"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Presentation"
     },
     {
       "id": "131",
@@ -3086,20 +1438,7 @@
       "LUN": "<p>UN3</p>",
       "slide": "18",
       "source": "W6",
-      "topic": "Location",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN3"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Location"
     },
     {
       "id": "132",
@@ -3109,20 +1448,7 @@
       "LUN": "<p>E10</p>",
       "slide": "18",
       "source": "W6",
-      "topic": "Example",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "E10"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Example"
     },
     {
       "id": "133",
@@ -3132,20 +1458,7 @@
       "LUN": "<p>T8, T13, T14, T15, T16, T22, T23, T24</p>",
       "slide": "18",
       "source": "W6",
-      "topic": "Terminology",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "T8, T13, T14, T15, T16, T22, T23, T24"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Terminology"
     },
     {
       "id": "134",
@@ -3155,20 +1468,7 @@
       "LUN": "<p>T25, T26</p>",
       "slide": "7",
       "source": "W7",
-      "topic": "Terminology",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "T25, T26"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Terminology"
     },
     {
       "id": "135",
@@ -3178,20 +1478,7 @@
       "LUN": "<p>E11</p>",
       "slide": "7",
       "source": "W7",
-      "topic": "Trustworthiness",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "E11"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Trustworthiness"
     },
     {
       "id": "136",
@@ -3201,20 +1488,7 @@
       "LUN": "<p>UN74</p>",
       "slide": "7",
       "source": "W7",
-      "topic": "Trustworthiness",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN74"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Trustworthiness"
     },
     {
       "id": "137",
@@ -3224,20 +1498,7 @@
       "LUN": "<p>RC19, UN7</p>",
       "slide": "7",
       "source": "W7",
-      "topic": "Meta-data",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "RC19, UN7"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Meta-data"
     },
     {
       "id": "138",
@@ -3247,20 +1508,7 @@
       "LUN": "<p>UN4</p>",
       "slide": "7",
       "source": "W7",
-      "topic": "Authentication",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN4"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Authentication"
     },
     {
       "id": "139",
@@ -3270,20 +1518,7 @@
       "LUN": "<p>UN75</p>",
       "slide": "7",
       "source": "W7",
-      "topic": "Jurisdictions",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN75"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Jurisdictions"
     },
     {
       "id": "140",
@@ -3293,20 +1528,7 @@
       "LUN": "<p>UN75</p>",
       "slide": "7",
       "source": "W7",
-      "topic": "Jurisdictions",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN75"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Jurisdictions"
     },
     {
       "id": "141",
@@ -3316,20 +1538,7 @@
       "LUN": "<p>UN45</p>",
       "slide": "7",
       "source": "W7",
-      "topic": "Jurisdictions",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN45"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Jurisdictions"
     },
     {
       "id": "142",
@@ -3339,20 +1548,7 @@
       "LUN": "<p>UN76</p>",
       "slide": "7",
       "source": "W7",
-      "topic": "Enforcement",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN76"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Enforcement"
     },
     {
       "id": "143",
@@ -3362,20 +1558,7 @@
       "LUN": "<p>UN45</p>",
       "slide": "7",
       "source": "W7",
-      "topic": "Jurisdictions",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN45"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Jurisdictions"
     },
     {
       "id": "144",
@@ -3385,20 +1568,7 @@
       "LUN": "<p>UN30</p>",
       "slide": "11",
       "source": "W8",
-      "topic": "Changes",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN30"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Changes"
     },
     {
       "id": "145",
@@ -3408,20 +1578,7 @@
       "LUN": "<p>E13</p>",
       "slide": "6",
       "source": "W8",
-      "topic": "Proxy",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "E13"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Proxy"
     },
     {
       "id": "146",
@@ -3431,20 +1588,7 @@
       "LUN": "<p>E14</p>",
       "slide": "7",
       "source": "W8",
-      "topic": "Mapping",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "E14"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Mapping"
     },
     {
       "id": "147",
@@ -3454,20 +1598,7 @@
       "LUN": "<p>E15</p>",
       "slide": "8",
       "source": "W8",
-      "topic": "Validation",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "E15"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Validation"
     },
     {
       "id": "148",
@@ -3477,20 +1608,7 @@
       "LUN": "<p>RC8</p>",
       "slide": "11, 12",
       "source": "W8",
-      "topic": "Permits",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "RC8"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Permits"
     },
     {
       "id": "149",
@@ -3500,20 +1618,7 @@
       "LUN": "<p>UN35</p>",
       "slide": "11",
       "source": "W8",
-      "topic": "Permits",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN35"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Permits"
     },
     {
       "id": "150",
@@ -3523,20 +1628,7 @@
       "LUN": "<p>E16</p>",
       "slide": "11",
       "source": "W8",
-      "topic": "Permits",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "E16"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Permits"
     },
     {
       "id": "151",
@@ -3546,20 +1638,7 @@
       "LUN": "<p>UN77</p>",
       "slide": "11",
       "source": "W8",
-      "topic": "Permits",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN77"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Permits"
     },
     {
       "id": "152",
@@ -3569,20 +1648,7 @@
       "LUN": "<p>E18</p>",
       "slide": "6",
       "source": "W9",
-      "topic": "Process",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "E18"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Process"
     },
     {
       "id": "153",
@@ -3592,20 +1658,7 @@
       "LUN": "<p>UN35</p>",
       "slide": "7",
       "source": "W9",
-      "topic": "Roadwork access",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN35"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Roadwork access"
     },
     {
       "id": "154",
@@ -3615,20 +1668,7 @@
       "LUN": "<p>UN28</p>",
       "slide": "8",
       "source": "W9",
-      "topic": "Temporary Lanes",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN28"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Temporary Lanes"
     },
     {
       "id": "155",
@@ -3638,20 +1678,7 @@
       "LUN": "<p>UN79</p>",
       "slide": "10",
       "source": "W9",
-      "topic": "Activated/Ad Hoc Rules",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN79"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Activated/Ad Hoc Rules"
     },
     {
       "id": "156",
@@ -3661,20 +1688,7 @@
       "LUN": "<p>UN18, UN41</p>",
       "slide": "10",
       "source": "W9",
-      "topic": "Activated/Ad Hoc Rules",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN18, UN41"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Activated/Ad Hoc Rules"
     },
     {
       "id": "157",
@@ -3684,20 +1698,7 @@
       "LUN": "<p>E19</p>",
       "slide": "11",
       "source": "W9",
-      "topic": "Detours",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "E19"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Detours"
     },
     {
       "id": "158",
@@ -3707,20 +1708,7 @@
       "LUN": "<p>T7</p>",
       "slide": "11",
       "source": "W9",
-      "topic": "Terminology",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "T7"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Terminology"
     },
     {
       "id": "159",
@@ -3730,31 +1718,7 @@
       "LUN": "<p>RT1</p>",
       "slide": "12",
       "source": "W9",
-      "topic": "Road Closures",
-      "history": [
-        {
-          "attributesChanged": {
-            "text": "<p>Road closures are in the scope of METR</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-02T16:37:53.860Z"
-        },
-        {
-          "attributesChanged": {
-            "LUN": "RT1"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Road Closures"
     },
     {
       "id": "160",
@@ -3764,20 +1728,7 @@
       "LUN": "<p>RT2</p>",
       "slide": "13",
       "source": "W9 ",
-      "topic": "Evacuations",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "RT2"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Evacuations"
     },
     {
       "id": "161",
@@ -3787,20 +1738,7 @@
       "LUN": "<p>UN33</p>",
       "slide": "14",
       "source": "W9",
-      "topic": "Overrides",
-      "history": [
-        {
-          "attributesChanged": {
-            "LUN": "UN33"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Overrides"
     },
     {
       "id": "162",
@@ -3810,31 +1748,7 @@
       "LUN": "<p>UN14</p>",
       "slide": "15",
       "source": "W9",
-      "topic": "Emergencies",
-      "history": [
-        {
-          "attributesChanged": {
-            "text": "<p>METR needs to be resilient as possible in times of major disasters</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-02T16:40:19.442Z"
-        },
-        {
-          "attributesChanged": {
-            "LUN": "UN14"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-14T21:00:41.251Z"
-        }
-      ]
+      "topic": "Emergencies"
     },
     {
       "id": "163",
@@ -3843,20 +1757,7 @@
       "ExcelID": "162",
       "slide": "6",
       "source": "W9",
-      "topic": "Coverage",
-      "history": [
-        {
-          "attributesChanged": {
-            "text": "<p>For the foreseeable future, METR should be viewed as a supplement to existing traffic control&nbsp;&nbsp;devices rather than a replacement of those features. However, it is likely that this will evolve over time and systems need to convey the level of reliability that vehicles should have on METR data. In the near-term, it is expected to assist ADS/ADAS vehicles to discover information in advance and to more clearly disambiguate details (e.g. some text on sign might be hard to read or sign might be partially obstructed), but our assumption is that vehicles must provide for sufficiently safe operations even if conditions are not completely entered within METR when the jurisdiction claims to support METR (e.g., it should be able to detect a lane closure and respond appropriately; it should be able to detect that it is going well above the prevailing speed and slow down as needed). This might imply some operational changes in the way that emergency responders and other field crew perform their jobs</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-02T16:56:06.838Z"
-        }
-      ]
+      "topic": "Coverage"
     },
     {
       "id": "164",
@@ -3874,334 +1775,34 @@
       "ExcelID": "164",
       "slide": "15",
       "source": "W9",
-      "topic": "Communications",
-      "history": [
-        {
-          "attributesChanged": {
-            "text": "<p>In some cases, authorities might disable communication systems to prevent misuse (e.g., during 7/7 in London, the authorities diabled the cellular system to prevent potential coordination among terrorists). This should receive a small mention in the ConOps somewhere. Conversely, it was mentioned that updates can become critical in some cases, such as an earthquake moving an entire roadway.</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2022-02-15T17:56:07.921Z"
-        }
-      ]
+      "topic": "Communications"
     },
     {
       "id": "1",
       "guid": "690003f6-756e-48c0-9d94-bc5985ecdedb",
       "text": "",
       "slide": "2",
-      "source": "ISO TC204 WG19 N397",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-11-30T21:35:01.296Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-01T18:47:33.475Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-01T18:50:33.360Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-01T18:50:39.094Z"
-        }
-      ]
+      "source": "ISO TC204 WG19 N397"
     },
     {
       "id": "166",
       "guid": "da9c5cae-58fd-4be0-9c09-cae0ed9794f7",
       "text": "",
       "slide": "5",
-      "source": "ISO TC204 WG19 N397 (edits by JHB)",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-01T18:52:57.688Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-01T18:53:12.283Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p>control number, location, target, exclusion time&nbsp;</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-01T18:54:47.059Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-01T18:54:50.304Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-01T18:55:00.793Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>METR should be able to characterize each rule with attributes including a unique identifier, location, target, and exclusion time.&nbsp;</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-01T18:55:21.742Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>METR should be able to characterize each rule with attributes such as a unique identifier, location, target, and exclusion time.&nbsp;</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-02T15:46:09.511Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>METR should be able to characterize each rule with attributes such as a unique identifier, rule location, target (e.g., user, vehicle, purpose, and exclusion time.&nbsp;</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-02T15:53:02.172Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>METR should be able to characterize each rule with attributes such as a unique identifier, rule location (including geometry, zone, and direction), applicable targets/exceptions (e.g., affected types of users, vehicles, purposes, rights, permits, status), and conditionality (e.g., time periods in effect).&nbsp;</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-02T15:53:56.160Z"
-        },
-        {
-          "attributesChanged": {
-            "source": "ISO TC204 WG19 N397"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-02T16:02:37.636Z"
-        }
-      ]
+      "source": "ISO TC204 WG19 N397 (edits by JHB)"
     },
     {
       "id": "167",
       "guid": "ec6322e1-3a3e-480b-8cba-7faca8a873f3",
       "text": "",
       "slide": "6",
-      "source": "ISO TC204 WG19 N397",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-01T18:55:35.973Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-01T18:58:13.729Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>In order to implement some rules (e.g., lane locations), high resolution&nbsp;</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-01T18:58:37.768Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-01T18:58:40.212Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-01T18:58:43.700Z"
-        }
-      ]
+      "source": "ISO TC204 WG19 N397"
     },
     {
       "id": "168",
       "guid": "d102fa37-95c4-488e-a858-ca8db21955da",
       "text": "",
       "source": "Japan Input (https://www.its-jp.org/english/its_asia/553/)",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-01T19:22:30.428Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-01T19:31:07.901Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>In order to automatically update systems, especially after a major incident such as an earthquake, METR should be able to coordinate exception reports from the field that indicate inconsistencies with defined rules.&nbsp;</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-01T20:23:33.919Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-01T20:25:58.905Z"
-        },
-        {
-          "attributesChanged": {
-            "source": "Japan "
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-01T20:26:30.902Z"
-        },
-        {
-          "attributesChanged": {
-            "source": "Japan Input"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-01T20:26:36.915Z"
-        },
-        {
-          "addedLink": {
-            "target": [
-              "UN-59"
-            ],
             "type": "derivedFrom"
           },
           "changedBy": {
@@ -4260,64 +1861,7 @@
       "guid": "f08721af-7f89-4db5-8ba4-a03fe396aff8",
       "text": "",
       "slide": "13",
-      "source": "W8",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-01T21:04:59.636Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-01T21:05:35.540Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>We should perhaps&nbsp;</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-01T21:06:19.925Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-01T21:06:27.366Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-01T21:06:35.506Z"
-        }
-      ]
+      "source": "W8"
     },
     {
       "id": "170",
@@ -4325,67 +1869,6 @@
       "text": "",
       "slide": "6",
       "source": "W10",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T14:11:27.924Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T14:13:06.740Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T14:13:10.798Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T14:13:14.786Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>Pedestrians, especially those with disabilities, need electronic access to travel rules.</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T14:13:44.651Z"
-        },
-        {
-          "addedLink": {
-            "target": [
-              "UN-33"
-            ],
             "type": "derivedFrom"
           },
           "changedBy": {
@@ -4416,1995 +1899,217 @@
       "guid": "121a3b68-36d9-4b7b-ba4c-4a6ef1f190ec",
       "text": "",
       "slide": "6",
-      "source": "W10",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T14:13:57.300Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T14:17:44.517Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>VRUs/VRVs need to be aware of the types of micromobility vehicles that are allowed within each type of lane. For example, is an e-scooter allowed on the bike lane. The rules need to specify where the bike lanes are at a level of detail that a user can determine if they are in the bike lane or in the pedestrian lane.</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T14:19:34.903Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T15:08:05.496Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T15:08:42.614Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>VRUs/VRVs need to be aware of the types of micromobility vehicles that are allowed within each type of pathway/lane. For example, is an e-scooter allowed on the bike lane. The rules need to specify where the each lane is at a level of detail that a user can determine if they are in an appropriate lane or if they need to change lanes.</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T16:48:38.145Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>VRUs/VRVs need to be aware of the types of micromobility vehicles that are allowed within each type of pathway/lane. For example, is an e-scooter allowed on the bike lane. The rules need to specify the boundaries of each lane is at a level of detail that a user can determine if they are in an appropriate lane or if they need to change lanes.</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T16:49:03.657Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>VRUs/VRVs need to be aware of the types of micromobility vehicles that are allowed within each type of pathway/lane. For example, is an e-scooter allowed on the bike lane. The rules need to specify the boundaries of each lane at a level of detail that a user can determine if they are in an appropriate lane or if they need to change lanes.</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T16:54:44.283Z"
-        }
-      ]
+      "source": "W10"
     },
     {
       "id": "172",
       "guid": "7e5d4f3d-683b-4f65-98f2-4d14c017d591",
       "text": "",
       "slide": "6",
-      "source": "W10",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T14:20:21.458Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T14:21:41.508Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T15:08:07.735Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T15:08:48.353Z"
-        }
-      ]
+      "source": "W10"
     },
     {
       "id": "173",
       "guid": "2eb79312-9db3-484d-89b6-217a1da24a39",
       "text": "",
       "slide": "6",
-      "source": "W10",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T14:25:13.028Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T14:32:57.504Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T15:08:09.482Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T15:08:55.913Z"
-        }
-      ]
+      "source": "W10"
     },
     {
       "id": "174",
       "guid": "d53b49a8-3edc-438e-a3bb-75f4ef848d0d",
       "text": "",
       "slide": "8",
-      "source": "W10",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T14:44:21.685Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T14:45:33.662Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T15:08:12.954Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T15:09:16.299Z"
-        }
-      ]
+      "source": "W10"
     },
     {
       "id": "175",
       "guid": "224fcd68-819f-4aa4-b43d-cc365c4fd73c",
       "text": "",
       "slide": "6",
-      "source": "W10",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T14:46:13.144Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T14:46:43.578Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T15:08:13.529Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T15:09:18.504Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": "8"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T15:09:53.320Z"
-        }
-      ]
+      "source": "W10"
     },
     {
       "id": "176",
       "guid": "b45ba4d0-f898-4990-bdcf-9fbf55114985",
       "text": "",
       "slide": "7",
-      "source": "W10",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T14:47:47.554Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T14:48:53.862Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T15:08:15.406Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T15:10:01.596Z"
-        }
-      ]
+      "source": "W10"
     },
     {
       "id": "177",
       "guid": "c7241a59-d682-46b7-9be3-6c23b11016cc",
       "text": "",
       "slide": "8",
-      "source": "W10",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T14:50:09.899Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T14:51:50.663Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>METR should be able to convey information on the potential for obstructions on sidewalks on trash days. This should likely be posted as a \"warning\" for the sidewalk that coincides with the trash pickup schedule rather than attempting to publicize the rule for trash pickup.</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T14:54:31.794Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>METR should be able to convey information on the potential for obstructions on sidewalks on trash days. This should likely be posted as a \"warning\" for the sidewalk that coincides with the trash pickup schedule rather than attempting to publicize the rule for trash pickup. The same type of warning can be used for other conditions, such as snow on sidewalk</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T14:55:52.311Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T15:08:16.597Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T15:10:09.262Z"
-        }
-      ]
+      "source": "W10"
     },
     {
       "id": "178",
       "guid": "cd66a189-d640-452e-b5c1-bb3d6d46a925",
       "text": "",
       "slide": "11",
-      "source": "W10",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T15:03:21.454Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T15:03:48.784Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>Should reach out to bicycle groups, especially those that can represent e-bikes.</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T15:04:43.536Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T15:08:19.292Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T15:10:16.362Z"
-        }
-      ]
+      "source": "W10"
     },
     {
       "id": "179",
       "guid": "334ffa81-0f0d-4523-9be2-548cd065fb47",
       "text": "",
       "slide": "11",
-      "source": "W10",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T15:05:17.749Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T15:05:40.720Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T15:08:21.398Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T15:10:18.861Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>METR needs to be able to support detours for micromobility and pedestrians.</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T15:26:02.849Z"
-        }
-      ]
+      "source": "W10"
     },
     {
       "id": "180",
       "guid": "6b308afd-26ef-4029-b114-8bcddfbd000b",
       "text": "",
       "slide": "11",
-      "source": "W10",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T15:06:10.395Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T15:06:58.680Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T15:08:25.920Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-03T15:10:20.310Z"
-        }
-      ]
+      "source": "W10"
     },
     {
       "id": "181",
       "guid": "08135f49-9066-4929-bf2a-f73ff64c2c6d",
       "text": "",
       "slide": "8",
-      "source": "W11",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T15:17:42.152Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T15:20:53.904Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T15:20:59.865Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T15:21:05.835Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>Each METR component needs to be certified to ensure a trustworthy system</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T15:22:46.418Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>Each METR component needs to be certified to ensure a trustworthy system. The certification requirements would be defined on a national level and the oversight of the certification would be the responsibility of an \"</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T15:23:21.945Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>Each METR component needs to be certified to ensure a trustworthy system. The certification requirements would be defined on a national level and the oversight of the certification would be the responsibility of an \"In-Service Safety Regulator\".</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T15:26:58.627Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>Each METR component needs to be certified to ensure a trustworthy system. The certification requirements would be defined on a national level and the oversight of the process to grant and revoke certificates would be the responsibility of an \"In-Service Safety Regulator\".</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T15:33:19.531Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>Each METR component needs to be certified to ensure a trustworthy system. The accreditation certification requirements would be defined on a national level and the oversight of the process to grant and revoke certificates would be the responsibility of an \"In-Service Safety Regulator\".</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T15:33:56.699Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>Each METR component needs to be certified to ensure a trustworthy system. The accreditation/certification requirements would be defined on a national level and the oversight of the process to grant and revoke certificates would be the responsibility of an \"In-Service Safety Regulator\".</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-09T13:13:21.306Z"
-        }
-      ]
+      "source": "W11"
     },
     {
       "id": "182",
       "guid": "8cad1e94-f450-4383-b5d4-684d289d955a",
       "text": "",
       "slide": "10",
-      "source": "W11",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T15:21:15.768Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T15:30:24.518Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T16:46:21.041Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T16:46:42.772Z"
-        }
-      ]
+      "source": "W11"
     },
     {
       "id": "183",
       "guid": "b9f0544b-436f-4db3-8e57-291fd3433745",
       "text": "",
       "slide": "11",
-      "source": "W11",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T15:35:02.082Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T15:39:24.774Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>User systems need to be able to determine the capabilities of a disseminator, including the conformance options supported and the rule categories supported (i.e., maturity).</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T15:47:40.568Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>User systems need to be able to determine the capabilities of a disseminator, including the conformance options supported and the rule categories supported (i.e., maturity) for each jurisdictional area (or geofence).</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T15:58:08.750Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T16:46:21.792Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T16:47:11.523Z"
-        }
-      ]
+      "source": "W11"
     },
     {
       "id": "184",
       "guid": "a248160b-02a1-43cf-a475-a556e9add56d",
       "text": "",
       "slide": "12",
-      "source": "W11",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T16:02:07.708Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T16:02:22.623Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>Users need to be able to determine&nbsp;</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T16:05:35.274Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T16:46:23.845Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T16:47:15.283Z"
-        }
-      ]
+      "source": "W11"
     },
     {
       "id": "185",
       "guid": "c3a0b45a-62b1-4b86-a6a2-87efb5895db2",
       "text": "",
       "slide": "13",
-      "source": "W11",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T16:19:55.497Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T16:21:14.550Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T16:46:25.679Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T16:47:29.213Z"
-        }
-      ]
+      "source": "W11"
     },
     {
       "id": "186",
       "guid": "c04360bd-fa5c-4972-ab6a-13d9d11cb5c3",
       "text": "",
       "slide": "13",
-      "source": "W11",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T16:24:13.332Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T16:25:16.116Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>Within our scenarios, we should assume that static rules have a one-week expiration time and that normal operation of vehicles result in their receiving an update when they are started (e.g., typically daily).</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T16:26:25.838Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T16:46:27.007Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T16:47:35.602Z"
-        }
-      ]
+      "source": "W11"
     },
     {
       "id": "187",
       "guid": "98522456-29bd-4301-9a65-29ba892d4c7e",
       "text": "",
       "slide": "16",
-      "source": "W11",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T16:27:57.023Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T16:29:08.109Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>Users should be able to discover when they are about to enter areas without wide-area wireless coverage to ensure that they have downloads of all of the rules that might be needed</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T16:29:18.481Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T16:46:28.207Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T16:47:48.622Z"
-        }
-      ]
+      "source": "W11"
     },
     {
       "id": "188",
       "guid": "82b94705-82c6-453a-b1c5-ef87bdec4be3",
       "text": "",
       "slide": "18",
-      "source": "W11",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T16:30:05.432Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T16:30:21.391Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T16:46:35.040Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-08T16:47:59.535Z"
-        }
-      ]
+      "source": "W11"
     },
     {
       "id": "189",
       "guid": "cf53f5e5-89f3-4480-a973-0cd05a88a47d",
       "text": "",
       "slide": "6",
-      "source": "W12",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T15:36:04.729Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T15:37:55.931Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>Some jurisdictional entities might require METR distribution systems to be certified or authorized.</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T15:38:39.156Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:22:00.673Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:22:14.297Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>Some jurisdictional entities might require METR distribution systems and/or transport user systems to be certified or authorized.</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-17T13:17:56.762Z"
-        }
-      ]
+      "source": "W12"
     },
     {
       "id": "190",
       "guid": "75033817-7329-4dd0-b8e0-049ba34b1b9a",
       "text": "",
       "slide": "6",
-      "source": "W12",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T15:37:58.400Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T15:38:09.186Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>Some jurisdictional entities&nbsp;</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T15:47:00.781Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:22:02.231Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:22:21.262Z"
-        }
-      ]
+      "source": "W12"
     },
     {
       "id": "191",
       "guid": "d7e02f6d-9fbe-49b8-aa82-99a0720787a1",
       "text": "",
       "slide": "7",
-      "source": "W12",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T15:53:09.883Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T15:59:07.331Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:22:03.145Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:22:29.787Z"
-        }
-      ]
+      "source": "W12"
     },
     {
       "id": "192",
       "guid": "39ab2a9c-d890-4e51-8304-b3ef6830ee8a",
       "text": "",
       "slide": "8",
-      "source": "W12",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:06:51.207Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:09:14.684Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>Transport user systems need to know what capabilities&nbsp;</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:12:09.647Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>Transport user systems need to know what capabilities are supported for locations which they plan to travel. These capabilities need to reflect: the types of rules supported, the jurisdictions and geofences where the information is supported, the&nbsp;</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:12:58.891Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:22:04.081Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:22:41.116Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>Transport user systems need to know what capabilities are supported for locations which they plan to travel. These capabilities need to reflect: the types of rules supported, the jurisdictions and geofences where the information is supported, the classification of roads and vehicles for which the information is supported, and whether the information includes both static and dynamic rules.</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-17T13:32:33.988Z"
-        }
-      ]
+      "source": "W12"
     },
     {
       "id": "193",
       "guid": "704a195d-c132-48b6-b8b9-7977e1044bb1",
       "text": "",
       "slide": "8",
-      "source": "W12",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:12:15.087Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:17:08.765Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>Transport user systems need to know how legally binding the METR information is.</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:17:45.982Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:22:05.007Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:22:47.131Z"
-        }
-      ]
+      "source": "W12"
     },
     {
       "id": "194",
       "guid": "861e7085-d43a-4d5e-b0a4-8983127c15d4",
       "text": "",
       "slide": "9",
-      "source": "W12",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:18:53.746Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:20:14.985Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>Map information within METR has to be able to accommodate the movement of the Earth's crust. In other words, user systems need to be able to associate map information to the physical world, even when the physical world has shifted.</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:20:46.465Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:22:09.850Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:22:51.232Z"
-        }
-      ]
+      "source": "W12"
     },
     {
       "id": "195",
       "guid": "676bcee3-d9fe-435a-8b54-41bfe613ee16",
       "text": "",
       "slide": "9",
-      "source": "W12",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:24:34.419Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:26:28.654Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:28:26.661Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:28:34.317Z"
-        }
-      ]
+      "source": "W12"
     },
     {
       "id": "196",
       "guid": "a809e77d-c76a-4508-a45a-6f6756ef0cc4",
       "text": "",
       "slide": "10",
-      "source": "W12",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:27:26.655Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:28:16.642Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:28:33.005Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:28:37.584Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>The information provided by METR is safety critical and must be secure and trustworthy since its intended use is for controlling vehicle operations.</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:29:18.345Z"
-        }
-      ]
+      "source": "W12"
     },
     {
       "id": "197",
       "guid": "6fee2a9b-f21b-413a-bc9e-209ce19886d7",
       "text": "",
       "slide": "11",
-      "source": "W12",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:29:21.632Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:30:56.417Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>METR data needs to be available to users other than the traditional transport user. For example, it needs to be available to lawyers, insurance companies, enforcement organizations, and traveller's preparing for a long journey.</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:31:56.825Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:32:40.736Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:32:46.071Z"
-        }
-      ]
+      "source": "W12"
     },
     {
       "id": "198",
       "guid": "58ee9f67-8c7b-4776-92a1-29f83f97be11",
       "text": "",
       "slide": "12",
-      "source": "W12",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:33:48.114Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:36:28.716Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:36:52.584Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:36:55.148Z"
-        }
-      ]
+      "source": "W12"
     },
     {
       "id": "199",
       "guid": "b72e84b5-7525-4a1f-931d-61439d1ef112",
       "text": "",
       "slide": "13",
-      "source": "W12",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:37:48.504Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:39:25.915Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:39:29.354Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:39:31.949Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>UNECE WP 1 and WP 29 might recommend the adoption of regulations that require the support of METR either for jurisdictions to support METR distribution systems or for vehicle to support METR user systems.</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-17T13:37:51.752Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p>Some jurisdictions might adopt regulations that require the support of METR either for sub-jurisdictions to support METR distribution systems or for vehicles to support METR user systems. We should mention that UNECE WP 1 and WP 29 might recommend the adoption of such recommendations.</p>"
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-17T13:38:58.001Z"
-        }
-      ]
+      "source": "W12"
     },
     {
       "id": "200",
       "guid": "81e36691-491c-45a6-82e1-77d6e7a7a584",
       "text": "",
       "slide": "19",
-      "source": "W12",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:45:07.971Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:46:52.106Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:47:37.062Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-16T16:47:40.820Z"
-        }
-      ]
+      "source": "W12"
     },
     {
       "id": "201",
       "guid": "8120b96f-a5d2-49b1-b1cb-7b067eb03688",
       "text": "",
       "slide": "7",
-      "source": "W12",
-      "history": [
-        {
-          "affectedNodeId": "#",
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-17T13:20:13.108Z",
-          "docId": "SP",
-          "structureAction": "Create"
-        },
-        {
-          "attributesChanged": {
-            "text": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-17T13:24:41.761Z"
-        },
-        {
-          "attributesChanged": {
-            "source": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-17T13:25:14.070Z"
-        },
-        {
-          "attributesChanged": {
-            "slide": null
-          },
-          "changedBy": {
-            "company": "Trevilon",
-            "email": "kvaughn@trevilon.com",
-            "name": "Kenneth Vaughn"
-          },
-          "changedOn": "2021-12-17T13:25:17.225Z"
-        }
-      ]
+      "source": "W12"
     }
   ],
   "attributes": {
